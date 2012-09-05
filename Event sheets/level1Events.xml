@@ -1,0 +1,635 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>level1Events</name>
+    <events>
+        <variable name="bateu" type="number">0</variable>
+        <variable name="Dead" type="number">0</variable>
+        <variable name="qtdTotalFormigas" type="number">1</variable>
+        <event-group description="" title="System">
+            <sub-events>
+                <event-block>
+                    <conditions>
+                        <condition id="-2" name="On start of layout" type="System" />
+                    </conditions>
+                    <actions>
+                        <action behavior="Pin" id="0" name="Pin to object" type="ant">
+                            <param id="0" name="Pin to">antViking</param>
+                            <param id="1" name="Mode">3</param>
+                        </action>
+                        <action id="-15" name="Set visible" type="ant">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="4" name="Set animation" type="antQueen">
+                            <param id="0" name="Animation">&quot;Idle&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="4" name="Preload" type="Audio">
+                            <param id="0" name="Audio file">06 formiga passos</param>
+                        </action>
+                        <action id="-15" name="Set visible" type="antSoldier">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block>
+                    <conditions>
+                        <condition id="0" name="On collision with another object" type="antViking">
+                            <param id="0" name="Object">gravityCenter</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Set position" type="antViking">
+                            <param id="0" name="X">985</param>
+                            <param id="1" name="Y">145</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block>
+                    <conditions>
+                        <condition id="-1" name="Every tick" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-22" name="Set layout angle" type="System">
+                            <param id="0" name="Angle">angle(antViking.X, antViking.Y, gravityCenter.X, gravityCenter.Y)  - 90</param>
+                        </action>
+                        <action id="-22" name="Set angle toward position" type="antViking">
+                            <param id="0" name="X">gravityCenter.X</param>
+                            <param id="1" name="Y">gravityCenter.Y</param>
+                        </action>
+                        <action id="-22" name="Set layout angle" type="System">
+                            <param id="0" name="Angle">angle(ant.X, ant.Y, gravityCenter.X, gravityCenter.Y) -90</param>
+                        </action>
+                        <action id="-22" name="Set angle toward position" type="ant">
+                            <param id="0" name="X">gravityCenter.X</param>
+                            <param id="1" name="Y">gravityCenter.Y </param>
+                        </action>
+                        <action id="-8" name="Set angle" type="folha">
+                            <param id="0" name="Angle">angle(folha.X, folha.Y, gravityCenter.X, gravityCenter.Y)</param>
+                        </action>
+                        <action behavior="Platform" id="10" name="Set angle of gravity" type="ant">
+                            <param id="0" name="Angle">angle(ant.X, ant.Y, gravityCenter.X, gravityCenter.Y)</param>
+                        </action>
+                        <action behavior="Platform" id="10" name="Set angle of gravity" type="BoxPlayer">
+                            <param id="0" name="Angle">angle(BoxPlayer.X, BoxPlayer.Y, gravityCenter.X, gravityCenter.Y)</param>
+                        </action>
+                        <action id="-22" name="Set angle toward position" type="BoxPlayer">
+                            <param id="0" name="X">gravityCenter.X</param>
+                            <param id="1" name="Y">gravityCenter.Y </param>
+                        </action>
+                        <action id="-4" name="Set position to another object" type="antViking">
+                            <param id="0" name="Object">BoxPlayer</param>
+                            <param id="1" name="Image point (optional)">0</param>
+                        </action>
+                        <action behavior="Platform" id="10" name="Set angle of gravity" type="Tamandua">
+                            <param id="0" name="Angle">angle(Tamandua.X, Tamandua.Y, gravityCenter.X, gravityCenter.Y)</param>
+                        </action>
+                        <action id="-22" name="Set angle toward position" type="Tamandua">
+                            <param id="0" name="X">gravityCenter.X</param>
+                            <param id="1" name="Y">gravityCenter.Y </param>
+                        </action>
+                        <action behavior="Platform" id="10" name="Set angle of gravity" type="antSoldier">
+                            <param id="0" name="Angle">angle(antSoldier.X, antSoldier.Y, gravityCenter.X, gravityCenter.Y)</param>
+                        </action>
+                        <action id="-22" name="Set angle toward position" type="antSoldier">
+                            <param id="0" name="X">gravityCenter.X</param>
+                            <param id="1" name="Y">gravityCenter.Y </param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" title="Ants Animation">
+            <sub-events>
+                <event-block>
+                    <conditions>
+                        <condition behavior="Platform" id="5" name="On jump" type="BoxPlayer" />
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" type="Audio">
+                            <param id="0" name="Audio file">07 pulo formiga</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="6" name="Stop" type="Audio">
+                            <param id="0" name="Tag">&quot;passos&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block>
+                    <conditions>
+                        <condition id="0" name="On key pressed" type="Keyboard">
+                            <param id="0" name="Key">39 (Right arrow)</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="8" name="Set flipped" type="antViking">
+                            <param id="0" name="State">1</param>
+                        </action>
+                        <action id="8" name="Set flipped" type="ant">
+                            <param id="0" name="State">1</param>
+                        </action>
+                        <action id="8" name="Set flipped" type="antSoldier">
+                            <param id="0" name="State">1</param>
+                        </action>
+                        <action id="8" name="Set flipped" type="BoxPlayer">
+                            <param id="0" name="State">1</param>
+                        </action>
+                        <action id="8" name="Set flipped" type="folha">
+                            <param id="0" name="State">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block>
+                    <conditions>
+                        <condition id="0" name="On key pressed" type="Keyboard">
+                            <param id="0" name="Key">37 (Left arrow)</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="8" name="Set flipped" type="antViking">
+                            <param id="0" name="State">0</param>
+                        </action>
+                        <action id="8" name="Set flipped" type="ant">
+                            <param id="0" name="State">0</param>
+                        </action>
+                        <action id="8" name="Set flipped" type="antSoldier">
+                            <param id="0" name="State">0</param>
+                        </action>
+                        <action id="8" name="Set flipped" type="BoxPlayer">
+                            <param id="0" name="State">0</param>
+                        </action>
+                        <action id="8" name="Set flipped" type="folha">
+                            <param id="0" name="State">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block>
+                    <conditions>
+                        <condition behavior="Platform" id="0" name="Is moving" type="BoxPlayer" />
+                        <condition id="-14" name="Compare variable" type="System">
+                            <param id="0" name="Variable">Dead</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" type="antViking">
+                            <param id="0" name="Animation">&quot;Walk&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="4" name="Set animation" type="ant">
+                            <param id="0" name="Animation">&quot;Walk&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="4" name="Set animation" type="antSoldier">
+                            <param id="0" name="Animation">&quot;Walk&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block>
+                    <conditions>
+                        <condition behavior="Platform" id="0" inverted="1" name="Is moving" type="BoxPlayer" />
+                        <condition id="-14" name="Compare variable" type="System">
+                            <param id="0" name="Variable">Dead</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" type="antViking">
+                            <param id="0" name="Animation">&quot;Idle&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="4" name="Set animation" type="ant">
+                            <param id="0" name="Animation">&quot;Idle&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="4" name="Set animation" type="antSoldier">
+                            <param id="0" name="Animation">&quot;Idle&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" title="Pega Folha">
+            <sub-events>
+                <event-block>
+                    <conditions>
+                        <condition id="-8" name="Compare two values" type="System">
+                            <param id="0" name="First value">antViking.carregaItem</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Second value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-4" name="Set position to another object" type="folha">
+                            <param id="0" name="Object">antViking</param>
+                            <param id="1" name="Image point (optional)">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block>
+                    <conditions>
+                        <condition id="0" name="On collision with another object" type="antViking">
+                            <param id="0" name="Object">folha</param>
+                        </condition>
+                        <condition id="-8" name="Compare two values" type="System">
+                            <param id="0" name="First value">antViking.carregaItem</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Second value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-13" name="Set boolean" type="antViking">
+                            <param id="0" name="Instance variable">carregaItem</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" title="Pega Maca">
+            <sub-events>
+                <event-block>
+                    <conditions>
+                        <condition id="-8" name="Compare two values" type="System">
+                            <param id="0" name="First value">antViking.carregaItem</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Second value">1</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" type="System">
+                            <param id="0" name="Variable">qtdTotalFormigas</param>
+                            <param id="1" name="Comparison">5</param>
+                            <param id="2" name="Value">4</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-4" name="Set position to another object" type="acerola">
+                            <param id="0" name="Object">antViking</param>
+                            <param id="1" name="Image point (optional)">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block>
+                    <conditions>
+                        <condition id="0" name="On collision with another object" type="antViking">
+                            <param id="0" name="Object">acerola</param>
+                        </condition>
+                        <condition id="-8" name="Compare two values" type="System">
+                            <param id="0" name="First value">antViking.carregaItem</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Second value">0</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" type="System">
+                            <param id="0" name="Variable">qtdTotalFormigas</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-13" name="Set boolean" type="antViking">
+                            <param id="0" name="Instance variable">carregaItem</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" title="Criacao Operarios">
+            <sub-events>
+                <event-block>
+                    <conditions>
+                        <condition id="0" name="On collision with another object" type="antViking">
+                            <param id="0" name="Object">antQueen</param>
+                        </condition>
+                        <condition id="-8" name="Compare two values" type="System">
+                            <param id="0" name="First value">antViking.carregaItem</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Second value">1</param>
+                        </condition>
+                        <condition id="-8" name="Compare two values" type="System">
+                            <param id="0" name="First value">qtdTotalFormigas</param>
+                            <param id="1" name="Comparison">2</param>
+                            <param id="2" name="Second value">4</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Add to" type="System">
+                            <param id="0" name="Variable">qtdTotalFormigas</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="0" name="Spawn another object" type="ant">
+                            <param id="0" name="Object">ant</param>
+                            <param id="1" name="Layer">1</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                        <action id="-13" name="Set boolean" type="antViking">
+                            <param id="0" name="Instance variable">carregaItem</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="4" name="Set animation" type="antQueen">
+                            <param id="0" name="Animation">&quot;Botando&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block>
+                            <conditions>
+                                <condition id="-14" name="Compare variable" type="System">
+                                    <param id="0" name="Variable">qtdTotalFormigas</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">2</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-3" name="Set position" type="folha">
+                                    <param id="0" name="X">1550</param>
+                                    <param id="1" name="Y">3598</param>
+                                </action>
+                                <action disabled="1" id="-3" name="Set position" type="folha">
+                                    <param id="0" name="X">2400</param>
+                                    <param id="1" name="Y">1080</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block>
+                            <conditions>
+                                <condition id="-14" name="Compare variable" type="System">
+                                    <param id="0" name="Variable">qtdTotalFormigas</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">3</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-3" name="Set position" type="folha">
+                                    <param id="0" name="X">1480</param>
+                                    <param id="1" name="Y">4688</param>
+                                </action>
+                                <action disabled="1" id="-3" name="Set position" type="folha">
+                                    <param id="0" name="X">2400</param>
+                                    <param id="1" name="Y">1080</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block>
+                            <conditions>
+                                <condition id="-14" name="Compare variable" type="System">
+                                    <param id="0" name="Variable">qtdTotalFormigas</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">4</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Destroy" type="folha" />
+                                <action id="-3" name="Set position" type="acerola">
+                                    <param id="0" name="X">2400</param>
+                                    <param id="1" name="Y">1080</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block>
+                            <conditions>
+                                <condition id="-11" name="For Each" type="System">
+                                    <param id="0" name="Object">ant</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-3" name="Set position" type="ant">
+                                    <param id="0" name="X">antViking.X + (ant.Width * (qtdTotalFormigas-1)*0.5)</param>
+                                    <param id="1" name="Y">antViking.Y</param>
+                                </action>
+                                <action behavior="Pin" id="0" name="Pin to object" type="ant">
+                                    <param id="0" name="Pin to">antViking</param>
+                                    <param id="1" name="Mode">3</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" title="Criacao Acerola">
+            <sub-events>
+                <event-block>
+                    <conditions>
+                        <condition id="0" name="On collision with another object" type="antViking">
+                            <param id="0" name="Object">antQueen</param>
+                        </condition>
+                        <condition id="-8" name="Compare two values" type="System">
+                            <param id="0" name="First value">antViking.carregaItem</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Second value">1</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" type="System">
+                            <param id="0" name="Variable">qtdTotalFormigas</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">4</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Add to" type="System">
+                            <param id="0" name="Variable">qtdTotalFormigas</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="0" name="Spawn another object" type="antSoldier">
+                            <param id="0" name="Object">antSoldier</param>
+                            <param id="1" name="Layer">1</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                        <action id="-13" name="Set boolean" type="antViking">
+                            <param id="0" name="Instance variable">carregaItem</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="4" name="Set animation" type="antQueen">
+                            <param id="0" name="Animation">&quot;Botando&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block>
+                            <conditions>
+                                <condition id="-14" name="Compare variable" type="System">
+                                    <param id="0" name="Variable">qtdTotalFormigas</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">5</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Destroy" type="acerola" />
+                            </actions>
+                        </event-block>
+                        <event-block>
+                            <conditions>
+                                <condition id="-11" name="For Each" type="System">
+                                    <param id="0" name="Object">antSoldier</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-3" name="Set position" type="antSoldier">
+                                    <param id="0" name="X">antViking.X - (antSoldier.Width * (antSoldier.Count-1)*0.5)</param>
+                                    <param id="1" name="Y">antViking.Y</param>
+                                </action>
+                                <action behavior="Pin" id="0" name="Pin to object" type="antSoldier">
+                                    <param id="0" name="Pin to">antViking</param>
+                                    <param id="1" name="Mode">3</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group collapsed="1" description="" title="Audio">
+            <sub-events>
+                <event-block>
+                    <conditions>
+                        <condition id="1" name="Preloads complete" type="Audio" />
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" type="Audio">
+                            <param id="0" name="Audio file">01 tema jogo red. final</param>
+                            <param id="2" name="Loop">1</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" title="Tamandua">
+            <sub-events>
+                <event-block>
+                    <conditions>
+                        <condition disabled="1" id="-1" name="Every tick" type="System" />
+                    </conditions>
+                    <actions>
+                        <action behavior="Platform" id="7" name="Simulate control" type="Tamandua">
+                            <param id="0" name="Control">1</param>
+                        </action>
+                        <action id="-4" name="Set position to another object" type="boxTamandua">
+                            <param id="0" name="Object">Tamandua</param>
+                            <param id="1" name="Image point (optional)">1</param>
+                        </action>
+                        <action id="-18" name="Rotate clockwise" type="boxTamandua">
+                            <param id="0" name="Degrees">angle(boxTamandua.X, boxTamandua.Y, gravityCenter.X, gravityCenter.Y)</param>
+                        </action>
+                        <action id="-22" name="Set angle toward position" type="boxTamandua">
+                            <param id="0" name="X">gravityCenter.X</param>
+                            <param id="1" name="Y">gravityCenter.Y </param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block>
+                    <conditions>
+                        <condition id="-6" name="Every X seconds" type="System">
+                            <param id="0" name="Interval (seconds)">5.0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Platform" id="7" name="Simulate control" type="Tamandua">
+                            <param id="0" name="Control">2</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block>
+                    <conditions>
+                        <condition behavior="Platform" id="9" name="On landed" type="Tamandua" />
+                        <condition id="-3" name="Is on-screen" type="Tamandua" />
+                    </conditions>
+                    <actions>
+                        <action behavior="ScrollTo" id="0" name="Shake" type="BoxPlayer">
+                            <param id="0" name="Magnitude">20</param>
+                            <param id="1" name="Duration">0.4</param>
+                            <param id="2" name="Mode">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block>
+                    <conditions>
+                        <condition id="0" name="On collision with another object" type="boxTamandua">
+                            <param id="0" name="Object">BoxPlayer</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" type="System">
+                            <param id="0" name="Variable">Dead</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="4" name="Set animation" type="antViking">
+                            <param id="0" name="Animation">&quot;Die&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action disabled="1" id="-16" name="Wait" type="System">
+                            <param id="0" name="Seconds">3.0</param>
+                        </action>
+                        <action id="-3" name="Set position" type="BoxPlayer">
+                            <param id="0" name="X">2423</param>
+                            <param id="1" name="Y">1064</param>
+                        </action>
+                        <action id="-9" name="Set value" type="System">
+                            <param id="0" name="Variable">Dead</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block>
+                    <conditions>
+                        <condition id="1" inverted="1" name="Is overlapping another object" type="boxTamandua">
+                            <param id="0" name="Object">boxArvore</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Solid" id="0" name="Set enabled" type="jumpBox">
+                            <param id="0" name="State">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block>
+                    <conditions>
+                        <condition id="0" name="On collision with another object" type="boxTamandua">
+                            <param id="0" name="Object">boxArvore</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Solid" id="0" name="Set enabled" type="jumpBox">
+                            <param id="0" name="State">0</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block>
+                            <conditions>
+                                <condition id="1" name="Is overlapping another object" type="BoxPlayer">
+                                    <param id="0" name="Object">boxArvore</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="ScrollTo" id="0" name="Shake" type="BoxPlayer">
+                                    <param id="0" name="Magnitude">30</param>
+                                    <param id="1" name="Duration">2</param>
+                                    <param id="2" name="Mode">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-block>
+            <conditions>
+                <condition id="0" name="On collision with another object" type="Tamandua">
+                    <param id="0" name="Object">pularBixo</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Platform" id="7" name="Simulate control" type="Tamandua">
+                    <param id="0" name="Control">2</param>
+                </action>
+                <action behavior="Platform" id="7" name="Simulate control" type="Tamandua">
+                    <param id="0" name="Control">1</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

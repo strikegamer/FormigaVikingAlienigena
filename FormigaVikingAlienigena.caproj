@@ -2,18 +2,18 @@
 <c2project>
     <name>FormigaVikingAlienigena</name>
     <description></description>
-    <version>1.0</version>
+    <version>1.2</version>
     <author></author>
     <unique-id>27qp3qf9lj9ri</unique-id>
     <saved-with-version>9500</saved-with-version>
     <used-plugins>
-        <plugin id="Button" version="1">Button</plugin>
-        <plugin id="Mouse" version="1">Mouse</plugin>
         <plugin id="Sprite" version="1">Sprite</plugin>
-        <plugin id="Text" version="1">Text</plugin>
+        <plugin id="Keyboard" version="1">Keyboard</plugin>
         <plugin id="TiledBg" version="1">Tiled Background</plugin>
         <plugin id="Audio" version="1">Audio</plugin>
-        <plugin id="Keyboard" version="1">Keyboard</plugin>
+        <plugin id="Text" version="1">Text</plugin>
+        <plugin id="Button" version="1">Button</plugin>
+        <plugin id="Mouse" version="1">Mouse</plugin>
     </used-plugins>
     <used-behaviors>
         <behavior id="Physics" version="1">Physics</behavior>
@@ -34,7 +34,7 @@
     <use-loader-layout>0</use-loader-layout>
     <configuration-settings>
         <prop name="Fullscreen in browser">Off</prop>
-        <prop name="Preview browser">Firefox</prop>
+        <prop name="Preview browser">Chrome</prop>
         <prop name="Preview mode">HTTP</prop>
     </configuration-settings>
     <object-folder expanded="0">
@@ -281,7 +281,7 @@
         <object-type name="antQueen">
             <plugin id="Sprite" />
             <animation-folder expanded="1">
-                <animation framecount="32" loop="0" name="Botando" pingpong="0" repeatcount="1" repeatto="0" speed="5">
+                <animation framecount="32" loop="0" name="Botando" pingpong="0" repeatcount="1" repeatto="0" speed="10">
                     <frame duration="1" hotspotX="0.500629" hotspotY="0.5" />
                     <frame duration="1" hotspotX="0.500629" hotspotY="0.5" />
                     <frame duration="1" hotspotX="0.500629" hotspotY="0.5" />
@@ -395,7 +395,14 @@
             </behaviors>
             <animation-folder expanded="1">
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="1" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.991736">
+                        <collision-poly>
+                            <point x="0.00877193" y="0.00826446" />
+                            <point x="0.991228" y="0.00826446" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
                 </animation>
             </animation-folder>
         </object-type>
@@ -613,16 +620,16 @@
             <plugin id="Sprite" />
             <animation-folder expanded="1">
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
-                    <frame duration="1" hotspotX="0.502075" hotspotY="0.501742">
+                    <frame duration="1" hotspotX="0.513834" hotspotY="0.512077">
                         <collision-poly>
-                            <point x="0.381743" y="0.320558" />
-                            <point x="0.497925" y="0.30662" />
-                            <point x="0.622407" y="0.317073" />
-                            <point x="0.900415" y="0.498258" />
-                            <point x="0.834025" y="0.860627" />
-                            <point x="0.497925" y="0.923345" />
-                            <point x="0.186722" y="0.843206" />
-                            <point x="0.116183" y="0.498258" />
+                            <point x="0.308301" y="0.652174" />
+                            <point x="0.29249" y="0.516909" />
+                            <point x="0.304348" y="0.37198" />
+                            <point x="0.509882" y="0.0483091" />
+                            <point x="0.920948" y="0.125604" />
+                            <point x="0.992095" y="0.516909" />
+                            <point x="0.901186" y="0.879227" />
+                            <point x="0.509882" y="0.961352" />
                         </collision-poly>
                     </frame>
                 </animation>

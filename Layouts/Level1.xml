@@ -114,6 +114,25 @@
             <opacity>1</opacity>
             <force-own-texture>0</force-own-texture>
             <instances>
+                <instance type="acerola">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <world>
+                        <x>1348</x>
+                        <y>5351</y>
+                        <z>0</z>
+                        <width>85.611801147</width>
+                        <height>70.046020508</height>
+                        <depth>0</depth>
+                        <hotspotX>0.514522851</hotspotX>
+                        <hotspotY>0.51219511</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
                 <instance type="boxArvore">
                     <properties>
                         <initial-visibility>Invisible</initial-visibility>
@@ -121,8 +140,8 @@
                         <effect>(none)</effect>
                     </properties>
                     <world>
-                        <x>2049</x>
-                        <y>3962</y>
+                        <x>1995</x>
+                        <y>3845</y>
                         <z>0</z>
                         <width>1435</width>
                         <height>1717</height>
@@ -140,8 +159,8 @@
                         <effect>(none)</effect>
                     </properties>
                     <world>
-                        <x>2584</x>
-                        <y>999</y>
+                        <x>1507</x>
+                        <y>3595</y>
                         <z>0</z>
                         <width>47</width>
                         <height>65</height>
@@ -269,11 +288,11 @@
                         <x>2429</x>
                         <y>1050</y>
                         <z>0</z>
-                        <width>87.079872131</width>
-                        <height>42.152000427</height>
+                        <width>88.634872437</width>
+                        <height>42.860439301</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
-                        <hotspotY>1</hotspotY>
+                        <hotspotY>0.991596639</hotspotY>
                         <angle>-3.131431341</angle>
                         <opacity>1</opacity>
                     </world>
@@ -4016,25 +4035,6 @@
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="acerola">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-frame>0</initial-frame>
-                        <effect>(none)</effect>
-                    </properties>
-                    <world>
-                        <x>1348</x>
-                        <y>5351</y>
-                        <z>0</z>
-                        <width>81.55116272</width>
-                        <height>97.116943359</height>
-                        <depth>0</depth>
-                        <hotspotX>0.502074718</hotspotX>
-                        <hotspotY>0.501742184</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

@@ -2,18 +2,18 @@
 <c2project>
     <name>FormigaVikingAlienigena</name>
     <description></description>
-    <version>1.2</version>
+    <version>1.3</version>
     <author></author>
     <unique-id>27qp3qf9lj9ri</unique-id>
     <saved-with-version>9500</saved-with-version>
     <used-plugins>
-        <plugin id="Sprite" version="1">Sprite</plugin>
         <plugin id="Keyboard" version="1">Keyboard</plugin>
-        <plugin id="TiledBg" version="1">Tiled Background</plugin>
-        <plugin id="Audio" version="1">Audio</plugin>
+        <plugin id="Sprite" version="1">Sprite</plugin>
         <plugin id="Text" version="1">Text</plugin>
-        <plugin id="Button" version="1">Button</plugin>
         <plugin id="Mouse" version="1">Mouse</plugin>
+        <plugin id="Button" version="1">Button</plugin>
+        <plugin id="Audio" version="1">Audio</plugin>
+        <plugin id="TiledBg" version="1">Tiled Background</plugin>
     </used-plugins>
     <used-behaviors>
         <behavior id="Physics" version="1">Physics</behavior>
@@ -30,11 +30,12 @@
         <width>1024</width>
         <height>768</height>
     </window-size>
-    <pixel-rounding>0</pixel-rounding>
-    <use-loader-layout>0</use-loader-layout>
+    <pixel-rounding>1</pixel-rounding>
+    <first-layout>Level1</first-layout>
+    <use-loader-layout>1</use-loader-layout>
     <configuration-settings>
         <prop name="Fullscreen in browser">Off</prop>
-        <prop name="Preview browser">Chrome</prop>
+        <prop name="Preview browser">Firefox</prop>
         <prop name="Preview mode">HTTP</prop>
     </configuration-settings>
     <object-folder expanded="0">
@@ -746,13 +747,23 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="Sprite">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
-    <layout-folder expanded="0">
+    <layout-folder expanded="1">
         <layout>Level1.xml</layout>
+        <layout>Level1Complete.xml</layout>
     </layout-folder>
-    <event-folder expanded="0">
+    <event-folder expanded="1">
         <event-sheet>level1Events.xml</event-sheet>
+        <event-sheet>Level1CompleteEvents.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Mouse" />

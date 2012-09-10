@@ -4,7 +4,8 @@
     <name>level1Events</name>
     <events>
         <variable name="bateu" type="number">0</variable>
-        <variable name="Dead" type="number">0</variable>
+        <variable comment="Quantidade de vidas" name="Dead" type="number">0</variable>
+        <variable name="zoom" type="number">1</variable>
         <variable name="qtdTotalFormigas" type="number">1</variable>
         <event-group description="" title="System">
             <sub-events>
@@ -509,7 +510,7 @@
                 </event-block>
             </sub-events>
         </event-group>
-        <event-group collapsed="1" description="" title="Audio">
+        <event-group description="" title="Audio">
             <sub-events>
                 <event-block>
                     <conditions>
@@ -578,17 +579,25 @@
                         <condition id="0" name="On collision with another object" type="boxTamandua">
                             <param id="0" name="Object">BoxPlayer</param>
                         </condition>
+                        <condition id="-8" name="Compare two values" type="System">
+                            <param id="0" name="First value">qtdTotalFormigas</param>
+                            <param id="1" name="Comparison">2</param>
+                            <param id="2" name="Second value">5</param>
+                        </condition>
                     </conditions>
                     <actions>
                         <action id="-9" name="Set value" type="System">
                             <param id="0" name="Variable">Dead</param>
                             <param id="1" name="Value">1</param>
                         </action>
+                        <action behavior="Platform" id="0" name="Set ignoring input" type="BoxPlayer">
+                            <param id="0" name="Input">1</param>
+                        </action>
                         <action id="4" name="Set animation" type="antViking">
                             <param id="0" name="Animation">&quot;Die&quot;</param>
                             <param id="1" name="From">1</param>
                         </action>
-                        <action disabled="1" id="-16" name="Wait" type="System">
+                        <action id="-16" name="Wait" type="System">
                             <param id="0" name="Seconds">3.0</param>
                         </action>
                         <action id="-3" name="Set position" type="BoxPlayer">
@@ -598,6 +607,9 @@
                         <action id="-9" name="Set value" type="System">
                             <param id="0" name="Variable">Dead</param>
                             <param id="1" name="Value">0</param>
+                        </action>
+                        <action behavior="Platform" id="0" name="Set ignoring input" type="BoxPlayer">
+                            <param id="0" name="Input">0</param>
                         </action>
                     </actions>
                 </event-block>
@@ -641,6 +653,39 @@
                         </event-block>
                     </sub-events>
                 </event-block>
+                <event-block>
+                    <conditions>
+                        <condition id="0" name="On collision with another object" type="boxTamandua">
+                            <param id="0" name="Object">BoxPlayer</param>
+                        </condition>
+                        <condition id="-8" name="Compare two values" type="System">
+                            <param id="0" name="First value">qtdTotalFormigas</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Second value">5</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="6" name="Set speed" type="Tamandua">
+                            <param id="0" name="Speed">300</param>
+                        </action>
+                        <action behavior="Platform" id="0" name="Set ignoring input" type="Tamandua">
+                            <param id="0" name="Input">1</param>
+                        </action>
+                        <action behavior="Platform" id="0" name="Set ignoring input" type="BoxPlayer">
+                            <param id="0" name="Input">1</param>
+                        </action>
+                        <action id="-12" name="Set group active" type="System">
+                            <param id="0" name="Group name">&quot;EndingZoom&quot;</param>
+                            <param id="1" name="State">1</param>
+                        </action>
+                        <action id="-16" name="Wait" type="System">
+                            <param id="0" name="Seconds">1.6</param>
+                        </action>
+                        <action id="-2" name="Go to layout" type="System">
+                            <param id="0" name="Layout">Level1Complete</param>
+                        </action>
+                    </actions>
+                </event-block>
             </sub-events>
         </event-group>
         <event-block>
@@ -658,5 +703,125 @@
                 </action>
             </actions>
         </event-block>
+        <event-group description="" inactive="1" title="ZoomOut">
+            <sub-events>
+                <event-block>
+                    <conditions>
+                        <condition id="-6" name="Every X seconds" type="System">
+                            <param id="0" name="Interval (seconds)">0.01</param>
+                        </condition>
+                        <condition id="-8" name="Compare two values" type="System">
+                            <param id="0" name="First value">zoom</param>
+                            <param id="1" name="Comparison">5</param>
+                            <param id="2" name="Second value">0.50</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-11" name="Subtract from" type="System">
+                            <param id="0" name="Variable">zoom</param>
+                            <param id="1" name="Value">0.005</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block>
+                    <conditions>
+                        <condition id="-1" name="Every tick" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-17" name="Set scale" type="System">
+                            <param id="0" name="Layer">&quot;Planet&quot;</param>
+                            <param id="1" name="Scale">zoom</param>
+                        </action>
+                        <action id="-17" name="Set scale" type="System">
+                            <param id="0" name="Layer">&quot;Background&quot;</param>
+                            <param id="1" name="Scale">zoom</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block>
+                    <conditions>
+                        <condition id="-8" name="Compare two values" type="System">
+                            <param id="0" name="First value">zoom</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Second value">0.45</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" type="System">
+                            <param id="0" name="Variable">zoom</param>
+                            <param id="1" name="Value">0.45</param>
+                        </action>
+                        <action id="-12" name="Set group active" type="System">
+                            <param id="0" name="Group name">&quot;ZoomIn&quot;</param>
+                            <param id="1" name="State">1</param>
+                        </action>
+                        <action id="-12" name="Set group active" type="System">
+                            <param id="0" name="Group name">&quot;ZoomOut&quot;</param>
+                            <param id="1" name="State">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" inactive="1" title="EndingZoom">
+            <sub-events>
+                <event-block>
+                    <conditions>
+                        <condition id="-6" name="Every X seconds" type="System">
+                            <param id="0" name="Interval (seconds)">0.01</param>
+                        </condition>
+                        <condition id="-8" name="Compare two values" type="System">
+                            <param id="0" name="First value">zoom</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Second value">3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Add to" type="System">
+                            <param id="0" name="Variable">zoom</param>
+                            <param id="1" name="Value">0.100</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block>
+                    <conditions>
+                        <condition id="-1" name="Every tick" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-17" name="Set scale" type="System">
+                            <param id="0" name="Layer">&quot;Planet&quot;</param>
+                            <param id="1" name="Scale">zoom</param>
+                        </action>
+                        <action id="-17" name="Set scale" type="System">
+                            <param id="0" name="Layer">&quot;Background&quot;</param>
+                            <param id="1" name="Scale">zoom</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block>
+                    <conditions>
+                        <condition id="-8" name="Compare two values" type="System">
+                            <param id="0" name="First value">zoom</param>
+                            <param id="1" name="Comparison">5</param>
+                            <param id="2" name="Second value">3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" type="System">
+                            <param id="0" name="Variable">zoom</param>
+                            <param id="1" name="Value">3</param>
+                        </action>
+                        <action id="-12" name="Set group active" type="System">
+                            <param id="0" name="Group name">&quot;ZoomIn&quot;</param>
+                            <param id="1" name="State">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block>
+                    <conditions />
+                    <actions />
+                </event-block>
+            </sub-events>
+        </event-group>
     </events>
 </c2eventsheet>

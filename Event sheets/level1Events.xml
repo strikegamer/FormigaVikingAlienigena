@@ -25,6 +25,10 @@
                             <param id="0" name="Animation">&quot;Idle&quot;</param>
                             <param id="1" name="From">1</param>
                         </action>
+                        <action behavior="Pin" id="0" name="Pin to object" type="antSoldier">
+                            <param id="0" name="Pin to">antViking</param>
+                            <param id="1" name="Mode">3</param>
+                        </action>
                         <action id="-15" name="Set visible" type="antSoldier">
                             <param id="0" name="Visibility">0</param>
                         </action>
@@ -191,11 +195,6 @@
                 <event-block>
                     <conditions>
                         <condition behavior="Platform" id="0" name="Is moving" type="BoxPlayer" />
-                        <condition id="-14" name="Compare variable" type="System">
-                            <param id="0" name="Variable">Dead</param>
-                            <param id="1" name="Comparison">0</param>
-                            <param id="2" name="Value">0</param>
-                        </condition>
                     </conditions>
                     <actions>
                         <action id="4" name="Set animation" type="antViking">
@@ -215,11 +214,6 @@
                 <event-block>
                     <conditions>
                         <condition behavior="Platform" id="0" inverted="1" name="Is moving" type="BoxPlayer" />
-                        <condition id="-14" name="Compare variable" type="System">
-                            <param id="0" name="Variable">Dead</param>
-                            <param id="1" name="Comparison">0</param>
-                            <param id="2" name="Value">0</param>
-                        </condition>
                     </conditions>
                     <actions>
                         <action id="4" name="Set animation" type="antViking">
@@ -251,7 +245,7 @@
                     <actions>
                         <action id="-4" name="Set position to another object" type="folha">
                             <param id="0" name="Object">antViking</param>
-                            <param id="1" name="Image point (optional)">0</param>
+                            <param id="1" name="Image point (optional)">&quot;Carregando&quot;</param>
                         </action>
                     </actions>
                 </event-block>
@@ -293,7 +287,7 @@
                     <actions>
                         <action id="-4" name="Set position to another object" type="acerola">
                             <param id="0" name="Object">antViking</param>
-                            <param id="1" name="Image point (optional)">0</param>
+                            <param id="1" name="Image point (optional)">&quot;Carregando&quot;</param>
                         </action>
                     </actions>
                 </event-block>
@@ -529,9 +523,7 @@
         <event-group description="" title="Tamandua">
             <sub-events>
                 <event-block>
-                    <conditions>
-                        <condition disabled="1" id="-1" name="Every tick" type="System" />
-                    </conditions>
+                    <conditions />
                     <actions>
                         <action behavior="Platform" id="7" name="Simulate control" type="Tamandua">
                             <param id="0" name="Control">1</param>
@@ -593,12 +585,11 @@
                         <action behavior="Platform" id="0" name="Set ignoring input" type="BoxPlayer">
                             <param id="0" name="Input">1</param>
                         </action>
-                        <action id="4" name="Set animation" type="antViking">
-                            <param id="0" name="Animation">&quot;Die&quot;</param>
-                            <param id="1" name="From">1</param>
+                        <action id="1" name="Set effect" type="antViking">
+                            <param id="0" name="Effect">1</param>
                         </action>
                         <action id="-16" name="Wait" type="System">
-                            <param id="0" name="Seconds">3.0</param>
+                            <param id="0" name="Seconds">1.5</param>
                         </action>
                         <action id="-3" name="Set position" type="BoxPlayer">
                             <param id="0" name="X">2423</param>
@@ -610,6 +601,9 @@
                         </action>
                         <action behavior="Platform" id="0" name="Set ignoring input" type="BoxPlayer">
                             <param id="0" name="Input">0</param>
+                        </action>
+                        <action id="1" name="Set effect" type="antViking">
+                            <param id="0" name="Effect">0</param>
                         </action>
                     </actions>
                 </event-block>

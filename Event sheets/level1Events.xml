@@ -111,6 +111,18 @@
                         <condition behavior="Platform" id="5" name="On jump" type="BoxPlayer" />
                     </conditions>
                     <actions>
+                        <action id="4" name="Set animation" type="antViking">
+                            <param id="0" name="Animation">&quot;Jump&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="4" name="Set animation" type="ant">
+                            <param id="0" name="Animation">&quot;Jump&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="4" name="Set animation" type="antSoldier">
+                            <param id="0" name="Animation">&quot;Jump&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
                         <action id="0" name="Play" type="Audio">
                             <param id="0" name="Audio file">07 pulo formiga</param>
                             <param id="2" name="Loop">0</param>
@@ -195,6 +207,7 @@
                 <event-block>
                     <conditions>
                         <condition behavior="Platform" id="0" name="Is moving" type="BoxPlayer" />
+                        <condition behavior="Platform" id="2" name="Is on floor" type="BoxPlayer" />
                     </conditions>
                     <actions>
                         <action id="4" name="Set animation" type="antViking">
@@ -214,6 +227,7 @@
                 <event-block>
                     <conditions>
                         <condition behavior="Platform" id="0" inverted="1" name="Is moving" type="BoxPlayer" />
+                        <condition behavior="Platform" id="2" name="Is on floor" type="BoxPlayer" />
                     </conditions>
                     <actions>
                         <action id="4" name="Set animation" type="antViking">
@@ -364,8 +378,8 @@
                             </conditions>
                             <actions>
                                 <action id="-3" name="Set position" type="folha">
-                                    <param id="0" name="X">2688</param>
-                                    <param id="1" name="Y">3986</param>
+                                    <param id="0" name="X">2811</param>
+                                    <param id="1" name="Y">3943</param>
                                 </action>
                                 <action disabled="1" id="-3" name="Set position" type="folha">
                                     <param id="0" name="X">2400</param>
@@ -383,8 +397,8 @@
                             </conditions>
                             <actions>
                                 <action id="-3" name="Set position" type="folha">
-                                    <param id="0" name="X">1486</param>
-                                    <param id="1" name="Y">4352</param>
+                                    <param id="0" name="X">1481</param>
+                                    <param id="1" name="Y">4353</param>
                                 </action>
                                 <action disabled="1" id="-3" name="Set position" type="folha">
                                     <param id="0" name="X">2400</param>
@@ -403,8 +417,8 @@
                             <actions>
                                 <action id="-9" name="Destroy" type="folha" />
                                 <action id="-3" name="Set position" type="acerola">
-                                    <param id="0" name="X">1457</param>
-                                    <param id="1" name="Y">4689</param>
+                                    <param id="0" name="X">1346</param>
+                                    <param id="1" name="Y">4588</param>
                                 </action>
                                 <action disabled="1" id="-3" name="Set position" type="acerola">
                                     <param id="0" name="X">2400</param>
@@ -592,8 +606,8 @@
                             <param id="0" name="Seconds">1.5</param>
                         </action>
                         <action id="-3" name="Set position" type="BoxPlayer">
-                            <param id="0" name="X">2423</param>
-                            <param id="1" name="Y">1064</param>
+                            <param id="0" name="X">2301</param>
+                            <param id="1" name="Y">459</param>
                         </action>
                         <action id="-9" name="Set value" type="System">
                             <param id="0" name="Variable">Dead</param>
@@ -682,21 +696,6 @@
                 </event-block>
             </sub-events>
         </event-group>
-        <event-block>
-            <conditions>
-                <condition id="0" name="On collision with another object" type="Tamandua">
-                    <param id="0" name="Object">pularBixo</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action behavior="Platform" id="7" name="Simulate control" type="Tamandua">
-                    <param id="0" name="Control">2</param>
-                </action>
-                <action behavior="Platform" id="7" name="Simulate control" type="Tamandua">
-                    <param id="0" name="Control">1</param>
-                </action>
-            </actions>
-        </event-block>
         <event-group description="" inactive="1" title="ZoomOut">
             <sub-events>
                 <event-block>

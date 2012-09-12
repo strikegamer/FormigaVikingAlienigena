@@ -790,8 +790,8 @@
                         <behavior-instance type="ScrollTo" />
                     </behavior-instances>
                     <world>
-                        <x>2301</x>
-                        <y>469</y>
+                        <x>2305</x>
+                        <y>467</y>
                         <z>0</z>
                         <width>87.07900238</width>
                         <height>42.099998474</height>

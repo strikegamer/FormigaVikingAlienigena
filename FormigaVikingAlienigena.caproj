@@ -2,18 +2,18 @@
 <c2project>
     <name>FormigaVikingAlienigena</name>
     <description></description>
-    <version>1.5</version>
+    <version>1.6</version>
     <author></author>
     <unique-id>27qp3qf9lj9ri</unique-id>
     <saved-with-version>9500</saved-with-version>
     <used-plugins>
-        <plugin id="TiledBg" version="1">Tiled Background</plugin>
-        <plugin id="Audio" version="1">Audio</plugin>
-        <plugin id="Mouse" version="1">Mouse</plugin>
-        <plugin id="Keyboard" version="1">Keyboard</plugin>
         <plugin id="Button" version="1">Button</plugin>
-        <plugin id="Sprite" version="1">Sprite</plugin>
+        <plugin id="Keyboard" version="1">Keyboard</plugin>
         <plugin id="Text" version="1">Text</plugin>
+        <plugin id="Audio" version="1">Audio</plugin>
+        <plugin id="Sprite" version="1">Sprite</plugin>
+        <plugin id="TiledBg" version="1">Tiled Background</plugin>
+        <plugin id="Mouse" version="1">Mouse</plugin>
     </used-plugins>
     <used-behaviors>
         <behavior id="Fade" version="1">Fade</behavior>
@@ -32,7 +32,7 @@
         <height>768</height>
     </window-size>
     <pixel-rounding>1</pixel-rounding>
-    <first-layout>Level1</first-layout>
+    <first-layout>menuInicial</first-layout>
     <use-loader-layout>1</use-loader-layout>
     <configuration-settings>
         <prop name="Fullscreen in browser">Off</prop>
@@ -410,14 +410,6 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Sprite5">
-            <plugin id="Sprite" />
-            <animation-folder expanded="1">
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                </animation>
-            </animation-folder>
-        </object-type>
         <object-type name="folha">
             <plugin id="Sprite" />
             <animation-folder expanded="1">
@@ -531,14 +523,6 @@
             <animation-folder expanded="1">
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
                     <frame duration="1" hotspotX="0.500147" hotspotY="0.5" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Sprite2">
-            <plugin id="Sprite" />
-            <animation-folder expanded="1">
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -1073,15 +1057,152 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="Sprite34">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="jogar">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="select" type="number" />
+            </instance-variables>
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
+                    <frame duration="1" hotspotX="0.501661" hotspotY="0.506024">
+                        <collision-poly>
+                            <point x="0.146179" y="0.53012" />
+                            <point x="0.498339" y="0.771084" />
+                            <point x="0.870432" y="0.46988" />
+                            <point x="0.966777" y="0.493976" />
+                            <point x="0.940199" y="0.783133" />
+                            <point x="0.498339" y="0.819277" />
+                            <point x="0.0631229" y="0.771084" />
+                            <point x="0.146179" y="0.493976" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="menu_creditos">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="select" type="number" />
+            </instance-variables>
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
+                    <frame duration="1" hotspotX="0.501182" hotspotY="0.506173">
+                        <collision-poly>
+                            <point x="0.0992908" y="0.518519" />
+                            <point x="0.498818" y="0.419753" />
+                            <point x="0.900709" y="0.518519" />
+                            <point x="0.983452" y="0.493827" />
+                            <point x="0.969267" y="0.839506" />
+                            <point x="0.498818" y="0.851852" />
+                            <point x="0.0401891" y="0.790123" />
+                            <point x="0.111111" y="0.493827" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="instrucoes">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="select" type="number" />
+            </instance-variables>
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
+                    <frame duration="1" hotspotX="0.501104" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.0905077" y="0.5" />
+                            <point x="0.498896" y="0.439024" />
+                            <point x="0.927152" y="0.402439" />
+                            <point x="0.969095" y="0.5" />
+                            <point x="0.960265" y="0.780488" />
+                            <point x="0.0463576" y="0.743902" />
+                            <point x="0.0794702" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite5">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="spriteInstruc">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="instrucoes_voltar">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="select" type="number" />
+            </instance-variables>
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.505495">
+                        <collision-poly>
+                            <point x="0.125" y="0.450549" />
+                            <point x="0.5" y="0.351648" />
+                            <point x="0.887195" y="0.406593" />
+                            <point x="0.957317" y="0.494505" />
+                            <point x="0.929878" y="0.747253" />
+                            <point x="0.0762195" y="0.725275" />
+                            <point x="0.0945122" y="0.494505" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="instrucoes_jogar">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="select" type="number" />
+            </instance-variables>
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
+                    <frame duration="1" hotspotX="0.501484" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.139466" y="0.51087" />
+                            <point x="0.498516" y="0.282609" />
+                            <point x="0.878338" y="0.445652" />
+                            <point x="0.946588" y="0.5" />
+                            <point x="0.937685" y="0.771739" />
+                            <point x="0.498516" y="0.771739" />
+                            <point x="0.0801187" y="0.706522" />
+                            <point x="0.145401" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder expanded="1">
         <layout>Level1.xml</layout>
         <layout>Level1Complete.xml</layout>
+        <layout>menuInicial.xml</layout>
+        <layout>creditos.xml</layout>
+        <layout>instrucoes.xml</layout>
     </layout-folder>
     <event-folder expanded="1">
         <event-sheet>level1Events.xml</event-sheet>
         <event-sheet>Level1CompleteEvents.xml</event-sheet>
+        <event-sheet>menuIniciar.xml</event-sheet>
+        <event-sheet>credInstruc.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Mouse" />

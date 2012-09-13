@@ -108,7 +108,7 @@
                 </event-block>
             </sub-events>
         </event-group>
-        <event-group description="" title="Ants Animation">
+        <event-group collapsed="1" description="" title="Ants Animation">
             <sub-events>
                 <event-block>
                     <conditions>
@@ -250,7 +250,7 @@
                 </event-block>
             </sub-events>
         </event-group>
-        <event-group description="" title="Pega Folha">
+        <event-group collapsed="1" description="" title="Pega Folha">
             <sub-events>
                 <event-block>
                     <conditions>
@@ -287,7 +287,7 @@
                 </event-block>
             </sub-events>
         </event-group>
-        <event-group description="" title="Pega Maca">
+        <event-group collapsed="1" description="" title="Pega Maca">
             <sub-events>
                 <event-block>
                     <conditions>
@@ -334,7 +334,7 @@
                 </event-block>
             </sub-events>
         </event-group>
-        <event-group description="" title="Criacao Operarios">
+        <event-group collapsed="1" description="" title="Criacao Operarios">
             <sub-events>
                 <event-block>
                     <conditions>
@@ -451,7 +451,7 @@
                 </event-block>
             </sub-events>
         </event-group>
-        <event-group description="" title="Criacao Acerola">
+        <event-group collapsed="1" description="" title="Criacao Acerola">
             <sub-events>
                 <event-block>
                     <conditions>
@@ -522,7 +522,7 @@
                 </event-block>
             </sub-events>
         </event-group>
-        <event-group description="" title="Audio">
+        <event-group collapsed="1" description="" title="Audio">
             <sub-events>
                 <event-block>
                     <conditions>
@@ -547,9 +547,6 @@
                             <param id="0" name="Object">boxTamandua</param>
                             <param id="1" name="Image point (optional)">1</param>
                         </action>
-                        <action behavior="Platform" id="7" name="Simulate control" type="boxTamandua">
-                            <param id="0" name="Control">1</param>
-                        </action>
                         <action id="-18" name="Rotate clockwise" type="boxTamandua">
                             <param id="0" name="Degrees">angle(boxTamandua.X, boxTamandua.Y, gravityCenter.X, gravityCenter.Y)</param>
                         </action>
@@ -562,7 +559,7 @@
                 <event-block>
                     <conditions>
                         <condition id="-6" name="Every X seconds" type="System">
-                            <param id="0" name="Interval (seconds)">1</param>
+                            <param id="0" name="Interval (seconds)">2</param>
                         </condition>
                     </conditions>
                     <actions>
@@ -627,43 +624,20 @@
                 </event-block>
                 <event-block>
                     <conditions>
-                        <condition id="1" inverted="1" name="Is overlapping another object" type="boxTamandua">
-                            <param id="0" name="Object">boxArvore</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action behavior="Solid" disabled="1" id="0" name="Set enabled" type="jumpBox">
-                            <param id="0" name="State">1</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block>
-                    <conditions>
                         <condition id="0" name="On collision with another object" type="boxTamandua">
                             <param id="0" name="Object">boxArvore</param>
                         </condition>
+                        <condition id="1" name="Is overlapping another object" type="BoxPlayer">
+                            <param id="0" name="Object">boxArvore</param>
+                        </condition>
                     </conditions>
                     <actions>
-                        <action behavior="Solid" disabled="1" id="0" name="Set enabled" type="jumpBox">
-                            <param id="0" name="State">0</param>
+                        <action behavior="ScrollTo" id="0" name="Shake" type="BoxPlayer">
+                            <param id="0" name="Magnitude">30</param>
+                            <param id="1" name="Duration">2</param>
+                            <param id="2" name="Mode">0</param>
                         </action>
                     </actions>
-                    <sub-events>
-                        <event-block>
-                            <conditions>
-                                <condition id="1" name="Is overlapping another object" type="BoxPlayer">
-                                    <param id="0" name="Object">boxArvore</param>
-                                </condition>
-                            </conditions>
-                            <actions>
-                                <action behavior="ScrollTo" id="0" name="Shake" type="BoxPlayer">
-                                    <param id="0" name="Magnitude">30</param>
-                                    <param id="1" name="Duration">2</param>
-                                    <param id="2" name="Mode">0</param>
-                                </action>
-                            </actions>
-                        </event-block>
-                    </sub-events>
                 </event-block>
                 <event-block>
                     <conditions>
@@ -695,9 +669,79 @@
                         </action>
                     </actions>
                 </event-block>
+                <event-block>
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" type="boxTamandua">
+                            <param id="0" name="Instance variable">direcao</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Platform" id="7" name="Simulate control" type="boxTamandua">
+                            <param id="0" name="Control">1</param>
+                        </action>
+                        <action id="8" name="Set flipped" type="Tamandua">
+                            <param id="0" name="State">1</param>
+                        </action>
+                        <action id="8" name="Set flipped" type="boxTamandua">
+                            <param id="0" name="State">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block>
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" type="boxTamandua">
+                            <param id="0" name="Instance variable">direcao</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Platform" id="7" name="Simulate control" type="boxTamandua">
+                            <param id="0" name="Control">0</param>
+                        </action>
+                        <action id="8" name="Set flipped" type="Tamandua">
+                            <param id="0" name="State">0</param>
+                        </action>
+                        <action id="8" name="Set flipped" type="boxTamandua">
+                            <param id="0" name="State">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block>
+                    <conditions>
+                        <condition id="-8" name="Compare two values" type="System">
+                            <param id="0" name="First value">int(random(800))</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Second value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Set value" type="boxTamandua">
+                            <param id="0" name="Instance variable">direcao</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block>
+                    <conditions>
+                        <condition id="-8" name="Compare two values" type="System">
+                            <param id="0" name="First value">int(random(800))</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Second value">2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Set value" type="boxTamandua">
+                            <param id="0" name="Instance variable">direcao</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
             </sub-events>
         </event-group>
-        <event-group description="" inactive="1" title="ZoomOut">
+        <event-group collapsed="1" description="" inactive="1" title="ZoomOut">
             <sub-events>
                 <event-block>
                     <conditions>

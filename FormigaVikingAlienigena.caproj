@@ -2,18 +2,18 @@
 <c2project>
     <name>FormigaVikingAlienigena</name>
     <description></description>
-    <version>1.5</version>
+    <version>1.7</version>
     <author></author>
     <unique-id>27qp3qf9lj9ri</unique-id>
     <saved-with-version>9500</saved-with-version>
     <used-plugins>
-        <plugin id="Audio" version="1">Audio</plugin>
-        <plugin id="Keyboard" version="1">Keyboard</plugin>
-        <plugin id="Mouse" version="1">Mouse</plugin>
-        <plugin id="TiledBg" version="1">Tiled Background</plugin>
-        <plugin id="Text" version="1">Text</plugin>
-        <plugin id="Button" version="1">Button</plugin>
         <plugin id="Sprite" version="1">Sprite</plugin>
+        <plugin id="Mouse" version="1">Mouse</plugin>
+        <plugin id="Text" version="1">Text</plugin>
+        <plugin id="Audio" version="1">Audio</plugin>
+        <plugin id="TiledBg" version="1">Tiled Background</plugin>
+        <plugin id="Button" version="1">Button</plugin>
+        <plugin id="Keyboard" version="1">Keyboard</plugin>
     </used-plugins>
     <used-behaviors>
         <behavior id="Fade" version="1">Fade</behavior>
@@ -39,7 +39,7 @@
         <prop name="Preview browser">Chrome</prop>
         <prop name="Preview mode">HTTP</prop>
     </configuration-settings>
-    <object-folder expanded="1">
+    <object-folder expanded="0">
         <object-type name="antViking">
             <plugin id="Sprite" />
             <instance-variables>
@@ -436,25 +436,6 @@
                 <instance-variable name="selected" type="number" />
             </instance-variables>
         </object-type>
-        <object-type name="folha2">
-            <plugin id="Sprite" />
-            <animation-folder expanded="1">
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
-                    <frame duration="1" hotspotX="0.510638" hotspotY="0.507692">
-                        <collision-poly>
-                            <point x="0.106383" y="0.0769231" />
-                            <point x="0.489362" y="0.107692" />
-                            <point x="0.723404" y="0.2" />
-                            <point x="0.978723" y="0.492308" />
-                            <point x="0.765957" y="0.830769" />
-                            <point x="0.489362" y="0.984615" />
-                            <point x="0.148936" y="0.892308" />
-                            <point x="0" y="0.492308" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
         <object-type name="Caule">
             <plugin id="Sprite" />
             <animation-folder expanded="1">
@@ -518,21 +499,8 @@
             </behaviors>
             <texture />
         </object-type>
-        <object-type name="cenario">
-            <plugin id="Sprite" />
-            <animation-folder expanded="1">
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
-                    <frame duration="1" hotspotX="0.500147" hotspotY="0.5" />
-                </animation>
-            </animation-folder>
-        </object-type>
         <object-type name="Tamandua">
             <plugin id="Sprite" />
-            <behaviors>
-                <behavior-type name="Platform">
-                    <behavior id="Platform" />
-                </behavior-type>
-            </behaviors>
             <animation-folder expanded="1">
                 <animation framecount="8" loop="1" name="walk" pingpong="0" repeatcount="1" repeatto="0" speed="9">
                     <frame duration="1" hotspotX="0.489218" hotspotY="0.501342">
@@ -634,9 +602,6 @@
         </object-type>
         <object-type name="boxTamandua">
             <plugin id="Sprite" />
-            <instance-variables>
-                <instance-variable name="isDireita" type="boolean" />
-            </instance-variables>
             <behaviors>
                 <behavior-type name="Platform">
                     <behavior id="Platform" />
@@ -645,7 +610,7 @@
             <animation-folder expanded="1">
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5">
-                        <image-point name="Imagepoint 1" x="-1.95455" y="0.652174" />
+                        <image-point name="Imagepoint 1" x="-1.97727" y="0.673913" />
                     </frame>
                 </animation>
             </animation-folder>
@@ -1208,7 +1173,7 @@
         <layout>creditos.xml</layout>
         <layout>instrucoes.xml</layout>
     </layout-folder>
-    <event-folder expanded="1">
+    <event-folder expanded="0">
         <event-sheet>level1Events.xml</event-sheet>
         <event-sheet>Level1CompleteEvents.xml</event-sheet>
         <event-sheet>menuIniciar.xml</event-sheet>

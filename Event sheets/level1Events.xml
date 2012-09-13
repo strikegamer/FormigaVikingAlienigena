@@ -86,12 +86,9 @@
                             <param id="0" name="Object">BoxPlayer</param>
                             <param id="1" name="Image point (optional)">0</param>
                         </action>
-                        <action behavior="Platform" id="10" name="Set angle of gravity" type="boxTamandua">
-                            <param id="0" name="Angle">angle(boxTamandua.X, boxTamandua.Y, gravityCenter.X, gravityCenter.Y)</param>
-                        </action>
                         <action id="-22" name="Set angle toward position" type="boxTamandua">
                             <param id="0" name="X">gravityCenter.X</param>
-                            <param id="1" name="Y">gravityCenter.Y </param>
+                            <param id="1" name="Y">gravityCenter.Y</param>
                         </action>
                         <action id="-22" name="Set angle toward position" type="Tamandua">
                             <param id="0" name="X">gravityCenter.X</param>
@@ -104,11 +101,14 @@
                             <param id="0" name="X">gravityCenter.X</param>
                             <param id="1" name="Y">gravityCenter.Y </param>
                         </action>
+                        <action behavior="Platform" id="10" name="Set angle of gravity" type="boxTamandua">
+                            <param id="0" name="Angle">angle(boxTamandua.X, BoxTamandua.Y, gravityCenter.X, gravityCenter.Y)</param>
+                        </action>
                     </actions>
                 </event-block>
             </sub-events>
         </event-group>
-        <event-group collapsed="1" description="" title="Ants Animation">
+        <event-group description="" title="Ants Animation">
             <sub-events>
                 <event-block>
                     <conditions>
@@ -250,7 +250,7 @@
                 </event-block>
             </sub-events>
         </event-group>
-        <event-group collapsed="1" description="" title="Pega Folha">
+        <event-group description="" title="Pega Folha">
             <sub-events>
                 <event-block>
                     <conditions>
@@ -287,7 +287,7 @@
                 </event-block>
             </sub-events>
         </event-group>
-        <event-group collapsed="1" description="" title="Pega Maca">
+        <event-group description="" title="Pega Maca">
             <sub-events>
                 <event-block>
                     <conditions>
@@ -334,7 +334,7 @@
                 </event-block>
             </sub-events>
         </event-group>
-        <event-group collapsed="1" description="" title="Criacao Operarios">
+        <event-group description="" title="Criacao Operarios">
             <sub-events>
                 <event-block>
                     <conditions>
@@ -451,7 +451,7 @@
                 </event-block>
             </sub-events>
         </event-group>
-        <event-group collapsed="1" description="" title="Criacao Acerola">
+        <event-group description="" title="Criacao Acerola">
             <sub-events>
                 <event-block>
                     <conditions>
@@ -522,7 +522,7 @@
                 </event-block>
             </sub-events>
         </event-group>
-        <event-group collapsed="1" description="" title="Audio">
+        <event-group description="" title="Audio">
             <sub-events>
                 <event-block>
                     <conditions>
@@ -546,6 +546,9 @@
                         <action id="-4" name="Set position to another object" type="Tamandua">
                             <param id="0" name="Object">boxTamandua</param>
                             <param id="1" name="Image point (optional)">1</param>
+                        </action>
+                        <action behavior="Platform" id="7" name="Simulate control" type="boxTamandua">
+                            <param id="0" name="Control">1</param>
                         </action>
                         <action id="-18" name="Rotate clockwise" type="boxTamandua">
                             <param id="0" name="Degrees">angle(boxTamandua.X, boxTamandua.Y, gravityCenter.X, gravityCenter.Y)</param>
@@ -677,9 +680,6 @@
                         <action id="6" name="Set speed" type="Tamandua">
                             <param id="0" name="Speed">300</param>
                         </action>
-                        <action behavior="Platform" id="0" name="Set ignoring input" type="Tamandua">
-                            <param id="0" name="Input">1</param>
-                        </action>
                         <action behavior="Platform" id="0" name="Set ignoring input" type="BoxPlayer">
                             <param id="0" name="Input">1</param>
                         </action>
@@ -692,74 +692,6 @@
                         </action>
                         <action id="-2" name="Go to layout" type="System">
                             <param id="0" name="Layout">Level1Complete</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block>
-                    <conditions>
-                        <condition id="-8" name="Compare two values" type="System">
-                            <param id="0" name="First value">random(0, 10)</param>
-                            <param id="1" name="Comparison">0</param>
-                            <param id="2" name="Second value">1</param>
-                        </condition>
-                        <condition id="-8" name="Compare two values" type="System">
-                            <param id="0" name="First value">boxTamandua.isDireita</param>
-                            <param id="1" name="Comparison">0</param>
-                            <param id="2" name="Second value">1</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="-13" name="Set boolean" type="boxTamandua">
-                            <param id="0" name="Instance variable">isDireita</param>
-                            <param id="1" name="Value">0</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block>
-                    <conditions>
-                        <condition id="-8" name="Compare two values" type="System">
-                            <param id="0" name="First value">random(0,10)</param>
-                            <param id="1" name="Comparison">0</param>
-                            <param id="2" name="Second value">0</param>
-                        </condition>
-                        <condition id="-8" name="Compare two values" type="System">
-                            <param id="0" name="First value">boxTamandua.isDireita</param>
-                            <param id="1" name="Comparison">0</param>
-                            <param id="2" name="Second value">0</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="-13" name="Set boolean" type="boxTamandua">
-                            <param id="0" name="Instance variable">isDireita</param>
-                            <param id="1" name="Value">1</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block>
-                    <conditions>
-                        <condition id="-8" name="Compare two values" type="System">
-                            <param id="0" name="First value">boxTamandua.isDireita</param>
-                            <param id="1" name="Comparison">0</param>
-                            <param id="2" name="Second value">1</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action behavior="Platform" id="7" name="Simulate control" type="boxTamandua">
-                            <param id="0" name="Control">1</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block>
-                    <conditions>
-                        <condition id="-8" name="Compare two values" type="System">
-                            <param id="0" name="First value">boxTamandua.isDireita</param>
-                            <param id="1" name="Comparison">0</param>
-                            <param id="2" name="Second value">0</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action behavior="Platform" id="7" name="Simulate control" type="boxTamandua">
-                            <param id="0" name="Control">0</param>
                         </action>
                     </actions>
                 </event-block>

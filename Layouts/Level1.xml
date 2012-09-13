@@ -790,8 +790,8 @@
                         <behavior-instance type="ScrollTo" />
                     </behavior-instances>
                     <world>
-                        <x>2301</x>
-                        <y>469</y>
+                        <x>2305</x>
+                        <y>467</y>
                         <z>0</z>
                         <width>87.07900238</width>
                         <height>42.099998474</height>
@@ -3975,19 +3975,6 @@
                         <initial-frame>0</initial-frame>
                         <effect>(none)</effect>
                     </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Platform">
-                            <properties>
-                                <max-speed>400</max-speed>
-                                <acceleration>1500</acceleration>
-                                <deceleration>1500</deceleration>
-                                <jump-strength>650</jump-strength>
-                                <gravity>1500</gravity>
-                                <max-fall-speed>1000</max-fall-speed>
-                                <default-controls>No</default-controls>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
                     <world>
                         <x>2741</x>
                         <y>253</y>
@@ -4042,9 +4029,6 @@
                         <initial-frame>0</initial-frame>
                         <effect>(none)</effect>
                     </properties>
-                    <instance-variables>
-                        <isDireita>true</isDireita>
-                    </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Platform">
                             <properties>
@@ -4059,15 +4043,15 @@
                         </behavior-instance>
                     </behavior-instances>
                     <world>
-                        <x>2679</x>
-                        <y>552</y>
+                        <x>2736</x>
+                        <y>590</y>
                         <z>0</z>
                         <width>61</width>
                         <height>423</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
-                        <angle>-1.210476756</angle>
+                        <angle>-1.272387385</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>

@@ -10,15 +10,8 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML 5" />
     </configurations>
     <open-tabs>
-        <layout active="1">Level1</layout>
-        <layout>Level1Complete</layout>
-        <layout>menuInicial</layout>
-        <layout>creditos</layout>
-        <layout>instrucoes</layout>
-        <event-sheet>level1Events</event-sheet>
-        <event-sheet>Level1CompleteEvents</event-sheet>
-        <event-sheet>menuIniciar</event-sheet>
-        <event-sheet>credInstruc</event-sheet>
+        <layout>Level1</layout>
+        <event-sheet active="1">level1Events</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="Project settings" />

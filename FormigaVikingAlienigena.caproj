@@ -2,27 +2,27 @@
 <c2project>
     <name>FormigaVikingAlienigena</name>
     <description></description>
-    <version>1.7</version>
+    <version>1.8</version>
     <author></author>
     <unique-id>27qp3qf9lj9ri</unique-id>
     <saved-with-version>9500</saved-with-version>
     <used-plugins>
-        <plugin id="Audio" version="1">Audio</plugin>
         <plugin id="Sprite" version="1">Sprite</plugin>
+        <plugin id="Mouse" version="1">Mouse</plugin>
         <plugin id="Keyboard" version="1">Keyboard</plugin>
+        <plugin id="Audio" version="1">Audio</plugin>
+        <plugin id="Text" version="1">Text</plugin>
         <plugin id="Button" version="1">Button</plugin>
         <plugin id="TiledBg" version="1">Tiled Background</plugin>
-        <plugin id="Text" version="1">Text</plugin>
-        <plugin id="Mouse" version="1">Mouse</plugin>
     </used-plugins>
     <used-behaviors>
-        <behavior id="jumpthru" version="1">Jump-thru</behavior>
-        <behavior id="scrollto" version="1">Scroll To</behavior>
-        <behavior id="solid" version="1">Solid</behavior>
         <behavior id="Fade" version="1">Fade</behavior>
         <behavior id="Physics" version="1">Physics</behavior>
         <behavior id="Pin" version="1">Pin</behavior>
         <behavior id="Platform" version="1">Platform</behavior>
+        <behavior id="jumpthru" version="1">Jump-thru</behavior>
+        <behavior id="scrollto" version="1">Scroll To</behavior>
+        <behavior id="solid" version="1">Solid</behavior>
     </used-behaviors>
     <configurations>
         <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML 5" />
@@ -36,7 +36,7 @@
     <use-loader-layout>1</use-loader-layout>
     <configuration-settings>
         <prop name="Fullscreen in browser">Off</prop>
-        <prop name="Preview browser">Chrome</prop>
+        <prop name="Preview browser">Firefox</prop>
         <prop name="Preview mode">HTTP</prop>
     </configuration-settings>
     <object-folder expanded="0">
@@ -783,247 +783,14 @@
             <plugin id="Sprite" />
             <animation-folder expanded="1">
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Sprite3">
-            <plugin id="Sprite" />
-            <animation-folder expanded="1">
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.500536" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Sprite4">
-            <plugin id="Sprite" />
-            <animation-folder expanded="1">
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.500536" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Sprite6">
-            <plugin id="Sprite" />
-            <animation-folder expanded="1">
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.500536" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Sprite7">
-            <plugin id="Sprite" />
-            <animation-folder expanded="1">
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.500536" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Sprite8">
-            <plugin id="Sprite" />
-            <animation-folder expanded="1">
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
-                    <frame duration="1" hotspotX="0.500606" hotspotY="0.500536" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Sprite9">
-            <plugin id="Sprite" />
-            <animation-folder expanded="1">
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.500536" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Sprite10">
-            <plugin id="Sprite" />
-            <animation-folder expanded="1">
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.500536" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Sprite11">
-            <plugin id="Sprite" />
-            <animation-folder expanded="1">
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.500536" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Sprite12">
-            <plugin id="Sprite" />
-            <animation-folder expanded="1">
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.500536" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Sprite13">
-            <plugin id="Sprite" />
-            <animation-folder expanded="1">
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
-                    <frame duration="1" hotspotX="0.500606" hotspotY="0.500536" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Sprite14">
-            <plugin id="Sprite" />
-            <animation-folder expanded="1">
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.500536" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Sprite15">
-            <plugin id="Sprite" />
-            <animation-folder expanded="1">
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.500536" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Sprite16">
-            <plugin id="Sprite" />
-            <animation-folder expanded="1">
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.500536" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Sprite17">
-            <plugin id="Sprite" />
-            <animation-folder expanded="1">
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.500536" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Sprite19">
-            <plugin id="Sprite" />
-            <animation-folder expanded="1">
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.500536" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Sprite20">
-            <plugin id="Sprite" />
-            <animation-folder expanded="1">
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.500536" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Sprite21">
-            <plugin id="Sprite" />
-            <animation-folder expanded="1">
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.500536" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Sprite22">
-            <plugin id="Sprite" />
-            <animation-folder expanded="1">
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.500536" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Sprite24">
-            <plugin id="Sprite" />
-            <animation-folder expanded="1">
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.500536" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Sprite25">
-            <plugin id="Sprite" />
-            <animation-folder expanded="1">
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.500536" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Sprite26">
-            <plugin id="Sprite" />
-            <animation-folder expanded="1">
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.500536" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Sprite27">
-            <plugin id="Sprite" />
-            <animation-folder expanded="1">
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.500536" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Sprite28">
-            <plugin id="Sprite" />
-            <animation-folder expanded="1">
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
-                    <frame duration="1" hotspotX="0.500606" hotspotY="0.500536" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Sprite29">
-            <plugin id="Sprite" />
-            <animation-folder expanded="1">
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Sprite30">
-            <plugin id="Sprite" />
-            <animation-folder expanded="1">
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Sprite31">
-            <plugin id="Sprite" />
-            <animation-folder expanded="1">
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Sprite32">
-            <plugin id="Sprite" />
-            <animation-folder expanded="1">
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Sprite33">
-            <plugin id="Sprite" />
-            <animation-folder expanded="1">
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
-                    <frame duration="1" hotspotX="0.500606" hotspotY="0.5" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Sprite18">
-            <plugin id="Sprite" />
-            <animation-folder expanded="1">
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
-                    <frame duration="1" hotspotX="0.500606" hotspotY="0.500536" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Sprite23">
-            <plugin id="Sprite" />
-            <animation-folder expanded="1">
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
-                    <frame duration="1" hotspotX="0.500606" hotspotY="0.500536" />
+                    <frame duration="1" format="jpeg" hotspotX="0.5" hotspotY="0.5" quality="80">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0.000976563" y="0.998698" />
+                        </collision-poly>
+                    </frame>
                 </animation>
             </animation-folder>
         </object-type>
@@ -1039,7 +806,7 @@
             <plugin id="Sprite" />
             <animation-folder expanded="1">
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" format="jpeg" hotspotX="0.5" hotspotY="0.5" quality="80" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -1112,7 +879,7 @@
             <plugin id="Sprite" />
             <animation-folder expanded="1">
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" format="jpeg" hotspotX="0.5" hotspotY="0.5" quality="80" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -1120,7 +887,7 @@
             <plugin id="Sprite" />
             <animation-folder expanded="1">
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" format="jpeg" hotspotX="0.5" hotspotY="0.5" quality="80" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -1164,6 +931,246 @@
                             <point x="0.145401" y="0.5" />
                         </collision-poly>
                     </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite2">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
+                    <frame duration="1" format="jpeg" hotspotX="0.5" hotspotY="0.500536" quality="80" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite3">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
+                    <frame duration="1" format="jpeg" hotspotX="0.5" hotspotY="0.500536" quality="80" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite4">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
+                    <frame duration="1" format="jpeg" hotspotX="0.5" hotspotY="0.500536" quality="80" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite6">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
+                    <frame duration="1" format="jpeg" hotspotX="0.5" hotspotY="0.500536" quality="80" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite7">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
+                    <frame duration="1" format="jpeg" hotspotX="0.500606" hotspotY="0.500536" quality="80" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite8">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
+                    <frame duration="1" format="jpeg" hotspotX="0.5" hotspotY="0.500536" quality="80" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite9">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
+                    <frame duration="1" format="jpeg" hotspotX="0.5" hotspotY="0.500536" quality="80" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite10">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
+                    <frame duration="1" format="jpeg" hotspotX="0.5" hotspotY="0.500536" quality="80" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite11">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
+                    <frame duration="1" format="jpeg" hotspotX="0.5" hotspotY="0.500536" quality="80" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite12">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
+                    <frame duration="1" format="jpeg" hotspotX="0.500606" hotspotY="0.500536" quality="80" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite13">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
+                    <frame duration="1" format="jpeg" hotspotX="0.5" hotspotY="0.500536" quality="80" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite14">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
+                    <frame duration="1" format="jpeg" hotspotX="0.5" hotspotY="0.500536" quality="80" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite15">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
+                    <frame duration="1" format="jpeg" hotspotX="0.5" hotspotY="0.500536" quality="80" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite16">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
+                    <frame duration="1" format="jpeg" hotspotX="0.5" hotspotY="0.500536" quality="80" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite17">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
+                    <frame duration="1" format="jpeg" hotspotX="0.500606" hotspotY="0.500536" quality="80" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite18">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
+                    <frame duration="1" format="jpeg" hotspotX="0.5" hotspotY="0.500536" quality="80" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite19">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
+                    <frame duration="1" format="jpeg" hotspotX="0.5" hotspotY="0.500536" quality="80" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite20">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
+                    <frame duration="1" format="jpeg" hotspotX="0.5" hotspotY="0.500536" quality="80" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite21">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
+                    <frame duration="1" format="jpeg" hotspotX="0.5" hotspotY="0.500536" quality="80" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite22">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
+                    <frame duration="1" format="jpeg" hotspotX="0.500606" hotspotY="0.500536" quality="80" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite23">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
+                    <frame duration="1" format="jpeg" hotspotX="0.5" hotspotY="0.500536" quality="80" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite24">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
+                    <frame duration="1" format="jpeg" hotspotX="0.5" hotspotY="0.500536" quality="80" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite25">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
+                    <frame duration="1" format="jpeg" hotspotX="0.5" hotspotY="0.500536" quality="80" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite26">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
+                    <frame duration="1" format="jpeg" hotspotX="0.5" hotspotY="0.500536" quality="80" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite27">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
+                    <frame duration="1" format="jpeg" hotspotX="0.500606" hotspotY="0.500536" quality="80" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite28">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
+                    <frame duration="1" format="jpeg" hotspotX="0.5" hotspotY="0.5" quality="80" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite29">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
+                    <frame duration="1" format="jpeg" hotspotX="0.5" hotspotY="0.5" quality="80" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite30">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
+                    <frame duration="1" format="jpeg" hotspotX="0.5" hotspotY="0.5" quality="80" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite31">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
+                    <frame duration="1" format="jpeg" hotspotX="0.5" hotspotY="0.5" quality="80" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite32">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
+                    <frame duration="1" format="jpeg" hotspotX="0.500606" hotspotY="0.5" quality="80" />
                 </animation>
             </animation-folder>
         </object-type>

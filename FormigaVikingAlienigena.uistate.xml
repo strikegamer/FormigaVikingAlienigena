@@ -12,10 +12,14 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     <open-tabs>
         <layout>Level1</layout>
         <layout>Level1Complete</layout>
-        <layout active="1">menuInicial</layout>
+        <layout>menuInicial</layout>
         <layout>creditos</layout>
         <layout>instrucoes</layout>
+        <layout active="1">Intro</layout>
         <event-sheet>level1Events</event-sheet>
+        <event-sheet>IntroEvents</event-sheet>
+        <event-sheet>menuIniciar</event-sheet>
+        <event-sheet>Level1CompleteEvents</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="Project settings" />

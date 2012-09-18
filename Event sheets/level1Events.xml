@@ -7,7 +7,7 @@
         <variable comment="Quantidade de vidas" name="Dead" type="number">0</variable>
         <variable name="zoom" type="number">1</variable>
         <variable name="qtdTotalFormigas" type="number">1</variable>
-        <event-group description="" title="System">
+        <event-group collapsed="1" description="" title="System">
             <sub-events>
                 <event-block>
                     <conditions>
@@ -538,7 +538,7 @@
                 </event-block>
             </sub-events>
         </event-group>
-        <event-group description="" title="Tamandua">
+        <event-group collapsed="1" description="" title="Tamandua">
             <sub-events>
                 <event-block>
                     <conditions />
@@ -801,7 +801,7 @@
                 </event-block>
             </sub-events>
         </event-group>
-        <event-group description="" inactive="1" title="EndingZoom">
+        <event-group collapsed="1" description="" inactive="1" title="EndingZoom">
             <sub-events>
                 <event-block>
                     <conditions>

@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>IntroEvents</name>
+    <events>
+        <event-block>
+            <conditions>
+                <condition id="-2" name="On start of layout" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Play" type="Audio">
+                    <param id="0" name="Audio file">intro mixdown</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="1" name="Tag (optional)">&quot;Intro&quot;</param>
+                </action>
+                <action id="-16" name="Wait" type="System">
+                    <param id="0" name="Seconds">3</param>
+                </action>
+                <action behavior="Fade" id="0" name="Restart fade" type="Intro" />
+                <action id="4" name="Set animation" type="Intro">
+                    <param id="0" name="Animation">&quot;Intro2&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="-16" name="Wait" type="System">
+                    <param id="0" name="Seconds">3</param>
+                </action>
+                <action behavior="Fade" id="0" name="Restart fade" type="Intro" />
+                <action id="4" name="Set animation" type="Intro">
+                    <param id="0" name="Animation">&quot;Intro3&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="-16" name="Wait" type="System">
+                    <param id="0" name="Seconds">3</param>
+                </action>
+                <action behavior="Fade" disabled="1" id="0" name="Restart fade" type="Intro" />
+                <action id="4" name="Set animation" type="Intro">
+                    <param id="0" name="Animation">&quot;Intro4&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="-16" name="Wait" type="System">
+                    <param id="0" name="Seconds">3</param>
+                </action>
+                <action behavior="Fade" disabled="1" id="0" name="Restart fade" type="Intro" />
+                <action id="4" name="Set animation" type="Intro">
+                    <param id="0" name="Animation">&quot;Intro5&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="-16" name="Wait" type="System">
+                    <param id="0" name="Seconds">3</param>
+                </action>
+                <action behavior="Fade" disabled="1" id="0" name="Restart fade" type="Intro" />
+                <action id="4" name="Set animation" type="Intro">
+                    <param id="0" name="Animation">&quot;Intro6&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="-16" name="Wait" type="System">
+                    <param id="0" name="Seconds">4</param>
+                </action>
+                <action behavior="Fade" disabled="1" id="0" name="Restart fade" type="Intro" />
+                <action id="4" name="Set animation" type="Intro">
+                    <param id="0" name="Animation">&quot;Intro7&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="-16" name="Wait" type="System">
+                    <param id="0" name="Seconds">3</param>
+                </action>
+                <action behavior="Fade" disabled="1" id="0" name="Restart fade" type="Intro" />
+                <action id="4" name="Set animation" type="Intro">
+                    <param id="0" name="Animation">&quot;Intro8&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="-16" name="Wait" type="System">
+                    <param id="0" name="Seconds">4.7</param>
+                </action>
+                <action behavior="Fade" id="0" name="Restart fade" type="Intro" />
+                <action id="4" name="Set animation" type="Intro">
+                    <param id="0" name="Animation">&quot;Intro9&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action behavior="Fade" id="1" name="Start fade" type="Intro" />
+                <action id="-16" name="Wait" type="System">
+                    <param id="0" name="Seconds">3.5</param>
+                </action>
+                <action id="-25" name="Go to layout (by name)" type="System">
+                    <param id="0" name="Layout">&quot;Level1&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block>
+            <conditions>
+                <condition id="0" name="On key pressed" type="Keyboard">
+                    <param id="0" name="Key">13 (Return)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="6" name="Stop" type="Audio">
+                    <param id="0" name="Tag">&quot;Intro&quot;</param>
+                </action>
+                <action id="-25" name="Go to layout (by name)" type="System">
+                    <param id="0" name="Layout">&quot;Level1&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

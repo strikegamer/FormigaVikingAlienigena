@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>gameOverEvents</name>
+    <events>
+        <variable name="gameOverSelectedItem" type="number">0</variable>
+        <event-block>
+            <conditions>
+                <condition id="-14" name="Compare variable" type="System">
+                    <param id="0" name="Variable">gameOverSelectedItem</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">jogarNovamente.select</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" type="jogarNovamente">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block>
+                    <conditions>
+                        <condition id="0" name="On key pressed" type="Keyboard">
+                            <param id="0" name="Key">13 (Return)</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="6" name="Stop" type="Audio">
+                            <param id="0" name="Tag">&quot;gameOver&quot;</param>
+                        </action>
+                        <action id="-25" name="Go to layout (by name)" type="System">
+                            <param id="0" name="Layout">&quot;Level1&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block>
+            <conditions>
+                <condition id="-14" name="Compare variable" type="System">
+                    <param id="0" name="Variable">gameOverSelectedItem</param>
+                    <param id="1" name="Comparison">1</param>
+                    <param id="2" name="Value">jogarNovamente.select </param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" type="jogarNovamente">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block>
+            <conditions>
+                <condition id="3" name="On key released" type="Keyboard">
+                    <param id="0" name="Key">38 (Up arrow)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" type="System">
+                    <param id="0" name="Variable">gameOverSelectedItem</param>
+                    <param id="1" name="Value">gameOverSelectedItem -1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block>
+            <conditions>
+                <condition id="3" name="On key released" type="Keyboard">
+                    <param id="0" name="Key">40 (Down arrow)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" type="System">
+                    <param id="0" name="Variable">gameOverSelectedItem</param>
+                    <param id="1" name="Value">gameOverSelectedItem +1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block>
+            <conditions>
+                <condition id="-14" name="Compare variable" type="System">
+                    <param id="0" name="Variable">gameOverSelectedItem</param>
+                    <param id="1" name="Comparison">2</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" type="System">
+                    <param id="0" name="Variable">gameOverSelectedItem</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block>
+            <conditions>
+                <condition id="-14" name="Compare variable" type="System">
+                    <param id="0" name="Variable">gameOverSelectedItem</param>
+                    <param id="1" name="Comparison">4</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" type="System">
+                    <param id="0" name="Variable">gameOverSelectedItem</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block>
+            <conditions>
+                <condition id="-14" name="Compare variable" type="System">
+                    <param id="0" name="Variable">gameOverSelectedItem</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">menuInicial.select</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" type="menuInicial">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block>
+                    <conditions>
+                        <condition id="0" name="On key pressed" type="Keyboard">
+                            <param id="0" name="Key">13 (Return)</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="6" name="Stop" type="Audio">
+                            <param id="0" name="Tag">&quot;gameOver&quot;</param>
+                        </action>
+                        <action id="-25" name="Go to layout (by name)" type="System">
+                            <param id="0" name="Layout">&quot;menuInicial&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block>
+            <conditions>
+                <condition id="-14" name="Compare variable" type="System">
+                    <param id="0" name="Variable">gameOverSelectedItem</param>
+                    <param id="1" name="Comparison">1</param>
+                    <param id="2" name="Value">menuInicial.select </param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" type="menuInicial">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block>
+            <conditions>
+                <condition id="-2" name="On start of layout" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Play" type="Audio">
+                    <param id="0" name="Audio file">02 game over</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="1" name="Tag (optional)">&quot;gameOver&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

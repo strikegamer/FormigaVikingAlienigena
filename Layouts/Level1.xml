@@ -10,7 +10,7 @@
         <horizontal>500</horizontal>
         <vertical>500</vertical>
     </margins>
-    <unbounded-scrolling>1</unbounded-scrolling>
+    <unbounded-scrolling>0</unbounded-scrolling>
     <layers>
         <layer name="Background">
             <initially-visible>1</initially-visible>
@@ -507,7 +507,7 @@
                     </properties>
                     <world>
                         <x>665</x>
-                        <y>4907</y>
+                        <y>4906</y>
                         <z>0</z>
                         <width>826</width>
                         <height>932</height>
@@ -526,7 +526,7 @@
                     </properties>
                     <world>
                         <x>1490</x>
-                        <y>4908</y>
+                        <y>4907</y>
                         <z>0</z>
                         <width>826</width>
                         <height>932</height>
@@ -545,7 +545,7 @@
                     </properties>
                     <world>
                         <x>2315</x>
-                        <y>4908</y>
+                        <y>4907</y>
                         <z>0</z>
                         <width>826</width>
                         <height>932</height>
@@ -564,7 +564,7 @@
                     </properties>
                     <world>
                         <x>3140</x>
-                        <y>4908</y>
+                        <y>4907</y>
                         <z>0</z>
                         <width>826</width>
                         <height>932</height>
@@ -583,7 +583,7 @@
                     </properties>
                     <world>
                         <x>3964</x>
-                        <y>4908</y>
+                        <y>4907</y>
                         <z>0</z>
                         <width>825</width>
                         <height>932</height>
@@ -653,8 +653,8 @@
                         <effect>(none)</effect>
                     </properties>
                     <world>
-                        <x>1471.500244141</x>
-                        <y>3731.502685547</y>
+                        <x>1532</x>
+                        <y>3672</y>
                         <z>0</z>
                         <width>47</width>
                         <height>65</height>
@@ -686,8 +686,8 @@
                         </behavior-instance>
                     </behavior-instances>
                     <world>
-                        <x>1636</x>
-                        <y>719</y>
+                        <x>1661</x>
+                        <y>729</y>
                         <z>0</z>
                         <width>87.078514099</width>
                         <height>42.099937439</height>
@@ -790,8 +790,8 @@
                         <behavior-instance type="ScrollTo" />
                     </behavior-instances>
                     <world>
-                        <x>2305</x>
-                        <y>467</y>
+                        <x>2315</x>
+                        <y>477</y>
                         <z>0</z>
                         <width>87.07900238</width>
                         <height>42.099998474</height>
@@ -4035,7 +4035,7 @@
                     <behavior-instances>
                         <behavior-instance type="Platform">
                             <properties>
-                                <max-speed>330</max-speed>
+                                <max-speed>360</max-speed>
                                 <acceleration>1500</acceleration>
                                 <deceleration>1500</deceleration>
                                 <jump-strength>650</jump-strength>
@@ -5976,6 +5976,129 @@
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
                         <angle>0.178240955</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+            </instances>
+        </layer>
+        <layer name="info">
+            <initially-visible>1</initially-visible>
+            <background-color>255,255,255</background-color>
+            <transparent>1</transparent>
+            <parallax>
+                <x>0</x>
+                <y>0</y>
+            </parallax>
+            <zoom-rate>1</zoom-rate>
+            <opacity>1</opacity>
+            <force-own-texture>0</force-own-texture>
+            <instances>
+                <instance type="bugsLife">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <world>
+                        <x>3</x>
+                        <y>75</y>
+                        <z>0</z>
+                        <width>186</width>
+                        <height>56</height>
+                        <depth>0</depth>
+                        <hotspotX>-0.027624309</hotspotX>
+                        <hotspotY>1.170212746</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="pause">
+                    <properties>
+                        <initial-visibility>Invisible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <world>
+                        <x>513</x>
+                        <y>354</y>
+                        <z>0</z>
+                        <width>236</width>
+                        <height>61</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.508196712</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+            </instances>
+        </layer>
+        <layer name="Touch">
+            <initially-visible>0</initially-visible>
+            <background-color>255,255,255</background-color>
+            <transparent>1</transparent>
+            <parallax>
+                <x>0</x>
+                <y>0</y>
+            </parallax>
+            <zoom-rate>1</zoom-rate>
+            <opacity>1</opacity>
+            <force-own-texture>0</force-own-texture>
+            <instances>
+                <instance type="TouchLeft">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <world>
+                        <x>110</x>
+                        <y>670</y>
+                        <z>0</z>
+                        <width>100</width>
+                        <height>100</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="touchRight">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <world>
+                        <x>262</x>
+                        <y>670</y>
+                        <z>0</z>
+                        <width>100</width>
+                        <height>100</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="touchJump">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <world>
+                        <x>915</x>
+                        <y>670</y>
+                        <z>0</z>
+                        <width>100</width>
+                        <height>100</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>

@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>loaderEvents</name>
+    <events>
+        <event-block>
+            <conditions>
+                <condition id="-2" name="On start of layout" type="System" />
+            </conditions>
+            <actions>
+                <action id="4" name="Preload" type="Audio">
+                    <param id="0" name="Audio file">01 tema jogo red. final</param>
+                </action>
+                <action id="4" name="Preload" type="Audio">
+                    <param id="0" name="Audio file">intro mixdown</param>
+                </action>
+                <action id="4" name="Preload" type="Audio">
+                    <param id="0" name="Audio file">03 Abertura</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block>
+            <conditions>
+                <condition id="-1" name="Every tick" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" type="LoadingText">
+                    <param id="0" name="Text">round(loadingprogress * 100) &amp; &quot;%&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block>
+            <conditions>
+                <condition id="0" name="Compare text" type="LoadingText">
+                    <param id="0" name="Text to compare">&quot;100%&quot;</param>
+                    <param id="1" name="Case sensitivity">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-25" name="Go to layout (by name)" type="System">
+                    <param id="0" name="Layout">&quot;menuInicial&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

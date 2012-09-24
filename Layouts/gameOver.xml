@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2layout>
+    <name>gameOver</name>
+    <event-sheet>gameOverEvents</event-sheet>
+    <size>
+        <width>1024</width>
+        <height>768</height>
+    </size>
+    <margins>
+        <horizontal>500</horizontal>
+        <vertical>500</vertical>
+    </margins>
+    <unbounded-scrolling>0</unbounded-scrolling>
+    <layers>
+        <layer name="Layer 0">
+            <initially-visible>1</initially-visible>
+            <background-color>255,255,255</background-color>
+            <transparent>0</transparent>
+            <parallax>
+                <x>1</x>
+                <y>1</y>
+            </parallax>
+            <zoom-rate>1</zoom-rate>
+            <opacity>1</opacity>
+            <force-own-texture>0</force-own-texture>
+            <instances>
+                <instance type="Sprite35">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <world>
+                        <x>512</x>
+                        <y>384</y>
+                        <z>0</z>
+                        <width>1024</width>
+                        <height>768</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="jogarNovamente">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <instance-variables>
+                        <select>0</select>
+                    </instance-variables>
+                    <world>
+                        <x>776</x>
+                        <y>261</y>
+                        <z>0</z>
+                        <width>402</width>
+                        <height>65</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.507692337</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="menuInicial">
+                    <properties>
+                        <initial-visibility>Invisible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <instance-variables>
+                        <select>1</select>
+                    </instance-variables>
+                    <world>
+                        <x>735</x>
+                        <y>318</y>
+                        <z>0</z>
+                        <width>310</width>
+                        <height>53</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.509433985</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+            </instances>
+        </layer>
+    </layers>
+    <nonworld-instances />
+</c2layout>

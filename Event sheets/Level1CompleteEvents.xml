@@ -2,5 +2,58 @@
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Level1CompleteEvents</name>
-    <events />
+    <events>
+        <event-block>
+            <conditions>
+                <condition id="-2" name="On start of layout" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Play" type="Audio">
+                    <param id="0" name="Audio file">final scene master-01</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="1" name="Tag (optional)">&quot;endMusic&quot;</param>
+                </action>
+                <action id="-16" name="Wait" type="System">
+                    <param id="0" name="Seconds">6</param>
+                </action>
+                <action id="4" name="Set animation" type="Ending">
+                    <param id="0" name="Animation">&quot;Part2&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="-16" name="Wait" type="System">
+                    <param id="0" name="Seconds">6</param>
+                </action>
+                <action id="4" name="Set animation" type="Ending">
+                    <param id="0" name="Animation">&quot;Part3&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="-16" name="Wait" type="System">
+                    <param id="0" name="Seconds">9.5</param>
+                </action>
+                <action behavior="Fade" id="0" name="Restart fade" type="Ending" />
+                <action id="4" name="Set animation" type="Ending">
+                    <param id="0" name="Animation">&quot;Part4&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block any="1">
+            <conditions>
+                <condition id="0" name="On key pressed" type="Keyboard">
+                    <param id="0" name="Key">13 (Return)</param>
+                </condition>
+                <condition id="0" name="On key pressed" type="Keyboard">
+                    <param id="0" name="Key">49 (1)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="6" name="Stop" type="Audio">
+                    <param id="0" name="Tag">&quot;endMusic&quot;</param>
+                </action>
+                <action id="-25" name="Go to layout (by name)" type="System">
+                    <param id="0" name="Layout">&quot;menuInicial&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
 </c2eventsheet>

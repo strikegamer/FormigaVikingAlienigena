@@ -20,10 +20,13 @@
                         </action>
                     </actions>
                     <sub-events>
-                        <event-block>
+                        <event-block any="1">
                             <conditions>
-                                <condition id="3" name="On key released" type="Keyboard">
+                                <condition id="0" name="On key pressed" type="Keyboard">
                                     <param id="0" name="Key">13 (Return)</param>
+                                </condition>
+                                <condition id="0" name="On key pressed" type="Keyboard">
+                                    <param id="0" name="Key">49 (1)</param>
                                 </condition>
                             </conditions>
                             <actions>
@@ -65,10 +68,13 @@
                         </action>
                     </actions>
                     <sub-events>
-                        <event-block>
+                        <event-block any="1">
                             <conditions>
-                                <condition id="3" name="On key released" type="Keyboard">
+                                <condition id="0" name="On key pressed" type="Keyboard">
                                     <param id="0" name="Key">13 (Return)</param>
+                                </condition>
+                                <condition id="0" name="On key pressed" type="Keyboard">
+                                    <param id="0" name="Key">49 (1)</param>
                                 </condition>
                             </conditions>
                             <actions>
@@ -107,10 +113,13 @@
                         </action>
                     </actions>
                     <sub-events>
-                        <event-block>
+                        <event-block any="1">
                             <conditions>
-                                <condition id="3" name="On key released" type="Keyboard">
+                                <condition id="0" name="On key pressed" type="Keyboard">
                                     <param id="0" name="Key">13 (Return)</param>
+                                </condition>
+                                <condition id="0" name="On key pressed" type="Keyboard">
+                                    <param id="0" name="Key">49 (1)</param>
                                 </condition>
                             </conditions>
                             <actions>
@@ -118,6 +127,10 @@
                                     <param id="0" name="Layout">creditos</param>
                                 </action>
                             </actions>
+                        </event-block>
+                        <event-block>
+                            <conditions />
+                            <actions />
                         </event-block>
                     </sub-events>
                 </event-block>
@@ -135,10 +148,13 @@
                         </action>
                     </actions>
                 </event-block>
-                <event-block>
+                <event-block any="1">
                     <conditions>
-                        <condition id="3" name="On key released" type="Keyboard">
+                        <condition id="0" name="On key pressed" type="Keyboard">
                             <param id="0" name="Key">40 (Down arrow)</param>
+                        </condition>
+                        <condition id="0" name="On key pressed" type="Keyboard">
+                            <param id="0" name="Key">87 (W)</param>
                         </condition>
                     </conditions>
                     <actions>
@@ -149,9 +165,16 @@
                     </actions>
                 </event-block>
                 <event-block>
+                    <conditions />
+                    <actions />
+                </event-block>
+                <event-block any="1">
                     <conditions>
-                        <condition id="3" name="On key released" type="Keyboard">
+                        <condition id="0" name="On key pressed" type="Keyboard">
                             <param id="0" name="Key">38 (Up arrow)</param>
+                        </condition>
+                        <condition id="0" name="On key pressed" type="Keyboard">
+                            <param id="0" name="Key">81 (Q)</param>
                         </condition>
                     </conditions>
                     <actions>
@@ -206,7 +229,9 @@
             </sub-events>
         </event-group>
         <event-block>
-            <conditions />
+            <conditions>
+                <condition id="-2" name="On start of layout" type="System" />
+            </conditions>
             <actions />
         </event-block>
     </events>

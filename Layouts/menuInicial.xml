@@ -3,8 +3,8 @@
     <name>menuInicial</name>
     <event-sheet>menuIniciar</event-sheet>
     <size>
-        <width>1280</width>
-        <height>1024</height>
+        <width>1024</width>
+        <height>768</height>
     </size>
     <margins>
         <horizontal>500</horizontal>
@@ -31,8 +31,8 @@
                         <effect>(none)</effect>
                     </properties>
                     <world>
-                        <x>511</x>
-                        <y>385</y>
+                        <x>512</x>
+                        <y>384</y>
                         <z>0</z>
                         <width>1024</width>
                         <height>768</height>

@@ -3,14 +3,14 @@
     <name>Intro</name>
     <event-sheet>IntroEvents</event-sheet>
     <size>
-        <width>1280</width>
-        <height>1024</height>
+        <width>1024</width>
+        <height>768</height>
     </size>
     <margins>
         <horizontal>500</horizontal>
         <vertical>500</vertical>
     </margins>
-    <unbounded-scrolling>0</unbounded-scrolling>
+    <unbounded-scrolling>1</unbounded-scrolling>
     <layers>
         <layer name="Layer 0">
             <initially-visible>1</initially-visible>
@@ -54,25 +54,21 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="txtSkip">
+                <instance type="imageSkip">
                     <properties>
-                        <text>Pressione ENTER para PULAR a introdução</text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Lucida Sans,-16,400,0</font>
-                        <color>255,255,51</color>
-                        <horizontal-alignment>Left</horizontal-alignment>
-                        <hotspot>Top-left</hotspot>
-                        <wrapping>Word</wrapping>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
                     </properties>
                     <world>
-                        <x>676</x>
-                        <y>731</y>
+                        <x>940</x>
+                        <y>41</y>
                         <z>0</z>
-                        <width>331</width>
-                        <height>22</height>
+                        <width>151</width>
+                        <height>53</height>
                         <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
+                        <hotspotX>0.503311276</hotspotX>
+                        <hotspotY>0.509433985</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

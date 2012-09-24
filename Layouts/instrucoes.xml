@@ -3,8 +3,8 @@
     <name>instrucoes</name>
     <event-sheet>credInstruc</event-sheet>
     <size>
-        <width>1280</width>
-        <height>1024</height>
+        <width>1024</width>
+        <height>768</height>
     </size>
     <margins>
         <horizontal>500</horizontal>

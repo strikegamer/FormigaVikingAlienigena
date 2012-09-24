@@ -84,12 +84,19 @@
                 <action id="-25" name="Go to layout (by name)" type="System">
                     <param id="0" name="Layout">&quot;Level1&quot;</param>
                 </action>
+                <action id="9" name="Preload (by name)" type="Audio">
+                    <param id="0" name="Folder">0</param>
+                    <param id="1" name="Audio file name">&quot;mainSound&quot;</param>
+                </action>
             </actions>
         </event-block>
-        <event-block>
+        <event-block any="1">
             <conditions>
                 <condition id="0" name="On key pressed" type="Keyboard">
                     <param id="0" name="Key">13 (Return)</param>
+                </condition>
+                <condition id="0" name="On key pressed" type="Keyboard">
+                    <param id="0" name="Key">49 (1)</param>
                 </condition>
             </conditions>
             <actions>

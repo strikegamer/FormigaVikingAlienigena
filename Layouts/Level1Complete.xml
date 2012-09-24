@@ -3,8 +3,8 @@
     <name>Level1Complete</name>
     <event-sheet>Level1CompleteEvents</event-sheet>
     <size>
-        <width>1280</width>
-        <height>1024</height>
+        <width>1024</width>
+        <height>768</height>
     </size>
     <margins>
         <horizontal>500</horizontal>
@@ -24,14 +24,25 @@
             <opacity>1</opacity>
             <force-own-texture>0</force-own-texture>
             <instances>
-                <instance type="Sprite">
+                <instance type="Ending">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-frame>0</initial-frame>
                         <effect>(none)</effect>
                     </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Fade">
+                            <properties>
+                                <active-at-start>No</active-at-start>
+                                <fade-in-time>1</fade-in-time>
+                                <wait-time>200</wait-time>
+                                <fade-out-time>1</fade-out-time>
+                                <destroy>No</destroy>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
                     <world>
-                        <x>513</x>
+                        <x>512</x>
                         <y>384</y>
                         <z>0</z>
                         <width>1024</width>

@@ -621,8 +621,8 @@
                         <width>85.611801147</width>
                         <height>70.046020508</height>
                         <depth>0</depth>
-                        <hotspotX>0.513834</hotspotX>
-                        <hotspotY>0.512077272</hotspotY>
+                        <hotspotX>0.948616624</hotspotX>
+                        <hotspotY>0.507246375</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -634,11 +634,11 @@
                         <effect>(none)</effect>
                     </properties>
                     <world>
-                        <x>2109</x>
-                        <y>3818</y>
+                        <x>2207.068359375</x>
+                        <y>3180.7890625</y>
                         <z>0</z>
-                        <width>1573</width>
-                        <height>1842</height>
+                        <width>844</width>
+                        <height>595</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -653,8 +653,8 @@
                         <effect>(none)</effect>
                     </properties>
                     <world>
-                        <x>1532</x>
-                        <y>3672</y>
+                        <x>1524</x>
+                        <y>3664</y>
                         <z>0</z>
                         <width>47</width>
                         <height>65</height>
@@ -813,7 +813,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Circle</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -848,7 +848,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Circle</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -883,7 +883,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Circle</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -895,8 +895,8 @@
                         </behavior-instance>
                     </behavior-instances>
                     <world>
-                        <x>1394.331665039</x>
-                        <y>973.840698242</y>
+                        <x>1393.049438477</x>
+                        <y>973.96887207</y>
                         <z>0</z>
                         <width>51.739849091</width>
                         <height>16.205928802</height>
@@ -918,7 +918,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Circle</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -953,7 +953,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Circle</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -988,7 +988,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Circle</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -1023,7 +1023,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Circle</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -1035,11 +1035,11 @@
                         </behavior-instance>
                     </behavior-instances>
                     <world>
-                        <x>1063.921142578</x>
-                        <y>1662.117431641</y>
+                        <x>1064.049194336</x>
+                        <y>1662.117675781</y>
                         <z>0</z>
-                        <width>133.999984741</width>
-                        <height>18.526842117</height>
+                        <width>134.046737671</width>
+                        <height>18.274793625</height>
                         <depth>0</depth>
                         <hotspotX>0.501170933</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -1058,7 +1058,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Circle</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -1093,7 +1093,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Circle</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -1128,7 +1128,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Circle</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -1163,7 +1163,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Circle</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -1175,11 +1175,11 @@
                         </behavior-instance>
                     </behavior-instances>
                     <world>
-                        <x>1247.510131836</x>
-                        <y>2563.169189453</y>
+                        <x>1246.996948242</x>
+                        <y>2563.618408203</y>
                         <z>0</z>
-                        <width>154.757095337</width>
-                        <height>18.526842117</height>
+                        <width>154.940582275</width>
+                        <height>19.878700256</height>
                         <depth>0</depth>
                         <hotspotX>0.501170933</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -1198,7 +1198,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Circle</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -1210,15 +1210,15 @@
                         </behavior-instance>
                     </behavior-instances>
                     <world>
-                        <x>1329.689697266</x>
-                        <y>2676.715332031</y>
+                        <x>1329.560302734</x>
+                        <y>2676.200195313</y>
                         <z>0</z>
-                        <width>129</width>
-                        <height>19</height>
+                        <width>128.17918396</width>
+                        <height>21.638811111</height>
                         <depth>0</depth>
                         <hotspotX>0.501170933</hotspotX>
                         <hotspotY>0.5</hotspotY>
-                        <angle>0.888788044</angle>
+                        <angle>0.889936626</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
@@ -1233,7 +1233,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Circle</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -1245,11 +1245,11 @@
                         </behavior-instance>
                     </behavior-instances>
                     <world>
-                        <x>1420.167236328</x>
-                        <y>2769.626953125</y>
+                        <x>1419.91027832</x>
+                        <y>2769.883056641</y>
                         <z>0</z>
-                        <width>137</width>
-                        <height>29</height>
+                        <width>136.994506836</width>
+                        <height>29.725990295</height>
                         <depth>0</depth>
                         <hotspotX>0.501170933</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -1268,7 +1268,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Circle</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -1280,11 +1280,11 @@
                         </behavior-instance>
                     </behavior-instances>
                     <world>
-                        <x>1512.222290039</x>
-                        <y>2850.319335938</y>
+                        <x>1512.158813477</x>
+                        <y>2850.640136719</y>
                         <z>0</z>
-                        <width>111.355857849</width>
-                        <height>39</height>
+                        <width>111.68812561</width>
+                        <height>39.562992096</height>
                         <depth>0</depth>
                         <hotspotX>0.501170933</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -1303,7 +1303,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Circle</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -1315,11 +1315,11 @@
                         </behavior-instance>
                     </behavior-instances>
                     <world>
-                        <x>1617.284057617</x>
-                        <y>2940.395996094</y>
+                        <x>1617.348632813</x>
+                        <y>2940.460205078</y>
                         <z>0</z>
-                        <width>170.762573242</width>
-                        <height>19</height>
+                        <width>170.940231323</width>
+                        <height>19.038118362</height>
                         <depth>0</depth>
                         <hotspotX>0.501170933</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -1338,7 +1338,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Circle</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -1373,7 +1373,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Circle</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -1385,11 +1385,11 @@
                         </behavior-instance>
                     </behavior-instances>
                     <world>
-                        <x>1881.826904297</x>
+                        <x>1881.377197266</x>
                         <y>3071.348144531</y>
                         <z>0</z>
-                        <width>160.428039551</width>
-                        <height>18.526842117</height>
+                        <width>159.589233398</width>
+                        <height>18.845621109</height>
                         <depth>0</depth>
                         <hotspotX>0.501170933</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -1408,7 +1408,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Circle</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -1443,7 +1443,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Circle</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -1455,11 +1455,11 @@
                         </behavior-instance>
                     </behavior-instances>
                     <world>
-                        <x>2138.405517578</x>
-                        <y>3137.951660156</y>
+                        <x>2135.255126953</x>
+                        <y>3137.437011719</y>
                         <z>0</z>
-                        <width>136</width>
-                        <height>19</height>
+                        <width>129.630615234</width>
+                        <height>18.981323242</height>
                         <depth>0</depth>
                         <hotspotX>0.501170933</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -1478,7 +1478,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Circle</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -1490,11 +1490,11 @@
                         </behavior-instance>
                     </behavior-instances>
                     <world>
-                        <x>2275.146728516</x>
-                        <y>3150.890625</y>
+                        <x>2275.210449219</x>
+                        <y>3150.955078125</y>
                         <z>0</z>
-                        <width>155.672805786</width>
-                        <height>19</height>
+                        <width>155.805252075</width>
+                        <height>19.122999191</height>
                         <depth>0</depth>
                         <hotspotX>0.501170933</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -1513,7 +1513,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Circle</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -1525,11 +1525,11 @@
                         </behavior-instance>
                     </behavior-instances>
                     <world>
-                        <x>2454.936279297</x>
-                        <y>3144.645019531</y>
+                        <x>2454.73828125</x>
+                        <y>3144.554443359</y>
                         <z>0</z>
-                        <width>78.203102112</width>
-                        <height>18.526842117</height>
+                        <width>77.841812134</width>
+                        <height>18.287546158</height>
                         <depth>0</depth>
                         <hotspotX>0.501170933</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -1548,7 +1548,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Circle</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -1560,11 +1560,11 @@
                         </behavior-instance>
                     </behavior-instances>
                     <world>
-                        <x>2596.174316406</x>
-                        <y>3110.742675781</y>
+                        <x>2596.110351563</x>
+                        <y>3109.780761719</y>
                         <z>0</z>
-                        <width>82.041923523</width>
-                        <height>19.758058548</height>
+                        <width>82.175262451</width>
+                        <height>17.83480835</height>
                         <depth>0</depth>
                         <hotspotX>0.501170933</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -1583,7 +1583,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Circle</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -1595,11 +1595,11 @@
                         </behavior-instance>
                     </behavior-instances>
                     <world>
-                        <x>2780.49609375</x>
-                        <y>3060.775878906</y>
+                        <x>2780.111083984</x>
+                        <y>3060.069824219</y>
                         <z>0</z>
-                        <width>89.989334106</width>
-                        <height>18.526842117</height>
+                        <width>89.807090759</width>
+                        <height>16.928592682</height>
                         <depth>0</depth>
                         <hotspotX>0.501170933</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -1618,7 +1618,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Circle</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -1630,11 +1630,11 @@
                         </behavior-instance>
                     </behavior-instances>
                     <world>
-                        <x>2879.320556641</x>
-                        <y>3020.211425781</y>
+                        <x>2879.127929688</x>
+                        <y>3019.569335938</y>
                         <z>0</z>
-                        <width>133.999984741</width>
-                        <height>18.526842117</height>
+                        <width>134.128509521</width>
+                        <height>17.19269371</height>
                         <depth>0</depth>
                         <hotspotX>0.501170933</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -1653,7 +1653,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Circle</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -1665,11 +1665,11 @@
                         </behavior-instance>
                     </behavior-instances>
                     <world>
-                        <x>2997.948486328</x>
-                        <y>2962.174316406</y>
+                        <x>2997.563476563</x>
+                        <y>2961.597167969</y>
                         <z>0</z>
-                        <width>133.999984741</width>
-                        <height>18.526842117</height>
+                        <width>133.909591675</width>
+                        <height>17.14276886</height>
                         <depth>0</depth>
                         <hotspotX>0.501170933</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -1688,7 +1688,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Circle</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -1700,11 +1700,11 @@
                         </behavior-instance>
                     </behavior-instances>
                     <world>
-                        <x>3109.948242188</x>
-                        <y>2886.387207031</y>
+                        <x>3109.0390625</x>
+                        <y>2886.131835938</y>
                         <z>0</z>
-                        <width>139</width>
-                        <height>19</height>
+                        <width>139.56237793</width>
+                        <height>17.48122406</height>
                         <depth>0</depth>
                         <hotspotX>0.501170933</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -1723,7 +1723,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Circle</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -1735,11 +1735,11 @@
                         </behavior-instance>
                     </behavior-instances>
                     <world>
-                        <x>3212.015380859</x>
-                        <y>2798.920410156</y>
+                        <x>3211.315917969</x>
+                        <y>2798.213867188</y>
                         <z>0</z>
-                        <width>133.999984741</width>
-                        <height>18.526842117</height>
+                        <width>133.976928711</width>
+                        <height>16.538036346</height>
                         <depth>0</depth>
                         <hotspotX>0.501170933</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -1758,7 +1758,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Circle</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -1770,15 +1770,15 @@
                         </behavior-instance>
                     </behavior-instances>
                     <world>
-                        <x>3303.460449219</x>
-                        <y>2699.082763672</y>
+                        <x>3302.255615234</x>
+                        <y>2699.718994141</y>
                         <z>0</z>
-                        <width>142</width>
-                        <height>19</height>
+                        <width>139.479446411</width>
+                        <height>17.979047775</height>
                         <depth>0</depth>
                         <hotspotX>0.501170933</hotspotX>
                         <hotspotY>0.5</hotspotY>
-                        <angle>-0.88460809</angle>
+                        <angle>-0.869706094</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
@@ -1793,7 +1793,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Circle</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -1805,11 +1805,11 @@
                         </behavior-instance>
                     </behavior-instances>
                     <world>
-                        <x>3384.712158203</x>
-                        <y>2593.025878906</y>
+                        <x>3384.669189453</x>
+                        <y>2592.995605469</y>
                         <z>0</z>
                         <width>133.999984741</width>
-                        <height>18.526842117</height>
+                        <height>18.42175293</height>
                         <depth>0</depth>
                         <hotspotX>0.501170933</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -1828,7 +1828,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Circle</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -1840,11 +1840,11 @@
                         </behavior-instance>
                     </behavior-instances>
                     <world>
-                        <x>3438.733154297</x>
-                        <y>2509.494140625</y>
+                        <x>3438.684326172</x>
+                        <y>2509.467285156</y>
                         <z>0</z>
                         <width>68.345855713</width>
-                        <height>19</height>
+                        <height>18.88845253</height>
                         <depth>0</depth>
                         <hotspotX>0.501170933</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -1863,7 +1863,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Circle</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -1898,7 +1898,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Circle</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -1933,7 +1933,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Circle</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -1945,15 +1945,15 @@
                         </behavior-instance>
                     </behavior-instances>
                     <world>
-                        <x>3561.828125</x>
-                        <y>2117.806396484</y>
+                        <x>3559.747070313</x>
+                        <y>2116.744140625</y>
                         <z>0</z>
-                        <width>70</width>
-                        <height>19</height>
+                        <width>71.82194519</width>
+                        <height>20.324668884</height>
                         <depth>0</depth>
                         <hotspotX>0.501170933</hotspotX>
                         <hotspotY>0.5</hotspotY>
-                        <angle>-0.658592403</angle>
+                        <angle>-0.550876677</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
@@ -1968,7 +1968,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Circle</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -1980,11 +1980,11 @@
                         </behavior-instance>
                     </behavior-instances>
                     <world>
-                        <x>3592.983886719</x>
-                        <y>2050.395996094</y>
+                        <x>3593.201171875</x>
+                        <y>2053.966796875</y>
                         <z>0</z>
-                        <width>105.078201294</width>
-                        <height>19</height>
+                        <width>103.911682129</width>
+                        <height>17.49968338</height>
                         <depth>0</depth>
                         <hotspotX>0.501170933</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -2003,7 +2003,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Circle</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -2015,15 +2015,15 @@
                         </behavior-instance>
                     </behavior-instances>
                     <world>
-                        <x>3602.634521484</x>
-                        <y>1949.933227539</y>
+                        <x>3602.275878906</x>
+                        <y>1950.061035156</y>
                         <z>0</z>
                         <width>109</width>
                         <height>19</height>
                         <depth>0</depth>
                         <hotspotX>0.501170933</hotspotX>
                         <hotspotY>0.5</hotspotY>
-                        <angle>-1.506043196</angle>
+                        <angle>-1.495844603</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
@@ -2038,7 +2038,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Circle</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -2050,11 +2050,11 @@
                         </behavior-instance>
                     </behavior-instances>
                     <world>
-                        <x>3605.119628906</x>
-                        <y>1842.462036133</y>
+                        <x>3604.862792969</x>
+                        <y>1842.470458984</y>
                         <z>0</z>
                         <width>110.75907135</width>
-                        <height>19</height>
+                        <height>18.486112595</height>
                         <depth>0</depth>
                         <hotspotX>0.501170933</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -2073,7 +2073,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Circle</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -2085,15 +2085,15 @@
                         </behavior-instance>
                     </behavior-instances>
                     <world>
-                        <x>3598.627929688</x>
-                        <y>1735.806518555</y>
+                        <x>3597.988525391</x>
+                        <y>1735.819824219</y>
                         <z>0</z>
                         <width>109</width>
-                        <height>19</height>
+                        <height>18.744325638</height>
                         <depth>0</depth>
                         <hotspotX>0.501170933</hotspotX>
                         <hotspotY>0.5</hotspotY>
-                        <angle>-1.675415516</angle>
+                        <angle>-1.666239262</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
@@ -2108,7 +2108,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Circle</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -2120,11 +2120,11 @@
                         </behavior-instance>
                     </behavior-instances>
                     <world>
-                        <x>3582.228027344</x>
-                        <y>1629.806518555</y>
+                        <x>3581.912109375</x>
+                        <y>1629.873535156</y>
                         <z>0</z>
                         <width>109</width>
-                        <height>19</height>
+                        <height>18.353746414</height>
                         <depth>0</depth>
                         <hotspotX>0.501170933</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -2143,7 +2143,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Circle</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -2155,11 +2155,11 @@
                         </behavior-instance>
                     </behavior-instances>
                     <world>
-                        <x>3556.228027344</x>
-                        <y>1525.739746094</y>
+                        <x>3555.776855469</x>
+                        <y>1526.208496094</y>
                         <z>0</z>
                         <width>109</width>
-                        <height>19</height>
+                        <height>17.52551651</height>
                         <depth>0</depth>
                         <hotspotX>0.501170933</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -2178,7 +2178,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Circle</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -2190,15 +2190,15 @@
                         </behavior-instance>
                     </behavior-instances>
                     <world>
-                        <x>3522.754882813</x>
-                        <y>1424.079589844</y>
+                        <x>3521.672851563</x>
+                        <y>1423.623535156</y>
                         <z>0</z>
-                        <width>109</width>
+                        <width>110.209709167</width>
                         <height>19</height>
                         <depth>0</depth>
                         <hotspotX>0.501170933</hotspotX>
                         <hotspotY>0.5</hotspotY>
-                        <angle>-1.924530506</angle>
+                        <angle>-1.90898478</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
@@ -2213,7 +2213,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Circle</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -2248,7 +2248,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Circle</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -2283,7 +2283,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Circle</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -2295,11 +2295,11 @@
                         </behavior-instance>
                     </behavior-instances>
                     <world>
-                        <x>3372.154785156</x>
-                        <y>1139.400512695</y>
+                        <x>3371.80078125</x>
+                        <y>1139.64453125</y>
                         <z>0</z>
                         <width>112.532730103</width>
-                        <height>19</height>
+                        <height>18.139871597</height>
                         <depth>0</depth>
                         <hotspotX>0.501170933</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -2318,7 +2318,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Circle</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -2330,11 +2330,11 @@
                         </behavior-instance>
                     </behavior-instances>
                     <world>
-                        <x>3304.830566406</x>
-                        <y>1052.979003906</y>
+                        <x>3304.621826172</x>
+                        <y>1053.161376953</y>
                         <z>0</z>
                         <width>111.235084534</width>
-                        <height>19</height>
+                        <height>18.445869446</height>
                         <depth>0</depth>
                         <hotspotX>0.501170933</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -2353,7 +2353,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Circle</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -2365,15 +2365,15 @@
                         </behavior-instance>
                     </behavior-instances>
                     <world>
-                        <x>3231.434570313</x>
-                        <y>973.887573242</y>
+                        <x>3230.566894531</x>
+                        <y>973.894287109</y>
                         <z>0</z>
-                        <width>109</width>
-                        <height>19</height>
+                        <width>110.633102417</width>
+                        <height>18.797369003</height>
                         <depth>0</depth>
                         <hotspotX>0.501170933</hotspotX>
                         <hotspotY>0.5</hotspotY>
-                        <angle>-2.353512049</angle>
+                        <angle>-2.350064754</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
@@ -2388,7 +2388,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Circle</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -2400,11 +2400,11 @@
                         </behavior-instance>
                     </behavior-instances>
                     <world>
-                        <x>3153.434570313</x>
-                        <y>899.887573242</y>
+                        <x>3151.232910156</x>
+                        <y>900.461547852</y>
                         <z>0</z>
-                        <width>109</width>
-                        <height>19</height>
+                        <width>108.519325256</width>
+                        <height>20.785137177</height>
                         <depth>0</depth>
                         <hotspotX>0.501170933</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -2423,7 +2423,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Circle</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -2435,15 +2435,15 @@
                         </behavior-instance>
                     </behavior-instances>
                     <world>
-                        <x>3070.034423828</x>
-                        <y>834.225769043</y>
+                        <x>3069.480224609</x>
+                        <y>834.422058105</y>
                         <z>0</z>
-                        <width>109</width>
+                        <width>107.710540771</width>
                         <height>19</height>
                         <depth>0</depth>
                         <hotspotX>0.501170933</hotspotX>
                         <hotspotY>0.5</hotspotY>
-                        <angle>-2.527936459</angle>
+                        <angle>-2.517870426</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
@@ -2458,7 +2458,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Circle</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -2470,15 +2470,15 @@
                         </behavior-instance>
                     </behavior-instances>
                     <world>
-                        <x>2977.367675781</x>
-                        <y>774.508728027</y>
+                        <x>2977.344238281</x>
+                        <y>774.804016113</y>
                         <z>0</z>
                         <width>115.740463257</width>
-                        <height>19</height>
+                        <height>18.909706116</height>
                         <depth>0</depth>
                         <hotspotX>0.501170933</hotspotX>
                         <hotspotY>0.5</hotspotY>
-                        <angle>-2.620028257</angle>
+                        <angle>-2.610913992</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
@@ -2493,7 +2493,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Circle</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -2505,11 +2505,11 @@
                         </behavior-instance>
                     </behavior-instances>
                     <world>
-                        <x>2879.301025391</x>
-                        <y>722.887634277</y>
+                        <x>2879.531738281</x>
+                        <y>722.728271484</y>
                         <z>0</z>
-                        <width>109</width>
-                        <height>19</height>
+                        <width>111.952156067</width>
+                        <height>18.535406113</height>
                         <depth>0</depth>
                         <hotspotX>0.501170933</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -2528,7 +2528,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Circle</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -2540,11 +2540,11 @@
                         </behavior-instance>
                     </behavior-instances>
                     <world>
-                        <x>2780.174316406</x>
-                        <y>680.419311523</y>
+                        <x>2780.184326172</x>
+                        <y>680.906799316</y>
                         <z>0</z>
                         <width>109</width>
-                        <height>19</height>
+                        <height>19.05708313</height>
                         <depth>0</depth>
                         <hotspotX>0.501170933</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -2563,7 +2563,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Circle</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -2575,11 +2575,11 @@
                         </behavior-instance>
                     </behavior-instances>
                     <world>
-                        <x>2679.107421875</x>
-                        <y>646.822570801</y>
+                        <x>2679.125976563</x>
+                        <y>647.755981445</y>
                         <z>0</z>
                         <width>109</width>
-                        <height>19</height>
+                        <height>19.138202667</height>
                         <depth>0</depth>
                         <hotspotX>0.501170933</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -2598,7 +2598,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Circle</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -2610,11 +2610,11 @@
                         </behavior-instance>
                     </behavior-instances>
                     <world>
-                        <x>2566.956298828</x>
-                        <y>619.104064941</y>
+                        <x>2567.02734375</x>
+                        <y>620.768859863</y>
                         <z>0</z>
                         <width>125.504112244</width>
-                        <height>19</height>
+                        <height>19.685207367</height>
                         <depth>0</depth>
                         <hotspotX>0.501170933</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -2633,7 +2633,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Circle</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -2668,7 +2668,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Circle</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -2703,7 +2703,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Circle</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -2738,7 +2738,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Circle</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -2773,7 +2773,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Circle</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -2808,7 +2808,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Circle</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -2843,7 +2843,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Circle</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -2855,11 +2855,11 @@
                         </behavior-instance>
                     </behavior-instances>
                     <world>
-                        <x>1034.351806641</x>
-                        <y>1721.095825195</y>
+                        <x>1034.03137207</x>
+                        <y>1720.967163086</y>
                         <z>0</z>
-                        <width>74.535140991</width>
-                        <height>19</height>
+                        <width>74.785491943</width>
+                        <height>19.643770218</height>
                         <depth>0</depth>
                         <hotspotX>0.501170933</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -2878,7 +2878,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Circle</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -2913,7 +2913,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Circle</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -2948,7 +2948,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Circle</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -2983,7 +2983,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Circle</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -2995,15 +2995,15 @@
                         </behavior-instance>
                     </behavior-instances>
                     <world>
-                        <x>1019.791503906</x>
-                        <y>2429.423828125</y>
+                        <x>1020.481567383</x>
+                        <y>2430.109375</y>
                         <z>0</z>
-                        <width>16.333093643</width>
-                        <height>10.01330471</height>
+                        <width>16.947422028</width>
+                        <height>10.755192757</height>
                         <depth>0</depth>
                         <hotspotX>0.501170933</hotspotX>
                         <hotspotY>0.5</hotspotY>
-                        <angle>1.984752536</angle>
+                        <angle>1.922706366</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
@@ -3018,7 +3018,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Circle</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -3053,7 +3053,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Circle</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -3088,7 +3088,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Circle</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -3100,11 +3100,11 @@
                         </behavior-instance>
                     </behavior-instances>
                     <world>
-                        <x>1166.516357422</x>
-                        <y>2518.825195313</y>
+                        <x>1166.580078125</x>
+                        <y>2518.183105469</y>
                         <z>0</z>
-                        <width>134.754394531</width>
-                        <height>19</height>
+                        <width>134.806808472</width>
+                        <height>17.710796356</height>
                         <depth>0</depth>
                         <hotspotX>0.501170933</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -3123,7 +3123,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Circle</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -3158,7 +3158,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Circle</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -3193,7 +3193,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Circle</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -3228,7 +3228,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Circle</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -3263,7 +3263,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Circle</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -3275,37 +3275,15 @@
                         </behavior-instance>
                     </behavior-instances>
                     <world>
-                        <x>2687.3359375</x>
-                        <y>3091.536621094</y>
+                        <x>2687.079589844</x>
+                        <y>3090.57421875</y>
                         <z>0</z>
-                        <width>109.401023865</width>
-                        <height>19.366285324</height>
+                        <width>109.410682678</width>
+                        <height>17.374156952</height>
                         <depth>0</depth>
                         <hotspotX>0.501170933</hotspotX>
                         <hotspotY>0.5</hotspotY>
                         <angle>-0.265133798</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="jumpBox">
-                    <properties>
-                        <initial-visibility>Invisible</initial-visibility>
-                        <effect>(none)</effect>
-                        <hotspot>Top-left</hotspot>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Solid" />
-                    </behavior-instances>
-                    <world>
-                        <x>2039.064941406</x>
-                        <y>3397.703857422</y>
-                        <z>0</z>
-                        <width>109.261352539</width>
-                        <height>8</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>-0.672877669</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
@@ -3539,11 +3517,11 @@
                         <behavior-instance type="Solid" />
                     </behavior-instances>
                     <world>
-                        <x>1827.878173828</x>
-                        <y>4353.132324219</y>
+                        <x>1827.364013672</x>
+                        <y>4354.16015625</y>
                         <z>0</z>
                         <width>50.135002136</width>
-                        <height>6.822416782</height>
+                        <height>7.102692604</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
@@ -3649,11 +3627,11 @@
                         <behavior-instance type="Solid" />
                     </behavior-instances>
                     <world>
-                        <x>1631.576171875</x>
-                        <y>4610.606445313</y>
+                        <x>1631.062011719</x>
+                        <y>4609.58984375</y>
                         <z>0</z>
-                        <width>29.429260254</width>
-                        <height>7</height>
+                        <width>28.483760834</width>
+                        <height>6.728159904</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
@@ -3671,11 +3649,11 @@
                         <behavior-instance type="Solid" />
                     </behavior-instances>
                     <world>
-                        <x>1656.259155273</x>
-                        <y>4599.792480469</y>
+                        <x>1656.217407227</x>
+                        <y>4599.827636719</y>
                         <z>0</z>
-                        <width>85.047134399</width>
-                        <height>7</height>
+                        <width>85.102050781</width>
+                        <height>6.274944305</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
@@ -3737,8 +3715,8 @@
                         <behavior-instance type="Solid" />
                     </behavior-instances>
                     <world>
-                        <x>2368.847900391</x>
-                        <y>3874.751708984</y>
+                        <x>2370.898193359</x>
+                        <y>3875.265869141</y>
                         <z>0</z>
                         <width>31</width>
                         <height>11</height>
@@ -3781,10 +3759,10 @@
                         <behavior-instance type="Solid" />
                     </behavior-instances>
                     <world>
-                        <x>2387.717773438</x>
-                        <y>3890.280517578</y>
+                        <x>2387.790283203</x>
+                        <y>3889.072753906</y>
                         <z>0</z>
-                        <width>96.145706177</width>
+                        <width>96.622108459</width>
                         <height>17</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
@@ -3825,7 +3803,7 @@
                         <behavior-instance type="Solid" />
                     </behavior-instances>
                     <world>
-                        <x>2522.579345703</x>
+                        <x>2523.607666016</x>
                         <y>4023.0859375</y>
                         <z>0</z>
                         <width>135.435974121</width>
@@ -3891,8 +3869,8 @@
                         <behavior-instance type="Solid" />
                     </behavior-instances>
                     <world>
-                        <x>2230.623046875</x>
-                        <y>3574.760742188</y>
+                        <x>2232.159423828</x>
+                        <y>3573.732421875</y>
                         <z>0</z>
                         <width>52.184509277</width>
                         <height>8</height>
@@ -3999,7 +3977,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Circle</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -4035,7 +4013,7 @@
                     <behavior-instances>
                         <behavior-instance type="Platform">
                             <properties>
-                                <max-speed>360</max-speed>
+                                <max-speed>340</max-speed>
                                 <acceleration>1500</acceleration>
                                 <deceleration>1500</deceleration>
                                 <jump-strength>650</jump-strength>
@@ -4046,59 +4024,15 @@
                         </behavior-instance>
                     </behavior-instances>
                     <world>
-                        <x>2736</x>
-                        <y>580</y>
+                        <x>2703.052001953</x>
+                        <y>565.06652832</y>
                         <z>0</z>
-                        <width>61</width>
-                        <height>423</height>
+                        <width>67</width>
+                        <height>349</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
-                        <angle>-1.314130425</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="jumpBox">
-                    <properties>
-                        <initial-visibility>Invisible</initial-visibility>
-                        <effect>(none)</effect>
-                        <hotspot>Top-left</hotspot>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Solid" />
-                    </behavior-instances>
-                    <world>
-                        <x>2120.097167969</x>
-                        <y>3333.390136719</y>
-                        <z>0</z>
-                        <width>62.69127655</width>
-                        <height>8</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>-0.095015883</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="jumpBox">
-                    <properties>
-                        <initial-visibility>Invisible</initial-visibility>
-                        <effect>(none)</effect>
-                        <hotspot>Top-left</hotspot>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Solid" />
-                    </behavior-instances>
-                    <world>
-                        <x>2310.018066406</x>
-                        <y>3269.555419922</y>
-                        <z>0</z>
-                        <width>116.304862976</width>
-                        <height>8</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>-0.004577444</angle>
+                        <angle>-1.233644247</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
@@ -4165,7 +4099,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Circle</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -4177,11 +4111,11 @@
                         </behavior-instance>
                     </behavior-instances>
                     <world>
-                        <x>2384.044189453</x>
-                        <y>3152.743408203</y>
+                        <x>2383.979492188</x>
+                        <y>3152.615722656</y>
                         <z>0</z>
-                        <width>67.963027954</width>
-                        <height>18.526842117</height>
+                        <width>67.850952148</width>
+                        <height>18.263530731</height>
                         <depth>0</depth>
                         <hotspotX>0.501170933</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -4200,7 +4134,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Circle</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -4235,7 +4169,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Circle</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -4270,7 +4204,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Circle</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -4282,10 +4216,10 @@
                         </behavior-instance>
                     </behavior-instances>
                     <world>
-                        <x>1309.023071289</x>
-                        <y>1040.119140625</y>
+                        <x>1308.768798828</x>
+                        <y>1040.422363281</y>
                         <z>0</z>
-                        <width>48.439857483</width>
+                        <width>48.955883026</width>
                         <height>18.526842117</height>
                         <depth>0</depth>
                         <hotspotX>0.501170933</hotspotX>
@@ -4305,7 +4239,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Circle</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -4317,8 +4251,8 @@
                         </behavior-instance>
                     </behavior-instances>
                     <world>
-                        <x>1584.641601563</x>
-                        <y>834.241394043</y>
+                        <x>1585.026489258</x>
+                        <y>834.369567871</y>
                         <z>0</z>
                         <width>185.111068726</width>
                         <height>18.526842117</height>
@@ -4340,7 +4274,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Circle</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -4375,7 +4309,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Circle</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -4387,11 +4321,11 @@
                         </behavior-instance>
                     </behavior-instances>
                     <world>
-                        <x>1866</x>
-                        <y>680</y>
+                        <x>1865.807373047</x>
+                        <y>679.743591309</y>
                         <z>0</z>
-                        <width>97</width>
-                        <height>19</height>
+                        <width>97.186927795</width>
+                        <height>19.613487244</height>
                         <depth>0</depth>
                         <hotspotX>0.501170933</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -4410,7 +4344,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Circle</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -4422,8 +4356,8 @@
                         </behavior-instance>
                     </behavior-instances>
                     <world>
-                        <x>1935.143188477</x>
-                        <y>678.978210449</y>
+                        <x>1935.271728516</x>
+                        <y>678.465209961</y>
                         <z>0</z>
                         <width>70.622001648</width>
                         <height>18.526842117</height>
@@ -4445,7 +4379,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Circle</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -4480,7 +4414,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Circle</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -4492,8 +4426,8 @@
                         </behavior-instance>
                     </behavior-instances>
                     <world>
-                        <x>2015.775390625</x>
-                        <y>660.458984375</y>
+                        <x>2016.16015625</x>
+                        <y>660.715698242</y>
                         <z>0</z>
                         <width>48.943969727</width>
                         <height>19</height>
@@ -4515,7 +4449,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Circle</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -4550,7 +4484,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Circle</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -4562,8 +4496,8 @@
                         </behavior-instance>
                     </behavior-instances>
                     <world>
-                        <x>2145.360595703</x>
-                        <y>577.795654297</y>
+                        <x>2145.489013672</x>
+                        <y>577.410461426</y>
                         <z>0</z>
                         <width>44.115287781</width>
                         <height>18.526842117</height>
@@ -4585,7 +4519,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Circle</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -4598,7 +4532,7 @@
                     </behavior-instances>
                     <world>
                         <x>2165.268066406</x>
-                        <y>626.669677734</y>
+                        <y>625.38659668</y>
                         <z>0</z>
                         <width>110.184371948</width>
                         <height>18.526842117</height>
@@ -4620,7 +4554,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Circle</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -4655,7 +4589,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Circle</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -4690,7 +4624,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Circle</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -4702,8 +4636,8 @@
                         </behavior-instance>
                     </behavior-instances>
                     <world>
-                        <x>2370.55078125</x>
-                        <y>863.161376953</y>
+                        <x>2370.295166016</x>
+                        <y>862.392089844</y>
                         <z>0</z>
                         <width>188.201705933</width>
                         <height>10</height>
@@ -4725,7 +4659,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Circle</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -4737,11 +4671,11 @@
                         </behavior-instance>
                     </behavior-instances>
                     <world>
-                        <x>2505.010742188</x>
-                        <y>962.267883301</y>
+                        <x>2500.073486328</x>
+                        <y>960.536682129</y>
                         <z>0</z>
-                        <width>121.209754944</width>
-                        <height>25.054224014</height>
+                        <width>118.43901062</width>
+                        <height>20.078954697</height>
                         <depth>0</depth>
                         <hotspotX>0.501170933</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -4760,7 +4694,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Circle</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -4772,10 +4706,10 @@
                         </behavior-instance>
                     </behavior-instances>
                     <world>
-                        <x>2465.162841797</x>
-                        <y>928.571899414</y>
+                        <x>2463.4296875</x>
+                        <y>928.753662109</y>
                         <z>0</z>
-                        <width>212.024993896</width>
+                        <width>211.036514282</width>
                         <height>14.189275742</height>
                         <depth>0</depth>
                         <hotspotX>0.501170933</hotspotX>
@@ -4795,7 +4729,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Circle</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -4830,7 +4764,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Circle</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -4865,7 +4799,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Circle</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -4900,7 +4834,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Circle</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -4935,7 +4869,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Circle</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -4970,7 +4904,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Circle</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -5005,7 +4939,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Circle</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -5040,7 +4974,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Circle</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -5075,7 +5009,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Circle</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -5110,7 +5044,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Circle</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -5145,7 +5079,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Circle</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -5180,7 +5114,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Circle</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -5215,7 +5149,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Circle</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -5250,7 +5184,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Circle</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -5262,15 +5196,15 @@
                         </behavior-instance>
                     </behavior-instances>
                     <world>
-                        <x>2844.728027344</x>
-                        <y>1061.035766602</y>
+                        <x>2859.593017578</x>
+                        <y>1066.433837891</y>
                         <z>0</z>
-                        <width>214.444900513</width>
-                        <height>19</height>
+                        <width>214</width>
+                        <height>13</height>
                         <depth>0</depth>
                         <hotspotX>0.501170933</hotspotX>
                         <hotspotY>0.5</hotspotY>
-                        <angle>-2.973968029</angle>
+                        <angle>-2.912600279</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
@@ -5285,7 +5219,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Circle</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -5320,7 +5254,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Circle</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -5355,7 +5289,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Circle</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -5390,7 +5324,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Circle</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -5425,7 +5359,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Circle</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -5460,7 +5394,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Circle</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -5495,7 +5429,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Circle</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -5529,8 +5463,8 @@
                         <behavior-instance type="Solid" />
                     </behavior-instances>
                     <world>
-                        <x>2275.999267578</x>
-                        <y>3782.995605469</y>
+                        <x>2277.027587891</x>
+                        <y>3782.481201172</y>
                         <z>0</z>
                         <width>52</width>
                         <height>11</height>
@@ -5552,7 +5486,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Circle</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -5564,15 +5498,15 @@
                         </behavior-instance>
                     </behavior-instances>
                     <world>
-                        <x>2719.000244141</x>
-                        <y>1112.533813477</y>
+                        <x>2691.402832031</x>
+                        <y>1156.172729492</y>
                         <z>0</z>
-                        <width>161.208786011</width>
-                        <height>31.231737137</height>
+                        <width>61</width>
+                        <height>53</height>
                         <depth>0</depth>
                         <hotspotX>0.501170933</hotspotX>
                         <hotspotY>0.5</hotspotY>
-                        <angle>2.017328978</angle>
+                        <angle>2.071076155</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
@@ -5587,7 +5521,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Circle</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -5622,7 +5556,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Circle</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -5657,7 +5591,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Circle</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -5692,7 +5626,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Circle</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -5727,7 +5661,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Circle</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -5762,7 +5696,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Circle</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -5797,7 +5731,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Circle</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -5832,7 +5766,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Circle</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -5853,28 +5787,6 @@
                         <hotspotX>0.501170933</hotspotX>
                         <hotspotY>0.5</hotspotY>
                         <angle>-3.097710133</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="jumpBox">
-                    <properties>
-                        <initial-visibility>Invisible</initial-visibility>
-                        <effect>(none)</effect>
-                        <hotspot>Top-left</hotspot>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Solid" />
-                    </behavior-instances>
-                    <world>
-                        <x>2011.259277344</x>
-                        <y>3404.80859375</y>
-                        <z>0</z>
-                        <width>31.803998947</width>
-                        <height>8</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>-0.263969749</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
@@ -5933,7 +5845,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Circle</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -5968,14 +5880,216 @@
                     </behavior-instances>
                     <world>
                         <x>1779.063476563</x>
-                        <y>4343.684570313</y>
+                        <y>4343.684082031</y>
                         <z>0</z>
                         <width>52.376060486</width>
-                        <height>6.822416782</height>
+                        <height>8.51078701</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
                         <angle>0.178240955</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="solid">
+                    <properties>
+                        <initial-visibility>Invisible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Solid" />
+                        <behavior-instance type="Physics">
+                            <properties>
+                                <immovable>Yes</immovable>
+                                <collision-mask>Circle</collision-mask>
+                                <prevent-rotation>No</prevent-rotation>
+                                <density>1</density>
+                                <friction>0.5</friction>
+                                <elasticity>0.2</elasticity>
+                                <linear-damping>0</linear-damping>
+                                <angular-damping>0.01</angular-damping>
+                                <bullet>No</bullet>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <world>
+                        <x>2752.140869141</x>
+                        <y>1061.894042969</y>
+                        <z>0</z>
+                        <width>40.291091919</width>
+                        <height>31</height>
+                        <depth>0</depth>
+                        <hotspotX>0.501170933</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>2.31396699</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="solid">
+                    <properties>
+                        <initial-visibility>Invisible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Solid" />
+                        <behavior-instance type="Physics">
+                            <properties>
+                                <immovable>Yes</immovable>
+                                <collision-mask>Circle</collision-mask>
+                                <prevent-rotation>No</prevent-rotation>
+                                <density>1</density>
+                                <friction>0.5</friction>
+                                <elasticity>0.2</elasticity>
+                                <linear-damping>0</linear-damping>
+                                <angular-damping>0.01</angular-damping>
+                                <bullet>No</bullet>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <world>
+                        <x>2733.007080078</x>
+                        <y>1103.838134766</y>
+                        <z>0</z>
+                        <width>69</width>
+                        <height>40</height>
+                        <depth>0</depth>
+                        <hotspotX>0.501170933</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>1.907375693</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="galhosTamandua">
+                    <properties>
+                        <initial-visibility>Invisible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Solid" />
+                    </behavior-instances>
+                    <world>
+                        <x>2371</x>
+                        <y>3273</y>
+                        <z>0</z>
+                        <width>92</width>
+                        <height>8</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="galhosTamandua">
+                    <properties>
+                        <initial-visibility>Invisible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Solid" />
+                    </behavior-instances>
+                    <world>
+                        <x>2153.766113281</x>
+                        <y>3333.366455078</y>
+                        <z>0</z>
+                        <width>57.045639038</width>
+                        <height>8</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>-0.066351533</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="galhosTamandua">
+                    <properties>
+                        <initial-visibility>Invisible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Solid" />
+                    </behavior-instances>
+                    <world>
+                        <x>2103.177734375</x>
+                        <y>3350.221191406</y>
+                        <z>0</z>
+                        <width>53.881591797</width>
+                        <height>8.329999924</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>-0.544625342</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="galhosTamandua">
+                    <properties>
+                        <initial-visibility>Invisible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Solid" />
+                    </behavior-instances>
+                    <world>
+                        <x>2071.782714844</x>
+                        <y>3373.375976563</y>
+                        <z>0</z>
+                        <width>31.286148071</width>
+                        <height>8.329999924</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>-0.719134748</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="galhosTamandua">
+                    <properties>
+                        <initial-visibility>Invisible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Solid" />
+                    </behavior-instances>
+                    <world>
+                        <x>2052.906738281</x>
+                        <y>3392.887695313</y>
+                        <z>0</z>
+                        <width>27.586532593</width>
+                        <height>8.329999924</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>-0.795784354</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="galhosTamandua">
+                    <properties>
+                        <initial-visibility>Invisible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Solid" />
+                    </behavior-instances>
+                    <world>
+                        <x>2030.729003906</x>
+                        <y>3406.504882813</y>
+                        <z>0</z>
+                        <width>34.561511993</width>
+                        <height>8.329999924</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>-0.278107673</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
@@ -6000,8 +6114,8 @@
                         <effect>(none)</effect>
                     </properties>
                     <world>
-                        <x>3</x>
-                        <y>75</y>
+                        <x>20</x>
+                        <y>90</y>
                         <z>0</z>
                         <width>186</width>
                         <height>56</height>

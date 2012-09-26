@@ -24,29 +24,6 @@
             <opacity>1</opacity>
             <force-own-texture>0</force-own-texture>
             <instances>
-                <instance type="LoadingText">
-                    <properties>
-                        <text>100%</text>
-                        <initial-visibility>Visible</initial-visibility>
-                        <font>Lucida Sans Unicode,-64,400,0</font>
-                        <color>0,0,0</color>
-                        <horizontal-alignment>Center</horizontal-alignment>
-                        <hotspot>Top-left</hotspot>
-                        <wrapping>Word</wrapping>
-                    </properties>
-                    <world>
-                        <x>406</x>
-                        <y>364</y>
-                        <z>0</z>
-                        <width>200</width>
-                        <height>30</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
                 <instance type="Sprite">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -54,14 +31,37 @@
                         <effect>(none)</effect>
                     </properties>
                     <world>
-                        <x>499</x>
-                        <y>284</y>
+                        <x>791</x>
+                        <y>544</y>
                         <z>0</z>
-                        <width>97</width>
-                        <height>90</height>
+                        <width>464</width>
+                        <height>444</height>
                         <depth>0</depth>
                         <hotspotX>0.50515461</hotspotX>
                         <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="LoadingText">
+                    <properties>
+                        <text>100%</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Lucida Sans Unicode,-35,400,0</font>
+                        <color>0,0,0</color>
+                        <horizontal-alignment>Center</horizontal-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                    </properties>
+                    <world>
+                        <x>659</x>
+                        <y>504</y>
+                        <z>0</z>
+                        <width>200</width>
+                        <height>30</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

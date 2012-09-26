@@ -13,10 +13,11 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <layout>loaderLayout</layout>
         <layout>instrucoes</layout>
         <layout>creditos</layout>
-        <layout>Level1</layout>
+        <layout active="1">Level1</layout>
         <layout>Level1Complete</layout>
+        <layout>Intro</layout>
         <event-sheet>loaderEvents</event-sheet>
-        <event-sheet active="1">level1Events</event-sheet>
+        <event-sheet>level1Events</event-sheet>
         <event-sheet>Level1CompleteEvents</event-sheet>
     </open-tabs>
     <properties>

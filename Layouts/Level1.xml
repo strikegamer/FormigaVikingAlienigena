@@ -6117,11 +6117,11 @@
                         <x>20</x>
                         <y>90</y>
                         <z>0</z>
-                        <width>186</width>
-                        <height>56</height>
+                        <width>200</width>
+                        <height>57</height>
                         <depth>0</depth>
-                        <hotspotX>-0.027624309</hotspotX>
-                        <hotspotY>1.170212746</hotspotY>
+                        <hotspotX>-0.052083332</hotspotX>
+                        <hotspotY>1.274509788</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

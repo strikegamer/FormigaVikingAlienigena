@@ -3,8 +3,8 @@
     <name>Level1Complete</name>
     <event-sheet>Level1CompleteEvents</event-sheet>
     <size>
-        <width>1024</width>
-        <height>768</height>
+        <width>800</width>
+        <height>480</height>
     </size>
     <margins>
         <horizontal>500</horizontal>
@@ -42,11 +42,11 @@
                         </behavior-instance>
                     </behavior-instances>
                     <world>
-                        <x>512</x>
-                        <y>384</y>
+                        <x>400</x>
+                        <y>240</y>
                         <z>0</z>
-                        <width>1024</width>
-                        <height>768</height>
+                        <width>800</width>
+                        <height>480</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>

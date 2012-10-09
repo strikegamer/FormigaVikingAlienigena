@@ -3,8 +3,8 @@
     <name>gameOver</name>
     <event-sheet>gameOverEvents</event-sheet>
     <size>
-        <width>1024</width>
-        <height>768</height>
+        <width>800</width>
+        <height>480</height>
     </size>
     <margins>
         <horizontal>500</horizontal>
@@ -31,11 +31,11 @@
                         <effect>(none)</effect>
                     </properties>
                     <world>
-                        <x>512</x>
-                        <y>384</y>
+                        <x>401</x>
+                        <y>242</y>
                         <z>0</z>
-                        <width>1024</width>
-                        <height>768</height>
+                        <width>800</width>
+                        <height>480</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -53,11 +53,11 @@
                         <select>0</select>
                     </instance-variables>
                     <world>
-                        <x>776</x>
-                        <y>261</y>
+                        <x>587.792419434</x>
+                        <y>175.755126953</y>
                         <z>0</z>
-                        <width>402</width>
-                        <height>65</height>
+                        <width>347.431488037</width>
+                        <height>60.497657776</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.507692337</hotspotY>
@@ -67,7 +67,7 @@
                 </instance>
                 <instance type="menuInicial">
                     <properties>
-                        <initial-visibility>Invisible</initial-visibility>
+                        <initial-visibility>Visible</initial-visibility>
                         <initial-frame>0</initial-frame>
                         <effect>(none)</effect>
                     </properties>
@@ -75,11 +75,11 @@
                         <select>1</select>
                     </instance-variables>
                     <world>
-                        <x>735</x>
-                        <y>318</y>
+                        <x>552.527160645</x>
+                        <y>225.032592773</y>
                         <z>0</z>
-                        <width>310</width>
-                        <height>53</height>
+                        <width>269.472930908</width>
+                        <height>49.581970215</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.509433985</hotspotY>

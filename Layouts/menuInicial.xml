@@ -3,8 +3,8 @@
     <name>menuInicial</name>
     <event-sheet>menuIniciar</event-sheet>
     <size>
-        <width>1024</width>
-        <height>768</height>
+        <width>800</width>
+        <height>480</height>
     </size>
     <margins>
         <horizontal>500</horizontal>
@@ -31,11 +31,11 @@
                         <effect>(none)</effect>
                     </properties>
                     <world>
-                        <x>512</x>
-                        <y>384</y>
+                        <x>400</x>
+                        <y>240</y>
                         <z>0</z>
-                        <width>1024</width>
-                        <height>768</height>
+                        <width>800</width>
+                        <height>480</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -45,7 +45,7 @@
                 </instance>
                 <instance type="jogar">
                     <properties>
-                        <initial-visibility>Invisible</initial-visibility>
+                        <initial-visibility>Visible</initial-visibility>
                         <initial-frame>0</initial-frame>
                         <effect>(none)</effect>
                     </properties>
@@ -53,21 +53,21 @@
                         <select>0</select>
                     </instance-variables>
                     <world>
-                        <x>683</x>
-                        <y>505</y>
+                        <x>524</x>
+                        <y>261</y>
                         <z>0</z>
-                        <width>301</width>
-                        <height>83</height>
+                        <width>252</width>
+                        <height>74</height>
                         <depth>0</depth>
-                        <hotspotX>0.501661122</hotspotX>
-                        <hotspotY>0.506024122</hotspotY>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
                 <instance type="menu_creditos">
                     <properties>
-                        <initial-visibility>Invisible</initial-visibility>
+                        <initial-visibility>Visible</initial-visibility>
                         <initial-frame>0</initial-frame>
                         <effect>(none)</effect>
                     </properties>
@@ -75,21 +75,21 @@
                         <select>2</select>
                     </instance-variables>
                     <world>
-                        <x>723.444458008</x>
-                        <y>697.938293457</y>
+                        <x>559.789245605</x>
+                        <y>422.546569824</y>
                         <z>0</z>
-                        <width>376</width>
-                        <height>71</height>
+                        <width>323.356323242</width>
+                        <height>66.511772156</height>
                         <depth>0</depth>
-                        <hotspotX>0.50118202</hotspotX>
-                        <hotspotY>0.506172836</hotspotY>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
                 <instance type="instrucoes">
                     <properties>
-                        <initial-visibility>Invisible</initial-visibility>
+                        <initial-visibility>Visible</initial-visibility>
                         <initial-frame>0</initial-frame>
                         <effect>(none)</effect>
                     </properties>
@@ -97,14 +97,14 @@
                         <select>1</select>
                     </instance-variables>
                     <world>
-                        <x>759</x>
-                        <y>575</y>
+                        <x>585</x>
+                        <y>319</y>
                         <z>0</z>
-                        <width>453</width>
-                        <height>82</height>
+                        <width>373</width>
+                        <height>77</height>
                         <depth>0</depth>
-                        <hotspotX>0.501103759</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotX>0.501340508</hotspotX>
+                        <hotspotY>0.506493509</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

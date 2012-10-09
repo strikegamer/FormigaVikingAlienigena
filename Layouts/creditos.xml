@@ -3,8 +3,8 @@
     <name>creditos</name>
     <event-sheet>credInstruc</event-sheet>
     <size>
-        <width>1024</width>
-        <height>768</height>
+        <width>800</width>
+        <height>480</height>
     </size>
     <margins>
         <horizontal>500</horizontal>
@@ -31,11 +31,11 @@
                         <effect>(none)</effect>
                     </properties>
                     <world>
-                        <x>512</x>
-                        <y>384</y>
+                        <x>400</x>
+                        <y>238</y>
                         <z>0</z>
-                        <width>1024</width>
-                        <height>768</height>
+                        <width>800</width>
+                        <height>480</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -45,7 +45,7 @@
                 </instance>
                 <instance type="instrucoes_voltar">
                     <properties>
-                        <initial-visibility>Invisible</initial-visibility>
+                        <initial-visibility>Visible</initial-visibility>
                         <initial-frame>0</initial-frame>
                         <effect>(none)</effect>
                     </properties>
@@ -53,21 +53,21 @@
                         <select>1</select>
                     </instance-variables>
                     <world>
-                        <x>810</x>
-                        <y>689</y>
+                        <x>619.868530273</x>
+                        <y>410.898773193</y>
                         <z>0</z>
-                        <width>328</width>
-                        <height>91</height>
+                        <width>309</width>
+                        <height>81</height>
                         <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.505494535</hotspotY>
+                        <hotspotX>0.501577258</hotspotX>
+                        <hotspotY>0.512820542</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
                 <instance type="instrucoes_jogar">
                     <properties>
-                        <initial-visibility>Invisible</initial-visibility>
+                        <initial-visibility>Visible</initial-visibility>
                         <initial-frame>0</initial-frame>
                         <effect>(none)</effect>
                     </properties>
@@ -75,13 +75,13 @@
                         <select>0</select>
                     </instance-variables>
                     <world>
-                        <x>800</x>
-                        <y>605</y>
+                        <x>613</x>
+                        <y>331</y>
                         <z>0</z>
-                        <width>337</width>
-                        <height>92</height>
+                        <width>309</width>
+                        <height>78</height>
                         <depth>0</depth>
-                        <hotspotX>0.501483679</hotspotX>
+                        <hotspotX>0.501706481</hotspotX>
                         <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>

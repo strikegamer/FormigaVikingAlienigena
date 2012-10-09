@@ -3,8 +3,8 @@
     <name>Intro</name>
     <event-sheet>IntroEvents</event-sheet>
     <size>
-        <width>1024</width>
-        <height>768</height>
+        <width>800</width>
+        <height>480</height>
     </size>
     <margins>
         <horizontal>500</horizontal>
@@ -42,11 +42,11 @@
                         </behavior-instance>
                     </behavior-instances>
                     <world>
-                        <x>512</x>
-                        <y>384</y>
+                        <x>400</x>
+                        <y>240</y>
                         <z>0</z>
-                        <width>1024</width>
-                        <height>768</height>
+                        <width>800</width>
+                        <height>480</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -61,14 +61,14 @@
                         <effect>(none)</effect>
                     </properties>
                     <world>
-                        <x>947</x>
-                        <y>29</y>
+                        <x>763.839294434</x>
+                        <y>20.820266724</y>
                         <z>0</z>
-                        <width>151</width>
-                        <height>53</height>
+                        <width>73.562263489</width>
+                        <height>45.458087921</height>
                         <depth>0</depth>
-                        <hotspotX>0.503311276</hotspotX>
-                        <hotspotY>0.509433985</hotspotY>
+                        <hotspotX>0.503448248</hotspotX>
+                        <hotspotY>0.511363626</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

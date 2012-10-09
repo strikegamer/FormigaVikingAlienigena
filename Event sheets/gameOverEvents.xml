@@ -6,22 +6,25 @@
         <variable name="gameOverSelectedItem" type="number">0</variable>
         <event-block>
             <conditions>
-                <condition id="-14" name="Compare variable" type="System">
+                <condition disabled="1" id="-14" name="Compare variable" type="System">
                     <param id="0" name="Variable">gameOverSelectedItem</param>
                     <param id="1" name="Comparison">0</param>
                     <param id="2" name="Value">jogarNovamente.select</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="-15" name="Set visible" type="jogarNovamente">
+                <action disabled="1" id="-15" name="Set visible" type="jogarNovamente">
                     <param id="0" name="Visibility">1</param>
                 </action>
             </actions>
             <sub-events>
-                <event-block>
+                <event-block any="1">
                     <conditions>
                         <condition id="0" name="On key pressed" type="Keyboard">
                             <param id="0" name="Key">13 (Return)</param>
+                        </condition>
+                        <condition id="3" name="On touched object" type="Touch">
+                            <param id="0" name="Object">jogarNovamente</param>
                         </condition>
                     </conditions>
                     <actions>
@@ -107,22 +110,25 @@
         </event-block>
         <event-block>
             <conditions>
-                <condition id="-14" name="Compare variable" type="System">
+                <condition disabled="1" id="-14" name="Compare variable" type="System">
                     <param id="0" name="Variable">gameOverSelectedItem</param>
                     <param id="1" name="Comparison">0</param>
                     <param id="2" name="Value">menuInicial.select</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="-15" name="Set visible" type="menuInicial">
+                <action disabled="1" id="-15" name="Set visible" type="menuInicial">
                     <param id="0" name="Visibility">1</param>
                 </action>
             </actions>
             <sub-events>
-                <event-block>
+                <event-block any="1">
                     <conditions>
                         <condition id="0" name="On key pressed" type="Keyboard">
                             <param id="0" name="Key">13 (Return)</param>
+                        </condition>
+                        <condition id="3" name="On touched object" type="Touch">
+                            <param id="0" name="Object">menuInicial</param>
                         </condition>
                     </conditions>
                     <actions>
@@ -136,16 +142,16 @@
                 </event-block>
             </sub-events>
         </event-block>
-        <event-block>
+        <event-block disabled="1">
             <conditions>
-                <condition id="-14" name="Compare variable" type="System">
+                <condition disabled="1" id="-14" name="Compare variable" type="System">
                     <param id="0" name="Variable">gameOverSelectedItem</param>
                     <param id="1" name="Comparison">1</param>
                     <param id="2" name="Value">menuInicial.select </param>
                 </condition>
             </conditions>
             <actions>
-                <action id="-15" name="Set visible" type="menuInicial">
+                <action disabled="1" id="-15" name="Set visible" type="menuInicial">
                     <param id="0" name="Visibility">0</param>
                 </action>
             </actions>

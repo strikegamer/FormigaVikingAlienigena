@@ -6114,11 +6114,11 @@
                         <effect>(none)</effect>
                     </properties>
                     <world>
-                        <x>20</x>
-                        <y>90</y>
+                        <x>4</x>
+                        <y>48</y>
                         <z>0</z>
-                        <width>200</width>
-                        <height>57</height>
+                        <width>100</width>
+                        <height>28.5</height>
                         <depth>0</depth>
                         <hotspotX>-0.052083332</hotspotX>
                         <hotspotY>1.274509788</hotspotY>
@@ -6133,11 +6133,11 @@
                         <effect>(none)</effect>
                     </properties>
                     <world>
-                        <x>513</x>
-                        <y>354</y>
+                        <x>393</x>
+                        <y>231</y>
                         <z>0</z>
-                        <width>236</width>
-                        <height>61</height>
+                        <width>123</width>
+                        <height>30.5</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.508196712</hotspotY>
@@ -6148,7 +6148,7 @@
             </instances>
         </layer>
         <layer name="Touch">
-            <initially-visible>0</initially-visible>
+            <initially-visible>1</initially-visible>
             <background-color>255,255,255</background-color>
             <transparent>1</transparent>
             <parallax>
@@ -6166,11 +6166,11 @@
                         <effect>(none)</effect>
                     </properties>
                     <world>
-                        <x>110</x>
-                        <y>670</y>
+                        <x>64</x>
+                        <y>409</y>
                         <z>0</z>
-                        <width>100</width>
-                        <height>100</height>
+                        <width>107.079414368</width>
+                        <height>117.146713257</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -6185,11 +6185,11 @@
                         <effect>(none)</effect>
                     </properties>
                     <world>
-                        <x>262</x>
-                        <y>670</y>
+                        <x>200</x>
+                        <y>410</y>
                         <z>0</z>
-                        <width>100</width>
-                        <height>100</height>
+                        <width>107.07900238</width>
+                        <height>117.147003174</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -6204,11 +6204,11 @@
                         <effect>(none)</effect>
                     </properties>
                     <world>
-                        <x>915</x>
-                        <y>670</y>
+                        <x>725</x>
+                        <y>412</y>
                         <z>0</z>
-                        <width>100</width>
-                        <height>100</height>
+                        <width>119.704338074</width>
+                        <height>109.645149231</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>

@@ -3,7 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>gameOverEvents</name>
     <events>
-        <variable name="gameOverSelectedItem" type="number">0</variable>
+        <variable constant="0" name="gameOverSelectedItem" static="0" type="number">0</variable>
         <event-block>
             <conditions>
                 <condition id="-14" name="Compare variable" type="System">
@@ -158,6 +158,7 @@
                 <action id="0" name="Play" type="Audio">
                     <param id="0" name="Audio file">02 game over</param>
                     <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
                     <param id="1" name="Tag (optional)">&quot;gameOver&quot;</param>
                 </action>
             </actions>

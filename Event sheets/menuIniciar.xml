@@ -3,7 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>menuIniciar</name>
     <events>
-        <variable name="selectedItem" type="number">0</variable>
+        <variable constant="0" name="selectedItem" static="0" type="number">0</variable>
         <event-group description="" title="MenuInicial">
             <sub-events>
                 <event-block>
@@ -222,6 +222,7 @@
                         <action id="0" name="Play" type="Audio">
                             <param id="0" name="Audio file">03 Abertura</param>
                             <param id="2" name="Loop">1</param>
+                            <param id="3" name="Volume">0</param>
                             <param id="1" name="Tag (optional)">&quot;abertura&quot;</param>
                         </action>
                     </actions>

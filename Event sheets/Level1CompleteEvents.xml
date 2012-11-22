@@ -8,9 +8,13 @@
                 <condition id="-2" name="On start of layout" type="System" />
             </conditions>
             <actions>
+                <action id="1" name="Append text" type="Score">
+                    <param id="0" name="Text">timeStage1</param>
+                </action>
                 <action id="0" name="Play" type="Audio">
                     <param id="0" name="Audio file">final scene master-01</param>
                     <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
                     <param id="1" name="Tag (optional)">&quot;endMusic&quot;</param>
                 </action>
                 <action id="-16" name="Wait" type="System">

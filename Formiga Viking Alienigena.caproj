@@ -2,20 +2,20 @@
 <c2project>
     <name>Formiga Viking Alienigena</name>
     <description>Jogo para o SPJam 2012 da equipe Nameless Mirror</description>
-    <version>3.0</version>
+    <version>3.1</version>
     <author></author>
     <unique-id>27qp3qf9lj9ri</unique-id>
     <saved-with-version>9500</saved-with-version>
     <used-plugins>
         <plugin id="Mouse" version="1">Mouse</plugin>
-        <plugin id="Keyboard" version="1">Keyboard</plugin>
-        <plugin id="Audio" version="1">Audio</plugin>
         <plugin id="Button" version="1">Button</plugin>
-        <plugin id="Sprite" version="1">Sprite</plugin>
+        <plugin id="Audio" version="1">Audio</plugin>
+        <plugin id="Touch" version="1">Touch</plugin>
         <plugin id="Text" version="1">Text</plugin>
         <plugin id="TextBox" version="1">Text box</plugin>
         <plugin id="TiledBg" version="1">Tiled Background</plugin>
-        <plugin id="Touch" version="1">Touch</plugin>
+        <plugin id="Keyboard" version="1">Keyboard</plugin>
+        <plugin id="Sprite" version="1">Sprite</plugin>
     </used-plugins>
     <used-behaviors>
         <behavior id="Fade" version="1">Fade</behavior>
@@ -37,13 +37,15 @@
     <first-layout>loaderLayout</first-layout>
     <use-loader-layout>1</use-loader-layout>
     <configuration-settings>
+        <prop name="Clear background">No</prop>
         <prop name="Enable WebGL">On</prop>
-        <prop name="Fullscreen in browser">Letterbox integer scale</prop>
+        <prop name="Fullscreen in browser">Scale</prop>
         <prop name="Loader style">Progress bar &amp; logo</prop>
         <prop name="Preview browser">(default)</prop>
         <prop name="Preview mode">HTTP</prop>
+        <prop name="Use iOS retina display">No</prop>
     </configuration-settings>
-    <object-folder expanded="1">
+    <object-folder expanded="0">
         <object-type name="antViking">
             <plugin id="Sprite" />
             <instance-variables>
@@ -56,21 +58,91 @@
             </behaviors>
             <animation-folder expanded="1">
                 <animation framecount="1" loop="0" name="Idle" pingpong="0" repeatcount="1" repeatto="0" speed="5">
-                    <frame duration="1" hotspotX="1" hotspotY="0.5">
-                        <image-point name="Carregando" x="0.35625" y="0.866667" />
-                        <image-point name="CarregandoAcerola" x="0.53125" y="1.24444" />
+                    <frame duration="1" hotspotX="1" hotspotY="0.475">
+                        <image-point name="Carregando" x="0.4" y="0.9" />
+                        <image-point name="CarregandoAcerola" x="0.514286" y="1.125" />
                         <collision-poly>
-                            <point x="-0.0125" y="1.13333" />
-                            <point x="-0.0125" y="-0.177778" />
-                            <point x="1.03125" y="-0.177778" />
-                            <point x="1.03125" y="1.13333" />
+                            <point x="0.1" y="0.85" />
+                            <point x="0.214286" y="0.5" />
+                            <point x="0.0857143" y="0.1" />
+                            <point x="0.5" y="0.075" />
+                            <point x="0.728571" y="0.5" />
+                            <point x="0.785714" y="0.625" />
+                            <point x="0.5" y="0.825" />
                         </collision-poly>
                     </frame>
                 </animation>
                 <animation framecount="8" loop="1" name="Walk" pingpong="0" repeatcount="1" repeatto="0" speed="30">
-                    <frame duration="1" hotspotX="1" hotspotY="0.5">
-                        <image-point name="Carregando" x="0.35625" y="0.866667" />
-                        <image-point name="CarregandoAcerola" x="0.54375" y="1.24444" />
+                    <frame duration="1" hotspotX="1.01429" hotspotY="0.55">
+                        <image-point name="Carregando" x="0.371429" y="0.875" />
+                        <image-point name="CarregandoAcerola" x="0.514286" y="1.225" />
+                        <collision-poly>
+                            <point x="0.1" y="0.85" />
+                            <point x="0.214286" y="0.5" />
+                            <point x="0.0857143" y="0.1" />
+                            <point x="0.5" y="0.075" />
+                            <point x="0.728571" y="0.5" />
+                            <point x="0.785714" y="0.625" />
+                            <point x="0.5" y="0.825" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="1.01429" hotspotY="0.55">
+                        <image-point name="Carregando" x="0.371429" y="0.875" />
+                        <image-point name="CarregandoAcerola" x="0.514286" y="1.225" />
+                        <collision-poly>
+                            <point x="0.0857143" y="0.85" />
+                            <point x="0.2" y="0.5" />
+                            <point x="0.0714286" y="0.1" />
+                            <point x="0.485714" y="0.225" />
+                            <point x="0.7" y="0.475" />
+                            <point x="0.971429" y="0.5" />
+                            <point x="0.785714" y="0.65" />
+                            <point x="0.485714" y="0.8" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="1.01429" hotspotY="0.55">
+                        <image-point name="Carregando" x="0.371429" y="0.875" />
+                        <image-point name="CarregandoAcerola" x="0.514286" y="1.225" />
+                        <collision-poly>
+                            <point x="0.0857143" y="0.85" />
+                            <point x="0.214286" y="0.5" />
+                            <point x="0.0714286" y="0.1" />
+                            <point x="0.485714" y="0.225" />
+                            <point x="0.714286" y="0.45" />
+                            <point x="0.814286" y="0.5" />
+                            <point x="0.814286" y="0.7" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="1.01429" hotspotY="0.55">
+                        <image-point name="Carregando" x="0.371429" y="0.875" />
+                        <image-point name="CarregandoAcerola" x="0.514286" y="1.225" />
+                        <collision-poly>
+                            <point x="0.0857143" y="0.85" />
+                            <point x="0.2" y="0.5" />
+                            <point x="0.0714286" y="0.1" />
+                            <point x="0.485714" y="0.225" />
+                            <point x="0.7" y="0.475" />
+                            <point x="0.971429" y="0.5" />
+                            <point x="0.785714" y="0.65" />
+                            <point x="0.485714" y="0.8" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="1.01429" hotspotY="0.55">
+                        <image-point name="Carregando" x="0.371429" y="0.875" />
+                        <image-point name="CarregandoAcerola" x="0.514286" y="1.225" />
+                        <collision-poly>
+                            <point x="0.1" y="0.85" />
+                            <point x="0.214286" y="0.5" />
+                            <point x="0.0857143" y="0.1" />
+                            <point x="0.5" y="0.075" />
+                            <point x="0.728571" y="0.5" />
+                            <point x="0.785714" y="0.625" />
+                            <point x="0.5" y="0.825" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="1.01449" hotspotY="0.55">
+                        <image-point name="Carregando" x="0.376812" y="0.875" />
+                        <image-point name="CarregandoAcerola" x="0.507246" y="1.225" />
                         <collision-poly>
                             <point x="0" y="1" />
                             <point x="0" y="0" />
@@ -78,9 +150,9 @@
                             <point x="1" y="1" />
                         </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="1" hotspotY="0.5">
-                        <image-point name="Carregando" x="0.354037" y="0.866667" />
-                        <image-point name="CarregandoAcerola" x="0.546584" y="1.24444" />
+                    <frame duration="1" hotspotX="1.01449" hotspotY="0.55">
+                        <image-point name="Carregando" x="0.376812" y="0.875" />
+                        <image-point name="CarregandoAcerola" x="0.507246" y="1.225" />
                         <collision-poly>
                             <point x="0" y="1" />
                             <point x="0" y="0" />
@@ -88,59 +160,9 @@
                             <point x="1" y="1" />
                         </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="1" hotspotY="0.5">
-                        <image-point name="Carregando" x="0.35625" y="0.866667" />
-                        <image-point name="CarregandoAcerola" x="0.54375" y="1.24444" />
-                        <collision-poly>
-                            <point x="0" y="1" />
-                            <point x="0" y="0" />
-                            <point x="1" y="0" />
-                            <point x="1" y="1" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="1" hotspotY="0.5">
-                        <image-point name="Carregando" x="0.354037" y="0.866667" />
-                        <image-point name="CarregandoAcerola" x="0.546584" y="1.24444" />
-                        <collision-poly>
-                            <point x="0" y="1" />
-                            <point x="0" y="0" />
-                            <point x="1" y="0" />
-                            <point x="1" y="1" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="1" hotspotY="0.5">
-                        <image-point name="Carregando" x="0.35625" y="0.866667" />
-                        <image-point name="CarregandoAcerola" x="0.54375" y="1.24444" />
-                        <collision-poly>
-                            <point x="0" y="1" />
-                            <point x="0" y="0" />
-                            <point x="1" y="0" />
-                            <point x="1" y="1" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="1" hotspotY="0.5">
-                        <image-point name="Carregando" x="0.35625" y="0.866667" />
-                        <image-point name="CarregandoAcerola" x="0.54375" y="1.24444" />
-                        <collision-poly>
-                            <point x="0" y="1" />
-                            <point x="0" y="0" />
-                            <point x="1" y="0" />
-                            <point x="1" y="1" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="1" hotspotY="0.5">
-                        <image-point name="Carregando" x="0.35443" y="0.866667" />
-                        <image-point name="CarregandoAcerola" x="0.544304" y="1.24444" />
-                        <collision-poly>
-                            <point x="0" y="1" />
-                            <point x="0" y="0" />
-                            <point x="1" y="0" />
-                            <point x="1" y="1" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="1" hotspotY="0.5">
-                        <image-point name="Carregando" x="0.35625" y="0.866667" />
-                        <image-point name="CarregandoAcerola" x="0.54375" y="1.24444" />
+                    <frame duration="1" hotspotX="1.01449" hotspotY="0.55">
+                        <image-point name="Carregando" x="0.376812" y="0.875" />
+                        <image-point name="CarregandoAcerola" x="0.507246" y="1.225" />
                         <collision-poly>
                             <point x="0" y="1" />
                             <point x="0" y="0" />
@@ -150,71 +172,59 @@
                     </frame>
                 </animation>
                 <animation framecount="4" loop="0" name="Jump" pingpong="0" repeatcount="1" repeatto="0" speed="5">
-                    <frame duration="1" hotspotX="1" hotspotY="0.5">
-                        <image-point name="Carregando" x="0.388889" y="0.787234" />
-                        <image-point name="CarregandoAcerola" x="0.54321" y="1.18085" />
+                    <frame duration="1" hotspotX="1.01429" hotspotY="0.47619">
+                        <image-point name="Carregando" x="0.414286" y="0.857143" />
+                        <image-point name="CarregandoAcerola" x="0.528571" y="1.16667" />
                         <collision-poly>
-                            <point x="0" y="1" />
-                            <point x="0" y="0" />
-                            <point x="1" y="0" />
-                            <point x="1" y="1" />
+                            <point x="0.0857143" y="0.857143" />
+                            <point x="0.157143" y="0.47619" />
+                            <point x="0.1" y="0.119048" />
+                            <point x="0.5" y="0.0714286" />
+                            <point x="0.7" y="0.452381" />
+                            <point x="0.757143" y="0.47619" />
+                            <point x="0.771429" y="0.619048" />
+                            <point x="0.5" y="0.595238" />
                         </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="1" hotspotY="0.5">
-                        <image-point name="Carregando" x="0.390244" y="0.788889" />
-                        <image-point name="CarregandoAcerola" x="0.542683" y="1.17778" />
+                    <frame duration="1" hotspotX="1.01408" hotspotY="0.475">
+                        <image-point name="Carregando" x="0.408451" y="0.85" />
+                        <image-point name="CarregandoAcerola" x="0.535211" y="1.175" />
                         <collision-poly>
-                            <point x="0" y="1" />
-                            <point x="0" y="0" />
-                            <point x="1" y="0" />
-                            <point x="1" y="1" />
+                            <point x="0.112676" y="0.875" />
+                            <point x="0.197183" y="0.5" />
+                            <point x="0.0985916" y="0.1" />
+                            <point x="0.802817" y="0.3" />
+                            <point x="0.746479" y="0.5" />
+                            <point x="0.788732" y="0.675" />
+                            <point x="0.507042" y="0.6" />
                         </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="1" hotspotY="0.505263">
-                        <image-point name="Carregando" x="0.386076" y="0.789474" />
-                        <image-point name="CarregandoAcerola" x="0.544304" y="1.17895" />
+                    <frame duration="1" hotspotX="1.01471" hotspotY="0.47619">
+                        <image-point name="Carregando" x="0.411765" y="0.857143" />
+                        <image-point name="CarregandoAcerola" x="0.529412" y="1.16667" />
                         <collision-poly>
-                            <point x="0" y="1" />
-                            <point x="0" y="0" />
-                            <point x="1" y="0" />
-                            <point x="1" y="1" />
+                            <point x="0.117647" y="0.857143" />
+                            <point x="0.220588" y="0.5" />
+                            <point x="0.0882353" y="0.0952381" />
+                            <point x="0.529412" y="0.309524" />
+                            <point x="0.75" y="0.452381" />
+                            <point x="0.867647" y="0.5" />
+                            <point x="0.808824" y="0.642857" />
+                            <point x="0.529412" y="0.666667" />
                         </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="1" hotspotY="0.50505">
-                        <image-point name="Carregando" x="0.391566" y="0.787879" />
-                        <image-point name="CarregandoAcerola" x="0.542169" y="1.18182" />
+                    <frame duration="1" hotspotX="1.01389" hotspotY="0.465116">
+                        <image-point name="Carregando" x="0.416667" y="0.860465" />
+                        <image-point name="CarregandoAcerola" x="0.527778" y="1.16279" />
                         <collision-poly>
-                            <point x="0" y="1" />
-                            <point x="0" y="0" />
-                            <point x="1" y="0" />
-                            <point x="1" y="1" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-                <animation framecount="1" loop="0" name="Die" pingpong="0" repeatcount="1" repeatto="0" speed="5">
-                    <frame duration="1" hotspotX="1" hotspotY="0.5">
-                        <collision-poly>
-                            <point x="0.911111" y="0.89375" />
-                            <point x="0.477778" y="0.8375" />
-                            <point x="0.0444444" y="0.89375" />
-                            <point x="0.177778" y="0.5" />
-                            <point x="0.411111" y="0.30625" />
-                            <point x="0.477778" y="0.025" />
-                            <point x="0.844444" y="0.5" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-                <animation framecount="1" loop="0" name="Fall" pingpong="0" repeatcount="1" repeatto="0" speed="5">
-                    <frame duration="1" hotspotX="1" hotspotY="0.50505">
-                        <collision-poly>
-                            <point x="0.060241" y="0.10101" />
-                            <point x="0.5" y="0.0606061" />
-                            <point x="0.704819" y="0.494949" />
-                            <point x="0.795181" y="0.494949" />
-                            <point x="0.759036" y="0.59596" />
-                            <point x="0.5" y="0.79798" />
-                            <point x="0.0963855" y="0.838384" />
-                            <point x="0.216867" y="0.494949" />
+                            <point x="0.111111" y="0.837209" />
+                            <point x="0.208333" y="0.488372" />
+                            <point x="0.0972222" y="0.116279" />
+                            <point x="0.5" y="0.0697674" />
+                            <point x="0.680556" y="0.488372" />
+                            <point x="0.680556" y="0.488372" />
+                            <point x="0.75" y="0.604651" />
+                            <point x="0.5" y="0.790698" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -399,139 +409,326 @@
         <object-type name="antQueen">
             <plugin id="Sprite" />
             <animation-folder expanded="1">
-                <animation framecount="32" loop="0" name="Botando" pingpong="0" repeatcount="1" repeatto="0" speed="7.9">
-                    <frame duration="1" hotspotX="0.500629" hotspotY="0.5">
-                        <image-point name="Nascimento" x="0.0867925" y="0.949367" />
-                        <image-point name="NascimentoSoldado" x="0.135849" y="0.857595" />
+                <animation framecount="30" loop="0" name="Botando" pingpong="0" repeatcount="1" repeatto="0" speed="7.9">
+                    <frame duration="1" hotspotX="0.792793" hotspotY="0.605634">
+                        <image-point name="Nascimento" x="0.0960961" y="0.830986" />
+                        <image-point name="NascimentoSoldado" x="-1.20721" y="0.957747" />
+                        <collision-poly>
+                            <point x="0.783784" y="0.507042" />
+                            <point x="0.780781" y="0.5" />
+                            <point x="0.774775" y="0.471831" />
+                            <point x="0.51952" y="0.5" />
+                        </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.500629" hotspotY="0.5">
-                        <image-point name="Nascimento" x="0.0867925" y="0.949367" />
-                        <image-point name="NascimentoSoldado" x="0.135849" y="0.857595" />
+                    <frame duration="1" hotspotX="0.792793" hotspotY="0.605634">
+                        <image-point name="Nascimento" x="0.0960961" y="0.830986" />
+                        <image-point name="NascimentoSoldado" x="0.135135" y="0.859155" />
+                        <collision-poly>
+                            <point x="0.783784" y="0.507042" />
+                            <point x="0.780781" y="0.5" />
+                            <point x="0.777778" y="0.478873" />
+                            <point x="0.522523" y="0.5" />
+                        </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.500629" hotspotY="0.5">
-                        <image-point name="Nascimento" x="0.0867925" y="0.949367" />
-                        <image-point name="NascimentoSoldado" x="0.135849" y="0.857595" />
+                    <frame duration="1" hotspotX="0.792793" hotspotY="0.605634">
+                        <image-point name="Nascimento" x="0.0960961" y="0.830986" />
+                        <image-point name="NascimentoSoldado" x="0.135135" y="0.859155" />
+                        <collision-poly>
+                            <point x="0.840841" y="0.373239" />
+                            <point x="0.780781" y="0.5" />
+                            <point x="0.774775" y="0.471831" />
+                            <point x="0.513514" y="0.5" />
+                        </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.500629" hotspotY="0.5">
-                        <image-point name="Nascimento" x="0.0867925" y="0.949367" />
-                        <image-point name="NascimentoSoldado" x="0.135849" y="0.857595" />
+                    <frame duration="1" hotspotX="0.792793" hotspotY="0.605634">
+                        <image-point name="Nascimento" x="0.0960961" y="0.830986" />
+                        <image-point name="NascimentoSoldado" x="0.135135" y="0.859155" />
+                        <collision-poly>
+                            <point x="0.867868" y="0.309859" />
+                            <point x="0.921922" y="0.5" />
+                            <point x="0.771772" y="0.464789" />
+                            <point x="0.513514" y="0.5" />
+                        </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.500629" hotspotY="0.5">
-                        <image-point name="Nascimento" x="0.0867925" y="0.949367" />
-                        <image-point name="NascimentoSoldado" x="0.135849" y="0.857595" />
+                    <frame duration="1" hotspotX="0.792793" hotspotY="0.605634">
+                        <image-point name="Nascimento" x="0.0960961" y="0.830986" />
+                        <image-point name="NascimentoSoldado" x="0.135135" y="0.859155" />
+                        <collision-poly>
+                            <point x="0.855856" y="0.338028" />
+                            <point x="0.780781" y="0.5" />
+                            <point x="0.774775" y="0.471831" />
+                            <point x="0.513514" y="0.5" />
+                        </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.500629" hotspotY="0.5">
-                        <image-point name="Nascimento" x="0.0867925" y="0.949367" />
-                        <image-point name="NascimentoSoldado" x="0.135849" y="0.857595" />
+                    <frame duration="1" hotspotX="0.792793" hotspotY="0.605634">
+                        <image-point name="Nascimento" x="0.0960961" y="0.830986" />
+                        <image-point name="NascimentoSoldado" x="0.135135" y="0.859155" />
+                        <collision-poly>
+                            <point x="0.783784" y="0.507042" />
+                            <point x="0.780781" y="0.5" />
+                            <point x="0.777778" y="0.478873" />
+                            <point x="0.522523" y="0.5" />
+                        </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.500629" hotspotY="0.5">
-                        <image-point name="Nascimento" x="0.0867925" y="0.949367" />
-                        <image-point name="NascimentoSoldado" x="0.135849" y="0.857595" />
+                    <frame duration="1" hotspotX="0.792793" hotspotY="0.605634">
+                        <image-point name="Nascimento" x="0.0960961" y="0.830986" />
+                        <image-point name="NascimentoSoldado" x="0.135135" y="0.859155" />
+                        <collision-poly>
+                            <point x="0.777778" y="0.521127" />
+                            <point x="0.777778" y="0.5" />
+                            <point x="0.768769" y="0.457746" />
+                            <point x="0.525526" y="0.5" />
+                        </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.500629" hotspotY="0.5">
-                        <image-point name="Nascimento" x="0.0867925" y="0.949367" />
-                        <image-point name="NascimentoSoldado" x="0.135849" y="0.857595" />
+                    <frame duration="1" hotspotX="0.792793" hotspotY="0.605634">
+                        <image-point name="Nascimento" x="0.0960961" y="0.830986" />
+                        <image-point name="NascimentoSoldado" x="0.135135" y="0.859155" />
+                        <collision-poly>
+                            <point x="0.771772" y="0.535211" />
+                            <point x="0.765766" y="0.450704" />
+                            <point x="0.534535" y="0.5" />
+                        </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.500629" hotspotY="0.5">
-                        <image-point name="Nascimento" x="0.0867925" y="0.949367" />
-                        <image-point name="NascimentoSoldado" x="0.135849" y="0.857595" />
+                    <frame duration="1" hotspotX="0.792793" hotspotY="0.605634">
+                        <image-point name="Nascimento" x="0.0960961" y="0.830986" />
+                        <image-point name="NascimentoSoldado" x="0.135135" y="0.859155" />
+                        <collision-poly>
+                            <point x="0.777778" y="0.521127" />
+                            <point x="0.777778" y="0.5" />
+                            <point x="0.768769" y="0.457746" />
+                            <point x="0.525526" y="0.5" />
+                        </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.500629" hotspotY="0.5">
-                        <image-point name="Nascimento" x="0.0867925" y="0.949367" />
-                        <image-point name="NascimentoSoldado" x="0.135849" y="0.857595" />
+                    <frame duration="1" hotspotX="0.792793" hotspotY="0.605634">
+                        <image-point name="Nascimento" x="0.0960961" y="0.830986" />
+                        <image-point name="NascimentoSoldado" x="0.135135" y="0.859155" />
+                        <collision-poly>
+                            <point x="0.783784" y="0.507042" />
+                            <point x="0.780781" y="0.5" />
+                            <point x="0.774775" y="0.471831" />
+                            <point x="0.51952" y="0.5" />
+                        </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.500629" hotspotY="0.5">
-                        <image-point name="Nascimento" x="0.0867925" y="0.949367" />
-                        <image-point name="NascimentoSoldado" x="0.135849" y="0.857595" />
+                    <frame duration="1" hotspotX="0.792793" hotspotY="0.605634">
+                        <image-point name="Nascimento" x="0.0960961" y="0.830986" />
+                        <image-point name="NascimentoSoldado" x="0.135135" y="0.859155" />
+                        <collision-poly>
+                            <point x="0.777778" y="0.521127" />
+                            <point x="0.777778" y="0.5" />
+                            <point x="0.768769" y="0.457746" />
+                            <point x="0.525526" y="0.5" />
+                        </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.500629" hotspotY="0.5">
-                        <image-point name="Nascimento" x="0.0867925" y="0.949367" />
-                        <image-point name="NascimentoSoldado" x="0.135849" y="0.857595" />
+                    <frame duration="1" hotspotX="0.792793" hotspotY="0.605634">
+                        <image-point name="Nascimento" x="0.0960961" y="0.830986" />
+                        <image-point name="NascimentoSoldado" x="0.135135" y="0.859155" />
+                        <collision-poly>
+                            <point x="0.771772" y="0.535211" />
+                            <point x="0.765766" y="0.450704" />
+                            <point x="0.534535" y="0.5" />
+                        </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.500629" hotspotY="0.5">
-                        <image-point name="Nascimento" x="0.0867925" y="0.949367" />
-                        <image-point name="NascimentoSoldado" x="0.135849" y="0.857595" />
+                    <frame duration="1" hotspotX="0.792793" hotspotY="0.605634">
+                        <image-point name="Nascimento" x="0.0960961" y="0.830986" />
+                        <image-point name="NascimentoSoldado" x="0.135135" y="0.859155" />
+                        <collision-poly>
+                            <point x="0.777778" y="0.521127" />
+                            <point x="0.777778" y="0.5" />
+                            <point x="0.768769" y="0.457746" />
+                            <point x="0.525526" y="0.5" />
+                        </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.500629" hotspotY="0.5">
-                        <image-point name="Nascimento" x="0.0867925" y="0.949367" />
-                        <image-point name="NascimentoSoldado" x="0.135849" y="0.857595" />
+                    <frame duration="1" hotspotX="0.792793" hotspotY="0.605634">
+                        <image-point name="Nascimento" x="0.0960961" y="0.830986" />
+                        <image-point name="NascimentoSoldado" x="0.135135" y="0.859155" />
+                        <collision-poly>
+                            <point x="0.783784" y="0.507042" />
+                            <point x="0.780781" y="0.5" />
+                            <point x="0.774775" y="0.471831" />
+                            <point x="0.51952" y="0.5" />
+                        </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.500629" hotspotY="0.5">
-                        <image-point name="Nascimento" x="0.0867925" y="0.949367" />
-                        <image-point name="NascimentoSoldado" x="0.135849" y="0.857595" />
+                    <frame duration="1" hotspotX="0.792793" hotspotY="0.605634">
+                        <image-point name="Nascimento" x="0.0960961" y="0.830986" />
+                        <image-point name="NascimentoSoldado" x="0.135135" y="0.859155" />
+                        <collision-poly>
+                            <point x="0.777778" y="0.521127" />
+                            <point x="0.777778" y="0.5" />
+                            <point x="0.768769" y="0.457746" />
+                            <point x="0.525526" y="0.5" />
+                        </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.500629" hotspotY="0.5">
-                        <image-point name="Nascimento" x="0.0867925" y="0.949367" />
-                        <image-point name="NascimentoSoldado" x="0.135849" y="0.857595" />
+                    <frame duration="1" hotspotX="0.792793" hotspotY="0.605634">
+                        <image-point name="Nascimento" x="0.0960961" y="0.830986" />
+                        <image-point name="NascimentoSoldado" x="0.135135" y="0.859155" />
+                        <collision-poly>
+                            <point x="0.771772" y="0.535211" />
+                            <point x="0.765766" y="0.450704" />
+                            <point x="0.534535" y="0.5" />
+                        </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.500629" hotspotY="0.5">
-                        <image-point name="Nascimento" x="0.0867925" y="0.949367" />
-                        <image-point name="NascimentoSoldado" x="0.135849" y="0.857595" />
+                    <frame duration="1" hotspotX="0.792793" hotspotY="0.605634">
+                        <image-point name="Nascimento" x="0.0960961" y="0.830986" />
+                        <image-point name="NascimentoSoldado" x="0.135135" y="0.859155" />
+                        <collision-poly>
+                            <point x="0.777778" y="0.521127" />
+                            <point x="0.777778" y="0.5" />
+                            <point x="0.768769" y="0.457746" />
+                            <point x="0.525526" y="0.5" />
+                        </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.500629" hotspotY="0.5">
-                        <image-point name="Nascimento" x="0.0867925" y="0.949367" />
-                        <image-point name="NascimentoSoldado" x="0.135849" y="0.857595" />
+                    <frame duration="1" hotspotX="0.792793" hotspotY="0.605634">
+                        <image-point name="Nascimento" x="0.0960961" y="0.830986" />
+                        <image-point name="NascimentoSoldado" x="0.135135" y="0.859155" />
+                        <collision-poly>
+                            <point x="0.498498" y="0.584507" />
+                            <point x="0.780781" y="0.514085" />
+                            <point x="0.762763" y="0.443662" />
+                            <point x="0.498498" y="0.669014" />
+                            <point x="0.525526" y="0.5" />
+                        </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.500629" hotspotY="0.5">
-                        <image-point name="Nascimento" x="0.0867925" y="0.949367" />
-                        <image-point name="NascimentoSoldado" x="0.135849" y="0.857595" />
+                    <frame duration="1" hotspotX="0.792793" hotspotY="0.605634">
+                        <image-point name="Nascimento" x="0.0960961" y="0.830986" />
+                        <image-point name="NascimentoSoldado" x="0.135135" y="0.859155" />
+                        <collision-poly>
+                            <point x="0.498498" y="0.549296" />
+                            <point x="0.774775" y="0.528169" />
+                            <point x="0.771772" y="0.5" />
+                            <point x="0.75976" y="0.43662" />
+                            <point x="0.498498" y="0.725352" />
+                            <point x="0.525526" y="0.5" />
+                        </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.500629" hotspotY="0.5">
-                        <image-point name="Nascimento" x="0.0867925" y="0.949367" />
-                        <image-point name="NascimentoSoldado" x="0.135849" y="0.857595" />
+                    <frame duration="1" hotspotX="0.792793" hotspotY="0.605634">
+                        <image-point name="Nascimento" x="0.0960961" y="0.830986" />
+                        <image-point name="NascimentoSoldado" x="0.135135" y="0.859155" />
+                        <collision-poly>
+                            <point x="0.777778" y="0.521127" />
+                            <point x="0.777778" y="0.5" />
+                            <point x="0.762763" y="0.443662" />
+                            <point x="0.525526" y="0.5" />
+                        </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.500629" hotspotY="0.5">
-                        <image-point name="Nascimento" x="0.0867925" y="0.949367" />
-                        <image-point name="NascimentoSoldado" x="0.135849" y="0.857595" />
+                    <frame duration="1" hotspotX="0.792793" hotspotY="0.605634">
+                        <image-point name="Nascimento" x="0.0960961" y="0.830986" />
+                        <image-point name="NascimentoSoldado" x="0.135135" y="0.859155" />
+                        <collision-poly>
+                            <point x="0.321321" y="0.753521" />
+                            <point x="0.783784" y="0.507042" />
+                            <point x="0.780781" y="0.5" />
+                            <point x="0.774775" y="0.471831" />
+                            <point x="0.51952" y="0.5" />
+                        </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.500629" hotspotY="0.5">
-                        <image-point name="Nascimento" x="0.0867925" y="0.949367" />
-                        <image-point name="NascimentoSoldado" x="0.135849" y="0.857595" />
+                    <frame duration="1" hotspotX="0.792793" hotspotY="0.605634">
+                        <image-point name="Nascimento" x="0.0960961" y="0.830986" />
+                        <image-point name="NascimentoSoldado" x="0.135135" y="0.859155" />
+                        <collision-poly>
+                            <point x="0.294294" y="0.690141" />
+                            <point x="0.783784" y="0.507042" />
+                            <point x="0.780781" y="0.5" />
+                            <point x="0.774775" y="0.471831" />
+                            <point x="0.51952" y="0.5" />
+                        </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.500629" hotspotY="0.5">
-                        <image-point name="Nascimento" x="0.0867925" y="0.949367" />
-                        <image-point name="NascimentoSoldado" x="0.135849" y="0.857595" />
+                    <frame duration="1" hotspotX="0.792793" hotspotY="0.605634">
+                        <image-point name="Nascimento" x="0.0960961" y="0.830986" />
+                        <image-point name="NascimentoSoldado" x="0.135135" y="0.859155" />
+                        <collision-poly>
+                            <point x="0.783784" y="0.507042" />
+                            <point x="0.780781" y="0.5" />
+                            <point x="0.774775" y="0.471831" />
+                            <point x="0.51952" y="0.5" />
+                        </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.500629" hotspotY="0.5">
-                        <image-point name="Nascimento" x="0.0867925" y="0.949367" />
-                        <image-point name="NascimentoSoldado" x="0.135849" y="0.857595" />
+                    <frame duration="1" hotspotX="0.792793" hotspotY="0.605634">
+                        <image-point name="Nascimento" x="0.0960961" y="0.830986" />
+                        <image-point name="NascimentoSoldado" x="0.135135" y="0.859155" />
+                        <collision-poly>
+                            <point x="0.783784" y="0.507042" />
+                            <point x="0.780781" y="0.5" />
+                            <point x="0.774775" y="0.471831" />
+                            <point x="0.0870871" y="0.795775" />
+                            <point x="0.51952" y="0.5" />
+                        </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.500629" hotspotY="0.5">
-                        <image-point name="Nascimento" x="0.0867925" y="0.949367" />
-                        <image-point name="NascimentoSoldado" x="0.135849" y="0.857595" />
+                    <frame duration="1" hotspotX="0.792793" hotspotY="0.605634">
+                        <image-point name="Nascimento" x="0.0960961" y="0.830986" />
+                        <image-point name="NascimentoSoldado" x="0.135135" y="0.859155" />
+                        <collision-poly>
+                            <point x="0.783784" y="0.507042" />
+                            <point x="0.780781" y="0.5" />
+                            <point x="0.774775" y="0.471831" />
+                            <point x="0.039039" y="0.908451" />
+                            <point x="0.51952" y="0.5" />
+                        </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.500629" hotspotY="0.5">
-                        <image-point name="Nascimento" x="0.0867925" y="0.949367" />
-                        <image-point name="NascimentoSoldado" x="0.135849" y="0.857595" />
+                    <frame duration="1" hotspotX="0.792793" hotspotY="0.605634">
+                        <image-point name="Nascimento" x="0.0960961" y="0.830986" />
+                        <image-point name="NascimentoSoldado" x="0.135135" y="0.859155" />
+                        <collision-poly>
+                            <point x="0.783784" y="0.507042" />
+                            <point x="0.780781" y="0.5" />
+                            <point x="0.774775" y="0.471831" />
+                            <point x="0.033033" y="0.922535" />
+                            <point x="0.51952" y="0.5" />
+                        </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.500629" hotspotY="0.5">
-                        <image-point name="Nascimento" x="0.0867925" y="0.949367" />
-                        <image-point name="NascimentoSoldado" x="0.135849" y="0.857595" />
+                    <frame duration="1" hotspotX="0.792793" hotspotY="0.605634">
+                        <image-point name="Nascimento" x="0.0960961" y="0.830986" />
+                        <image-point name="NascimentoSoldado" x="0.135135" y="0.859155" />
+                        <collision-poly>
+                            <point x="0.783784" y="0.507042" />
+                            <point x="0.780781" y="0.5" />
+                            <point x="0.774775" y="0.471831" />
+                            <point x="0.039039" y="0.908451" />
+                            <point x="0.51952" y="0.5" />
+                        </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.500629" hotspotY="0.5">
-                        <image-point name="Nascimento" x="0.0867925" y="0.949367" />
-                        <image-point name="NascimentoSoldado" x="0.135849" y="0.857595" />
+                    <frame duration="1" hotspotX="0.792793" hotspotY="0.605634">
+                        <image-point name="Nascimento" x="0.0960961" y="0.830986" />
+                        <image-point name="NascimentoSoldado" x="0.135135" y="0.859155" />
+                        <collision-poly>
+                            <point x="0.783784" y="0.507042" />
+                            <point x="0.780781" y="0.5" />
+                            <point x="0.774775" y="0.471831" />
+                            <point x="0.039039" y="0.908451" />
+                            <point x="0.51952" y="0.5" />
+                        </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.500629" hotspotY="0.5">
-                        <image-point name="Nascimento" x="0.0867925" y="0.949367" />
-                        <image-point name="NascimentoSoldado" x="0.135849" y="0.857595" />
+                    <frame duration="1" hotspotX="0.792793" hotspotY="0.605634">
+                        <image-point name="Nascimento" x="0.0960961" y="0.830986" />
+                        <image-point name="NascimentoSoldado" x="0.135135" y="0.859155" />
+                        <collision-poly>
+                            <point x="0.783784" y="0.507042" />
+                            <point x="0.780781" y="0.5" />
+                            <point x="0.774775" y="0.471831" />
+                            <point x="0.039039" y="0.908451" />
+                            <point x="0.51952" y="0.5" />
+                        </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.500629" hotspotY="0.5">
-                        <image-point name="Nascimento" x="0.0867925" y="0.949367" />
-                        <image-point name="NascimentoSoldado" x="0.135849" y="0.857595" />
-                    </frame>
-                    <frame duration="1" hotspotX="0.500629" hotspotY="0.5">
-                        <image-point name="Nascimento" x="0.0867925" y="0.949367" />
-                        <image-point name="NascimentoSoldado" x="0.135849" y="0.857595" />
-                    </frame>
-                    <frame duration="1" hotspotX="0.500629" hotspotY="0.5">
-                        <image-point name="Nascimento" x="0.0867925" y="0.949367" />
-                        <image-point name="NascimentoSoldado" x="0.135849" y="0.857595" />
+                    <frame duration="1" hotspotX="0.792793" hotspotY="0.605634">
+                        <image-point name="Nascimento" x="0.0960961" y="0.830986" />
+                        <image-point name="NascimentoSoldado" x="0.135135" y="0.859155" />
+                        <collision-poly>
+                            <point x="0.783784" y="0.507042" />
+                            <point x="0.780781" y="0.5" />
+                            <point x="0.774775" y="0.471831" />
+                            <point x="0.039039" y="0.908451" />
+                            <point x="0.51952" y="0.5" />
+                        </collision-poly>
                     </frame>
                 </animation>
                 <animation framecount="1" loop="0" name="Idle" pingpong="0" repeatcount="1" repeatto="0" speed="5">
-                    <frame duration="1" hotspotX="0.500629" hotspotY="0.5">
-                        <image-point name="Nascimento" x="0.138365" y="0.803797" />
+                    <frame duration="1" hotspotX="0.792793" hotspotY="0.591549">
+                        <image-point name="Nascimento" x="0.042042" y="0.78169" />
+                        <collision-poly>
+                            <point x="0.783784" y="0.507042" />
+                            <point x="0.780781" y="0.5" />
+                            <point x="0.774775" y="0.471831" />
+                            <point x="0.51952" y="0.5" />
+                        </collision-poly>
                     </frame>
                 </animation>
             </animation-folder>
@@ -629,78 +826,94 @@
         <object-type name="Tamandua">
             <plugin id="Sprite" />
             <animation-folder expanded="1">
-                <animation framecount="8" loop="1" name="walk" pingpong="0" repeatcount="1" repeatto="0" speed="9">
-                    <frame duration="1" hotspotX="0.489218" hotspotY="0.501342">
-                        <image-point name="pes" x="0.998652" y="0.35906" />
+                <animation framecount="7" loop="1" name="walk" pingpong="0" repeatcount="1" repeatto="0" speed="9">
+                    <frame duration="1" hotspotX="0.487261" hotspotY="0.506369">
+                        <image-point name="pes" x="0.382166" y="-0.00636943" />
                         <collision-poly>
-                            <point x="0" y="0.79396" />
-                            <point x="0" y="0.189933" />
-                            <point x="1" y="0.187248" />
-                            <point x="1" y="0.510067" />
-                            <point x="0.66442" y="0.780537" />
+                            <point x="0.16879" y="0.896497" />
+                            <point x="0.00955414" y="0.501592" />
+                            <point x="0.280255" y="0.160828" />
+                            <point x="0.484076" y="0.0541402" />
+                            <point x="0.509554" y="0.25" />
+                            <point x="0.958599" y="0.501592" />
+                            <point x="0.66242" y="0.828025" />
+                            <point x="0.484076" y="0.992038" />
                         </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.494723" hotspotY="0.498312">
-                        <image-point name="pes" x="0.998681" y="0.359217" />
+                    <frame duration="1" hotspotX="0.49375" hotspotY="0.5008">
+                        <image-point name="pes" x="0.38125" y="-0.0064" />
                         <collision-poly>
-                            <point x="0" y="1" />
-                            <point x="0" y="0" />
-                            <point x="1" y="0" />
-                            <point x="1" y="1" />
+                            <point x="0.16875" y="0.9008" />
+                            <point x="0.015625" y="0.4976" />
+                            <point x="0.296875" y="0.1584" />
+                            <point x="0.490625" y="0.056" />
+                            <point x="0.521875" y="0.2416" />
+                            <point x="0.93125" y="0.4976" />
+                            <point x="0.490625" y="0.9712" />
                         </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.506443" hotspotY="0.494565">
-                        <image-point name="pes" x="0.998711" y="0.359375" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.481481">
+                        <image-point name="pes" x="0.381098" y="-0.00644122" />
                         <collision-poly>
-                            <point x="0" y="1" />
-                            <point x="0" y="0" />
-                            <point x="1" y="0" />
-                            <point x="1" y="1" />
+                            <point x="0.17378" y="0.908213" />
+                            <point x="0.0304878" y="0.494364" />
+                            <point x="0.320122" y="0.1562" />
+                            <point x="0.503049" y="0.0595813" />
+                            <point x="0.542683" y="0.231884" />
+                            <point x="0.673781" y="0.494364" />
+                            <point x="0.615854" y="0.793881" />
+                            <point x="0.503049" y="0.953301" />
                         </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.494723" hotspotY="0.498312">
-                        <image-point name="pes" x="0.998681" y="0.359217" />
+                    <frame duration="1" hotspotX="0.49375" hotspotY="0.5072">
+                        <image-point name="pes" x="0.38125" y="-0.0064" />
                         <collision-poly>
-                            <point x="0" y="1" />
-                            <point x="0" y="0" />
-                            <point x="1" y="0" />
-                            <point x="1" y="1" />
+                            <point x="0.16875" y="0.9008" />
+                            <point x="0.015625" y="0.4976" />
+                            <point x="0.296875" y="0.1584" />
+                            <point x="0.490625" y="0.056" />
+                            <point x="0.521875" y="0.2416" />
+                            <point x="0.93125" y="0.4976" />
+                            <point x="0.490625" y="0.9712" />
                         </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.489218" hotspotY="0.502013">
-                        <image-point name="pes" x="0.998652" y="0.35906" />
+                    <frame duration="1" hotspotX="0.496815" hotspotY="0.501592">
+                        <image-point name="pes" x="0.382166" y="-0.00636943" />
                         <collision-poly>
-                            <point x="0" y="1" />
-                            <point x="0" y="0" />
-                            <point x="1" y="0" />
-                            <point x="1" y="1" />
+                            <point x="0.16879" y="0.896497" />
+                            <point x="0.00955414" y="0.501592" />
+                            <point x="0.280255" y="0.160828" />
+                            <point x="0.484076" y="0.0541402" />
+                            <point x="0.509554" y="0.25" />
+                            <point x="0.958599" y="0.501592" />
+                            <point x="0.66242" y="0.828025" />
+                            <point x="0.484076" y="0.992038" />
                         </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.490765" hotspotY="0.499325">
-                        <image-point name="pes" x="0.998681" y="0.358974" />
+                    <frame duration="1" hotspotX="0.495413" hotspotY="0.5">
+                        <image-point name="pes" x="0.382263" y="-0.00643087" />
                         <collision-poly>
-                            <point x="0" y="1" />
-                            <point x="0" y="0" />
-                            <point x="1" y="0" />
-                            <point x="1" y="1" />
+                            <point x="0.168196" y="0.906752" />
+                            <point x="0.0244648" y="0.495177" />
+                            <point x="0.308868" y="0.155949" />
+                            <point x="0.495413" y="0.0578778" />
+                            <point x="0.53211" y="0.234727" />
+                            <point x="0.547401" y="0.495177" />
+                            <point x="0.617737" y="0.799035" />
+                            <point x="0.495413" y="0.958199" />
                         </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.499355" hotspotY="0.495593">
-                        <image-point name="pes" x="0.99871" y="0.359322" />
+                    <frame duration="1" hotspotX="0.479751" hotspotY="0.5104">
+                        <image-point name="pes" x="0.383178" y="-0.0064" />
                         <collision-poly>
-                            <point x="0" y="1" />
-                            <point x="0" y="0" />
-                            <point x="1" y="0" />
-                            <point x="1" y="1" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.490765" hotspotY="0.499325">
-                        <image-point name="pes" x="0.998681" y="0.358974" />
-                        <collision-poly>
-                            <point x="0" y="1" />
-                            <point x="0" y="0" />
-                            <point x="1" y="0" />
-                            <point x="1" y="1" />
+                            <point x="0.165109" y="0.9024" />
+                            <point x="0.0155763" y="0.4992" />
+                            <point x="0.28972" y="0.1584" />
+                            <point x="0.485981" y="0.056" />
+                            <point x="0.517134" y="0.2432" />
+                            <point x="0.58567" y="0.4992" />
+                            <point x="0.635514" y="0.8144" />
+                            <point x="0.485981" y="0.976" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -740,7 +953,7 @@
             <animation-folder expanded="1">
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5">
-                        <image-point name="Imagepoint 1" x="-1.88636" y="0.869565" />
+                        <image-point name="Imagepoint 1" x="-1.45455" y="0.586957" />
                         <collision-poly>
                             <point x="0" y="0" />
                             <point x="1" y="0" />
@@ -1029,7 +1242,7 @@
             </instance-variables>
             <animation-folder expanded="1">
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
-                    <frame duration="1" hotspotX="0.501706" hotspotY="0.5">
+                    <frame duration="1" hotspotX="0.501618" hotspotY="0.5">
                         <collision-poly>
                             <point x="0.132686" y="0.525641" />
                             <point x="0.498382" y="0.269231" />
@@ -1284,7 +1497,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Intro">
+        <object-type name="introanimation">
             <plugin id="Sprite" />
             <behaviors>
                 <behavior-type name="Fade">
@@ -1292,31 +1505,31 @@
                 </behavior-type>
             </behaviors>
             <animation-folder expanded="1">
-                <animation framecount="1" loop="0" name="‌Intro1" pingpong="0" repeatcount="1" repeatto="0" speed="5">
+                <animation framecount="1" loop="0" name="part1" pingpong="0" repeatcount="1" repeatto="0" speed="5">
                     <frame duration="1" format="jpeg" hotspotX="0.5" hotspotY="0.5" quality="80" />
                 </animation>
-                <animation framecount="1" loop="0" name="Intro2" pingpong="0" repeatcount="1" repeatto="0" speed="5">
+                <animation framecount="1" loop="0" name="part2" pingpong="0" repeatcount="1" repeatto="0" speed="5">
                     <frame duration="1" format="jpeg" hotspotX="0.5" hotspotY="0.5" quality="80" />
                 </animation>
-                <animation framecount="1" loop="0" name="Intro3" pingpong="0" repeatcount="1" repeatto="0" speed="5">
+                <animation framecount="1" loop="0" name="part3" pingpong="0" repeatcount="1" repeatto="0" speed="5">
                     <frame duration="1" format="jpeg" hotspotX="0.5" hotspotY="0.5" quality="80" />
                 </animation>
-                <animation framecount="1" loop="0" name="Intro4" pingpong="0" repeatcount="1" repeatto="0" speed="5">
+                <animation framecount="1" loop="0" name="part4" pingpong="0" repeatcount="1" repeatto="0" speed="5">
                     <frame duration="1" format="jpeg" hotspotX="0.5" hotspotY="0.5" quality="80" />
                 </animation>
-                <animation framecount="1" loop="0" name="Intro5" pingpong="0" repeatcount="1" repeatto="0" speed="5">
+                <animation framecount="1" loop="0" name="part5" pingpong="0" repeatcount="1" repeatto="0" speed="5">
                     <frame duration="1" format="jpeg" hotspotX="0.5" hotspotY="0.5" quality="80" />
                 </animation>
-                <animation framecount="1" loop="0" name="Intro6" pingpong="0" repeatcount="1" repeatto="0" speed="5">
+                <animation framecount="1" loop="0" name="part6" pingpong="0" repeatcount="1" repeatto="0" speed="5">
                     <frame duration="1" format="jpeg" hotspotX="0.5" hotspotY="0.5" quality="80" />
                 </animation>
-                <animation framecount="1" loop="0" name="Intro7" pingpong="0" repeatcount="1" repeatto="0" speed="5">
+                <animation framecount="1" loop="0" name="part7" pingpong="0" repeatcount="1" repeatto="0" speed="5">
                     <frame duration="1" format="jpeg" hotspotX="0.5" hotspotY="0.5" quality="80" />
                 </animation>
-                <animation framecount="1" loop="0" name="Intro8" pingpong="0" repeatcount="1" repeatto="0" speed="5">
+                <animation framecount="1" loop="0" name="part8" pingpong="0" repeatcount="1" repeatto="0" speed="5">
                     <frame duration="1" format="jpeg" hotspotX="0.5" hotspotY="0.5" quality="80" />
                 </animation>
-                <animation framecount="1" loop="0" name="Intro9" pingpong="0" repeatcount="1" repeatto="0" speed="5">
+                <animation framecount="1" loop="0" name="part9" pingpong="0" repeatcount="1" repeatto="0" speed="5">
                     <frame duration="1" format="jpeg" hotspotX="0.5" hotspotY="0.5" quality="80" />
                 </animation>
             </animation-folder>
@@ -1448,7 +1661,7 @@
             <plugin id="Sprite" />
             <animation-folder expanded="1">
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.504274" hotspotY="0.5" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -1456,7 +1669,7 @@
             <plugin id="Sprite" />
             <animation-folder expanded="1">
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.504202" hotspotY="0.5" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -1464,7 +1677,7 @@
             <plugin id="Sprite" />
             <animation-folder expanded="1">
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.504202" hotspotY="0.504587" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -1517,7 +1730,7 @@
         </object-type>
     </object-folder>
     <families />
-    <layout-folder expanded="1">
+    <layout-folder expanded="0">
         <layout>Level1.xml</layout>
         <layout>Level1Complete.xml</layout>
         <layout>menuInicial.xml</layout>
@@ -1553,16 +1766,14 @@
     <sounds-folder expanded="0">
         <file name="04 rainha comendo e botando ovo completa.ogg" />
         <file name="05 tamandua pulando.ogg" />
-        <file name="06 formiga passos vers II.ogg" />
-        <file name="06 formiga passos.ogg" />
         <file name="07 pulo formiga.ogg" />
     </sounds-folder>
-    <music-folder expanded="0">
-        <file name="01 tema jogo red. final.ogg" />
+    <music-folder expanded="1">
         <file name="02 game over.ogg" />
         <file name="03 Abertura.ogg" />
         <file name="final scene master-01.ogg" />
         <file name="intro mixdown.ogg" />
+        <file name="01 tema jogo red. final.ogg" />
     </music-folder>
     <files-folder expanded="1" />
 </c2project>

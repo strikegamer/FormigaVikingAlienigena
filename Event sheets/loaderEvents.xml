@@ -10,9 +10,6 @@
             <actions>
                 <action id="-21" name="Reset global variables" type="System" />
                 <action id="4" name="Preload" type="Audio">
-                    <param id="0" name="Audio file">01 tema jogo red. final</param>
-                </action>
-                <action id="4" name="Preload" type="Audio">
                     <param id="0" name="Audio file">intro mixdown</param>
                 </action>
                 <action id="4" name="Preload" type="Audio">
@@ -26,6 +23,9 @@
                 </action>
                 <action id="4" name="Preload" type="Audio">
                     <param id="0" name="Audio file">04 rainha comendo e botando ovo completa</param>
+                </action>
+                <action id="4" name="Preload" type="Audio">
+                    <param id="0" name="Audio file">01 tema jogo red. final</param>
                 </action>
             </actions>
         </event-block>

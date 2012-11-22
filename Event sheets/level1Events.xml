@@ -40,11 +40,11 @@
                         </action>
                         <action id="-17" name="Set scale" type="System">
                             <param id="0" name="Layer">&quot;Planet&quot;</param>
-                            <param id="1" name="Scale">1.0</param>
+                            <param id="1" name="Scale">0.75</param>
                         </action>
                         <action id="-17" name="Set scale" type="System">
                             <param id="0" name="Layer">&quot;Background&quot;</param>
-                            <param id="1" name="Scale">1.0</param>
+                            <param id="1" name="Scale">0.75</param>
                         </action>
                     </actions>
                 </event-block>
@@ -676,7 +676,7 @@
                 </event-block>
             </sub-events>
         </event-group>
-        <event-group collapsed="1" description="" title="Audio">
+        <event-group description="" title="Audio">
             <sub-events>
                 <event-block>
                     <conditions>
@@ -685,8 +685,8 @@
                     <actions>
                         <action id="0" name="Play" type="Audio">
                             <param id="0" name="Audio file">01 tema jogo red. final</param>
-                            <param id="2" name="Loop">1</param>
-                            <param id="1" name="Tag (optional)">&quot;mainSound&quot;</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
                         </action>
                     </actions>
                 </event-block>
@@ -997,7 +997,7 @@
                 </event-block>
             </sub-events>
         </event-group>
-        <event-group description="" title="ZoomOut">
+        <event-group description="" inactive="1" title="ZoomOut">
             <sub-events>
                 <event-block>
                     <conditions>
@@ -1281,7 +1281,7 @@
         </event-group>
         <event-group description="" title="Touch Control">
             <sub-events>
-                <event-block>
+                <event-block any="1">
                     <conditions>
                         <condition id="4" name="Is touching object" type="Touch">
                             <param id="0" name="Object">TouchLeft</param>

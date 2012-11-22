@@ -9,7 +9,19 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         </active>
         <display name="HTML 5" />
     </configurations>
-    <open-tabs />
+    <open-tabs>
+        <layout>Level1</layout>
+        <layout>Level1Complete</layout>
+        <layout>Intro</layout>
+        <layout active="1">loaderLayout</layout>
+        <layout>gameOver</layout>
+        <layout>menuInicial</layout>
+        <layout>instrucoes</layout>
+        <event-sheet>level1Events</event-sheet>
+        <event-sheet>IntroEvents</event-sheet>
+        <event-sheet>loaderEvents</event-sheet>
+        <event-sheet>menuIniciar</event-sheet>
+    </open-tabs>
     <properties>
         <property expanded="1" name="Project settings" />
         <property expanded="1" name="Window Size" />
